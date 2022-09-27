@@ -1,0 +1,92 @@
+{
+	"bmammoth":
+	{
+		"name" :
+		{
+			"plural" : "Chieftains",
+			"singular" : "Chieftain"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "bastille",
+		"aiValue" : 1974,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"defense" : 16,
+		"fightValue" : 1704,
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG6.def",
+      "map": "bastille/map/creatures/AVWC160.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS160B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL160B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1.5
+      },
+      "missile" :
+			{
+				"projectile" : "CPRGOGX.DEF",
+				"attackClimaxFrame" : 16,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+    },
+    "doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 90,
+    "level": 6,
+    "shots": 12,
+		"upgrades":
+		[
+			"bmammothlord"
+		],
+		"sound" :
+		{
+			"attack" : "bastille/FG6ATTK.wav",
+			"defend" : "bastille/FG6DFND.wav",
+                        "killed": "bastille/FG6KILL.wav",
+                        "shoot": "bastille/FG6SHOT.wav",
+			"move" : "bastille/FG6MOVE.wav",
+			"wince" : "bastille/FG6WNCE.wav"
+ 		},
+		"speed" : 7,
+    "abilities":
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+      "noMeleePenalty": 
+      {
+        "type": "NO_MELEE_PENALTY"
+      },
+      "fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireBolt"
+			}
+	    }
+	}
+}

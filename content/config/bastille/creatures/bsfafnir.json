@@ -1,0 +1,74 @@
+{
+  "bsfafnir": {
+    "name": {
+      "plural": "Fafnirs",
+      "singular": "Fafnir"
+    },
+    "advMapAmount": {
+ "max" : 10,
+ "min" : 4
+    },
+    "faction": "bastille",
+    "aiValue": 6216,
+    "attack": 21,
+    "cost": {
+      "gold": 2400,
+      "mercury": 1
+    },
+    "damage": {
+ "max" : 40,
+ "min" : 30
+    },
+    "defense": 21,
+    "fightValue": 4952,
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG7.def",
+      "map": "bastille/map/creatures/AVWC162.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS162B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL162B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.5,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1.5
+      }
+    },
+    "doubleWide": true,
+    "growth": 1,
+    "hitPoints": 200,
+    "level": 7,
+    "upgrades": [
+      "demonicfafnir"
+    ],
+    "sound": {
+      "attack": "bastille/FG7ATTK.wav",
+      "defend": "bastille/FG7DFND.wav",
+      "killed": "bastille/FG7KILL.wav",
+      "move": "bastille/FG7MOVE.wav",
+      "wince": "bastille/FG7WNCE.wav"
+    },
+    "speed": 9,
+    "abilities": 
+    {
+      "canFly": 
+      {
+        "type": "FLYING"
+      },
+      "dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"basicSlayer" : { "type" : "KING1" },
+      	"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			}
+		}
+    }
+}

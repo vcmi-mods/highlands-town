@@ -1,0 +1,80 @@
+{
+	"name" : "Highlands Town",
+	"description" : "New town made by Turbanellos. New townscreen.",
+	
+	"author" : "FF Team, mod : Turbanellos",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.07",
+	"modType" : "Town",	
+	"conflicts" :
+    [
+        "bastille"
+    ],
+    "factions" : [ "config/bastille/town" ],
+	
+	"creatures" :
+	[
+		"config/bastille/creatures/defender.json",
+		"config/bastille/creatures/mountainguard.json",
+		"config/bastille/creatures/javeliner.json",
+		"config/bastille/creatures/harpooner.json",
+		"config/bastille/creatures/brute.json",
+		"config/bastille/creatures/berserker.json",
+		"config/bastille/creatures/snowbird.json",
+		"config/bastille/creatures/blizzardbird.json",
+		"config/bastille/creatures/gladiator.json",
+		"config/bastille/creatures/flameglad.json",
+		"config/bastille/creatures/mammoth.json",
+		"config/bastille/creatures/mammothlord.json",
+		"config/bastille/creatures/bsfafnir.json",
+		"config/bastille/creatures/demonicfafnir.json",	
+		"config/bastille/creatures/bseinherjar.json",	
+		"config/bastille/creatures/bcommander.json"
+	],
+	
+	"heroClasses" :
+	[
+		"config/bastille/classes/warlord.json",
+		"config/bastille/classes/pyroma.json"
+	],
+
+	"heroes" :
+	[
+		"config/bastille/heroes/A_daive.json",
+		"config/bastille/heroes/B_richmond.json",
+		"config/bastille/heroes/C_harrigan.json",
+		"config/bastille/heroes/D_austin.json",
+		"config/bastille/heroes/E_princehogg.json",
+		"config/bastille/heroes/F_gestalt.json",
+		"config/bastille/heroes/G_aaron.json",
+		"config/bastille/heroes/H_craighill.json",
+		"config/bastille/heroes/I_aidan.json",
+		"config/bastille/heroes/J_barbara.json",
+		"config/bastille/heroes/K_cynthia.json",
+		"config/bastille/heroes/L_astride.json",
+		"config/bastille/heroes/M_mildura.json",
+		"config/bastille/heroes/N_renee.json",
+		"config/bastille/heroes/O_melisa.json",
+		"config/bastille/heroes/P_leslie.json"
+	],
+	"spells" :
+	[
+		"config/bastille/NewOldSpells/fireBolt.json",
+		"config/bastille/NewOldSpells/iceFrozen.json",
+		"config/bastille/NewOldSpells/Barbarity.json",
+		"config/bastille/NewOldSpells/fireVulnerability.json"
+	],
+	 "objects":
+    [
+		"config/bastille/dwellings.json"
+    ],
+		"changelog" :
+    {
+		"1.07"   : ["Partial grail building support"],
+		"1.06"   : ["Partial special buildings support"],
+		"1.05"   : ["new interface and new abilities, new lvl 6 creatures!"],
+		"1.02"   : [ "Added new commander", "Cosmetic fixes" ],
+		"1.01"   : [ "Bug fixes" ],
+		"1.00"   : [ "Initial release" ]
+    }
+}

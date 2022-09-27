@@ -1,0 +1,82 @@
+{
+	"bharpooner":
+	{
+		"name" :
+		{
+			"plural" : "Harpooners",
+			"singular" : "Harpooner"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "bastille",
+		"aiValue" : 251,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 257,
+    "graphics": {
+      "animation": "bastille/battle/creatures/Cfg2u.def",
+      "map": "bastille/map/creatures/AVWC153.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS153B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL153B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10,
+         "flight": 1
+      },
+      "missile" :
+			{
+				"projectile" : "PPLIZAX.DEF",
+				"attackClimaxFrame" : 9,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+    },
+		"growth" : 9,
+		"hitPoints" : 16,
+    "level": 2,
+    "shots": 8,
+		"sound" :
+		{
+			"attack": "bastille/FG2UATTK.wav",
+			"defend": "bastille/FG2UDFND.wav",
+			"killed": "bastille/FG2UKILL.wav",
+			"shoot": "bastille/FG2SHOT.wav",
+			"move": "bastille/FG2MOVE.wav",
+			"wince": "bastille/FG2UWNCE.wav"
+		},
+		"speed" : 6,
+    "abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}
+		}	
+	}

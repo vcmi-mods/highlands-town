@@ -1,0 +1,75 @@
+{
+	"bberserker":
+	{
+		"name" :
+		{
+			"plural" : "Berserkers",
+			"singular" : "Berserker"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "bastille",
+		"aiValue" : 463,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 454,
+		"graphics" :
+		{
+			"animation" : "bastille/battle/creatures/CFG3U.def",
+			"map" : "bastille/map/creatures/AVWC155.def",
+			"iconSmall" : "bastille/iconsSmall/creatures/CPrS155B.bmp",
+			"iconLarge" : "bastille/iconsBig/creatures/CPrL155B.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+	       },
+    "growth": 7,
+    "horde": 3,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "bastille/FG3UATTK.wav",
+			"defend": "bastille/FG3UDFND.wav",
+			"killed": "bastille/FG3UKILL.wav",
+			"move": "bastille/FG3UMOVE.wav",
+			"wince": "bastille/FG3UWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+      "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"barbarity" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.barbarity",
+				"val" : 10
+			},
+      "extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

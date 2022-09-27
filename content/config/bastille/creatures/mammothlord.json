@@ -1,0 +1,104 @@
+{
+	"bmammothlord":
+	{
+		"name" :
+		{
+			"plural" : "Patriarches",
+			"singular" : "Patriarch"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "bastille",
+		"aiValue" : 2033,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1300
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"defense" : 18,
+		"fightValue" : 1756,
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG6U.def",
+      "map": "bastille/map/creatures/AVWC161.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS161B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL161B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1.5
+      },
+      "missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 16,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+    },
+    "doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 90,
+    "level": 6,
+    "shots": 12,
+		"sound" :
+		{
+			"attack" : "bastille/FG6UATTK.wav",
+			"defend" : "bastille/FG6UDFND.wav",
+                        "killed": "bastille/FG6UKILL.wav",
+                        "shoot": "bastille/FG6USHOT.wav",
+			"move" : "bastille/FG6UMOVE.wav",
+			"wince" : "bastille/FG6UWNCE.wav"
+ 		},
+		"speed" : 8,
+    "abilities":
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+      "noMeleePenalty": {
+        "type": "NO_MELEE_PENALTY"
+      },
+	  "frozenAttack" :
+	  {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.iceFrozen",
+				"val" : 20
+			},
+			"demonSummon" :
+			{
+				"type" : "DAEMON_SUMMONING",
+				"subtype" : "creature.bseinherjar",
+				"val" : 50
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+      "fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.iceBolt"
+			}
+	    }
+	}
+}

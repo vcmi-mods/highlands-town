@@ -1,0 +1,84 @@
+{
+	"bblizzardbird":
+	{
+		"name" :
+		{
+			"plural" : "Blizzard Falcons",
+			"singular" : "Blizzard Falcon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "bastille",
+		"aiValue" : 778,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 420
+		},
+		"damage" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"defense" : 9,
+		"fightValue" : 728,
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG4U.def",
+      "map": "bastille/map/creatures/AVWC157.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS157B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL157B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "doubleWide": true,
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "bastille/FG4UATTK.wav",
+			"defend": "bastille/FG4UDFND.wav",
+			"killed": "bastille/FG4UKILL.wav",
+			"move": "bastille/FG4UMOVE.wav",
+			"wince": "bastille/FG4UWNCE.wav"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+      "canFly": 
+      {
+        "type": "FLYING"
+      },
+	  "receptive":
+	  {
+		"type": "RECEPTIVE"
+		},
+      "thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.iceBolt",
+				"val" : 8
+			},
+			"immuneToWater" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.iceBolt",
+				"val" : 20
+			}
+		}
+	}
+}
+

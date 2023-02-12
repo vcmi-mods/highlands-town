@@ -682,6 +682,8 @@
       "siege": {
         "shooter": "bjaveliner",
         "imagePrefix": "bastille/siege/SGFG",
+		"towerIconSmall" : "bastille/icons/arrowtowersmall",
+		"towerIconLarge" : "bastille/icons/arrowtowerslarge",
         "gate": {
           "arch": {
             "x": 471,

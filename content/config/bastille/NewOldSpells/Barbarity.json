@@ -43,7 +43,7 @@
 		{
 			"anyOf" :
 			{
-				"highlandstown:creature.bberserker":"absolute"
+				"highlands-town:creature.bberserker":"absolute"
 			}
 		},
 

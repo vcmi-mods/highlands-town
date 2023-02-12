@@ -81,12 +81,19 @@
 	  {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.iceFrozen",
-				"val" : 20
+				"val" : 20,
+				"addInfo" : [0,2]
 			},
-			"demonSummon" :
+			"resurrects" :
 			{
-				"type" : "DAEMON_SUMMONING",
-				"subtype" : "creature.bseinherjar",
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonEinherjar",
+				"val" : 0
+			},
+			"summons50HP" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.summonEinherjar",
 				"val" : 50
 			},
 			"castsAmount" :
@@ -94,7 +101,7 @@
 				"type" : "CASTS",
 				"val" : 1
 			},
-      "fireball" :
+			"fireball" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.iceBolt"

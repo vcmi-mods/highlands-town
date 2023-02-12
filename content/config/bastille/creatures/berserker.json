@@ -63,9 +63,10 @@
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.barbarity",
-				"val" : 10
+				"val" : 10,
+				"addInfo" : [0,2]
 			},
-      "extraAttack" :
+			"extraAttack" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1

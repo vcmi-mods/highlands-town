@@ -4,14 +4,27 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.07",
+	"version" : "1.08",
 	"modType" : "Town",	
 	"conflicts" :
     [
         "bastille"
     ],
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"changelog" :
+    {
+		"1.08"   : ["New DAEMON_SUMMONING format", "Arrow towers icons"],
+		"1.07"   : ["Partial grail building support"],
+		"1.06"   : ["Partial special buildings support"],
+		"1.05"   : ["new interface and new abilities, new lvl 6 creatures!"],
+		"1.02"   : [ "Added new commander", "Cosmetic fixes" ],
+		"1.01"   : [ "Bug fixes" ],
+		"1.00"   : [ "Initial release" ]
+    },	
     "factions" : [ "config/bastille/town" ],
-	
 	"creatures" :
 	[
 		"config/bastille/creatures/defender.json",
@@ -62,19 +75,11 @@
 		"config/bastille/NewOldSpells/fireBolt.json",
 		"config/bastille/NewOldSpells/iceFrozen.json",
 		"config/bastille/NewOldSpells/Barbarity.json",
-		"config/bastille/NewOldSpells/fireVulnerability.json"
+		"config/bastille/NewOldSpells/fireVulnerability.json",
+		"config/bastille/NewOldSpells/summonEinherjar.json"
 	],
 	 "objects":
     [
 		"config/bastille/dwellings.json"
-    ],
-		"changelog" :
-    {
-		"1.07"   : ["Partial grail building support"],
-		"1.06"   : ["Partial special buildings support"],
-		"1.05"   : ["new interface and new abilities, new lvl 6 creatures!"],
-		"1.02"   : [ "Added new commander", "Cosmetic fixes" ],
-		"1.01"   : [ "Bug fixes" ],
-		"1.00"   : [ "Initial release" ]
-    }
+    ]
 }

@@ -29,7 +29,7 @@
 		"description" : "Hochland Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/bastille/german.json"
 		]
 	},	
     "factions" : [ "config/bastille/town" ],

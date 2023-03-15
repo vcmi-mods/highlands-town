@@ -24,6 +24,14 @@
 		"1.01"   : [ "Bug fixes" ],
 		"1.00"   : [ "Initial release" ]
     },	
+    	"german" : {
+		"name" : "Hochland",
+		"description" : "Hochland Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
+	},	
     "factions" : [ "config/bastille/town" ],
 	"creatures" :
 	[

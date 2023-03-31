@@ -27,7 +27,6 @@
     	"german" : {
 		"name" : "Hochland",
 		"description" : "Hochland Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/bastille/german.json"
 		]

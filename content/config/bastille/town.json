@@ -1,6 +1,7 @@
 {
   "bastille": {
     "alignment": "neutral",
+	"boat" : "boatCastle",
     "creatureBackground": {
       "120px": "bastille/creature-bg-120px.bmp",
       "130px": "bastille/creature-bg-130px.bmp"
@@ -282,7 +283,7 @@
         "special2": {
           "description": "The Observation Deck can increase the scouting radius by 5 for each visiting hero once a week.",
           "name": "Observation Deck",
-		  "onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "SIGHT_RADIOUS", "val": 5 } ],
+		  "onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "SIGHT_RADIUS", "val": 5 } ],
           "cost": {
             "crystal": 5,
             "gold": 1005
@@ -600,6 +601,7 @@
       "guildWindow": "bastille/town-screen/TPFGMAGE.bmp",
       "hallBackground": "TPTHBKDG",
       "horde": [ 0, 2 ],
+	  "moatAbility" : "highlandsMoat",
       "icons": {
         "village": {
           "normal": {
@@ -1070,7 +1072,6 @@
       "tavernVideo": "TAVERN.BIK",
       "townBackground": "bastille/town-screen/TPFGBACK.bmp",
       "warMachine": "ballista",
-      "moatDamage": 90,
       "hallSlots": [
         [
           [ "villageHall", "townHall", "cityHall", "capitol" ],

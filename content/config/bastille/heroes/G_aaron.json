@@ -54,11 +54,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"learning" : {
-					"subtype" : "skill.learning",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 10,
-					"valueType" : "PERCENT_TO_BASE"
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

@@ -4,7 +4,7 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.09",
+	"version" : "1.10",
 	"modType" : "Town",	
 	"conflicts" :
     [
@@ -16,6 +16,7 @@
 	},
 	"changelog" :
     {
+		"1.10"   : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"1.09"   : ["Update to vcmi-1.3"],
 		"1.08"   : ["New DAEMON_SUMMONING format", "Arrow towers icons"],
 		"1.07"   : ["Partial grail building support"],
@@ -32,6 +33,12 @@
 			"translation/bastille/german.json"
 		]
 	},	
+	"chinese" : {
+		"name" : "高地",
+		"translations" : [
+			"translation/bastille/chinese.json"
+		]
+	},
     "factions" : [ "config/bastille/town" ],
 	"creatures" :
 	[

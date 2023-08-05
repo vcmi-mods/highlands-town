@@ -24,7 +24,7 @@
 			"affect":["C08SPF0"]
 		},
 
-		"flags" : {"positive": true},
+		"flags" : {"positive": true, "indifferent": true},
 
 		"graphics":
 		{
@@ -43,7 +43,7 @@
 		{
 			"anyOf" :
 			{
-				"highlands-town:creature.bberserker":"absolute"
+				"bastille:creature.bberserker":"absolute"
 			}
 		},
 

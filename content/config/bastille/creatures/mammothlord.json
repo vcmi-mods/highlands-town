@@ -16,12 +16,12 @@
 		"attack" : 16,
 		"cost" :
 		{
-			"gold" : 1300
+			"gold" : 1200
 		},
 		"damage" :
 		{
-			 "max" : 20,
-			 "min" : 16
+			 "max" : 24,
+			 "min" : 18
 		},
 		"defense" : 18,
 		"fightValue" : 1756,
@@ -34,7 +34,7 @@
       "animationTime": {
         "walk": 1,
         "attack": 1,
-        "idle": 10.5
+        "idle": 10
       },
       "missile" :
 			{
@@ -52,59 +52,101 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
     },
-    "doubleWide" : true,
 		"growth" : 2,
-		"hitPoints" : 90,
+		"hitPoints" : 100,
     "level": 6,
-    "shots": 12,
 		"sound" :
 		{
-			"attack" : "bastille/FG6UATTK.wav",
-			"defend" : "bastille/FG6UDFND.wav",
-                        "killed": "bastille/FG6UKILL.wav",
-                        "shoot": "bastille/FG6USHOT.wav",
-			"move" : "bastille/FG6UMOVE.wav",
-			"wince" : "bastille/FG6UWNCE.wav"
+			"attack" : "GOGGATTK.wav",
+			"defend" : "bastille/FG6DFND.wav",
+            "killed": "bastille/FG6KILL.wav",
+            "shoot": "bastille/FG6SHOT.wav",
+			"move" : "bastille/FG6MOVE.wav",
+			"startMoving": "FELMATTK.wav",
+			"endMoving": "FELMATTK.wav",
+			"wince" : "bastille/FG6WNCE.wav"
  		},
-		"speed" : 8,
+		"speed" : 10,
     "abilities":
 		{
-			"canShoot" :
+			"FLYING_ARMY" :
 			{
-				"type" : "SHOOTER"
+				"type": "FLYING",
+				"subtype" : 1 // teleports
 			},
-      "noMeleePenalty": {
-        "type": "NO_MELEE_PENALTY"
-      },
-	  "frozenAttack" :
-	  {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.iceFrozen",
-				"val" : 20,
-				"addInfo" : [0,2]
+			"immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"summons40HP" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fireVulnerability",
+				"val" : 25
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.summonEinherjar",
+				"subtype" : "spell.fireVulnerability",
 				"val" : 0
-			},
-			"summons50HP" : 
-			{
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.summonEinherjar",
-				"val" : 50
 			},
 			"castsAmount" :
 			{
 				"type" : "CASTS",
 				"val" : 1
-			},
-			"fireball" :
-			{
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.iceBolt"
 			}
-	    }
+	    },
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
 	}
 }

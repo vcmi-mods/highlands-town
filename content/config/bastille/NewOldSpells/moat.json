@@ -3,7 +3,7 @@
     {
         "targetType" : "CREATURE",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Lava Pond",
         "school": {},
         "level": 0,
         "power": 0,
@@ -43,7 +43,7 @@
     "highlandsMoat": {
         "targetType" : "NO_TARGET",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Lava Pond",
         "school" : {},
         "level": 0,
         "power": 0,

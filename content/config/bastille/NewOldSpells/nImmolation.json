@@ -1,0 +1,257 @@
+{
+	"nighoggCurse":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Immolation",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 3,
+		"power": 10,
+		
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName":"bastiSpells/nlA.def", "verticalPosition":"bottom"}]
+		},
+ 
+		"flags" : { "offensive": true, "damage": true, "negative" : true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "bastiSpells/nlAE"
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FIREWALL"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 10,
+				"range": "0",
+				"power": 7,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "IMMOLATION DAMAGE",
+				"power": 0.1,
+	 
+				"battleEffects" : {
+					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
+					"harm" :
+					{
+						"type" : "ENCHANTED",
+						"subtype" : "spell.nighoggDamage",
+						"val" : 0,
+						"duration": "N_TURNS",
+					},
+					"power" :
+					{
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "spell.nighoggDamage",
+					"val" : 5,
+					"duration": "N_TURNS",
+					}
+					}
+					
+					}
+				}
+			},
+			"basic":
+			{
+								"power": 0.2,
+				"description": "IMMOLATION DAMAGE",
+				"battleEffects" : {
+					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
+					"harm" :
+					{
+						"type" : "ENCHANTED",
+						"subtype" : "spell.nighoggDamage",
+						"val" : 1,
+						"duration": "N_TURNS",
+					},
+					"power" :
+					{
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "spell.nighoggDamage",
+					"val" : 7,
+					"duration": "N_TURNS",					
+					}
+					}
+					
+					}
+				}
+				
+			},
+			"advanced":
+			{					"power": 0.25,
+				"description": "IMMOLATION DAMAGE",
+				"battleEffects" : {
+					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
+					"harm" :
+					{
+						"type" : "ENCHANTED",
+						"subtype" : "spell.nighoggDamage",
+						"val" : 2,
+						"duration": "N_TURNS",
+					},
+					"power" :
+					{
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "spell.nighoggDamage",
+					"val" : 10,
+					"duration": "N_TURNS",
+					}
+					}
+					
+					}
+				}	
+			},
+			"expert":
+			{					"power": 0.5,
+				"description": "IMMOLATION DAMAGE",
+				"battleEffects" : {
+					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
+					"harm" :
+					{
+						"type" : "ENCHANTED",
+						"subtype" : "spell.nighoggDamage",
+						"val" : 3,
+						"duration": "N_TURNS",
+					},
+					"power" :
+					{
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "spell.nighoggDamage",
+					"val" : 12,
+					"duration": "N_TURNS",
+					}
+					}
+					
+					}
+				}
+			}
+		}
+	},
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ "nighoggDamage":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Immolation",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 3,
+		"power": 10, //this times spell power
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName":"bastiSpells/nlA.def", "verticalPosition":"bottom"}]
+		},
+ 
+		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "bastiSpells/nlAE"
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FIREBLST"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 5,
+				"range": "0",
+				"power": 20, //base dmg
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "IMMOLATION DAMAGE",
+				"power": 20, 
+	 
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
+				}
+			},
+			"basic":
+			{
+								"power": 25,
+				"description": "IMMOLATION DAMAGE",
+				
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
+				}
+			},
+			"advanced":
+			{					"power": 30,
+				"description": "IMMOLATION DAMAGE",
+				
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
+				}
+			},
+			"expert":
+			{					"power": 35,
+				"description": "IMMOLATION DAMAGE",
+				
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
+				}
+			}
+		}
+	}
+ 
+ 
+}

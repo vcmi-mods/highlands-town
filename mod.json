@@ -4,7 +4,7 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.10",
+	"version" : "2.00",
 	"modType" : "Town",	
 	"conflicts" :
     [
@@ -16,6 +16,7 @@
 	},
 	"changelog" :
     {
+		"2.00"	:	["Update to 2.00 version"],
 		"1.10"   : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"1.09"   : ["Update to vcmi-1.3"],
 		"1.08"   : ["New DAEMON_SUMMONING format", "Arrow towers icons"],
@@ -55,9 +56,12 @@
 		"config/bastille/creatures/mammoth.json",
 		"config/bastille/creatures/mammothlord.json",
 		"config/bastille/creatures/bsfafnir.json",
-		"config/bastille/creatures/demonicfafnir.json",	
-		"config/bastille/creatures/bseinherjar.json",	
-		"config/bastille/creatures/bcommander.json"
+		"config/bastille/creatures/demonicfafnir.json",
+		"config/bastille/creatures/highAmazon.json",
+		"config/bastille/creatures/highValkyrie.json",		
+		//"config/bastille/creatures/bseinherjar.json",	DELETED
+		"config/bastille/creatures/bcommander.json",
+		"config/bastille/dwarftank/tank.json"
 	],
 	
 	"heroClasses" :
@@ -85,13 +89,15 @@
 		"config/bastille/heroes/O_melisa.json",
 		"config/bastille/heroes/P_leslie.json"
 	],
+	"artifacts" : [ "config/bastille/dwarftank/tankArt.json" ],
 	"spells" :
 	[
-		"config/bastille/NewOldSpells/fireBolt.json",
-		"config/bastille/NewOldSpells/iceFrozen.json",
+		"config/bastille/NewOldSpells/nImmolation.json",
+		//"config/bastille/NewOldSpells/fireBolt.json",
+		//"config/bastille/NewOldSpells/iceFrozen.json",
 		"config/bastille/NewOldSpells/Barbarity.json",
 		"config/bastille/NewOldSpells/fireVulnerability.json",
-		"config/bastille/NewOldSpells/summonEinherjar.json",
+		//"config/bastille/NewOldSpells/summonEinherjar.json",
 		"config/bastille/NewOldSpells/moat.json"
 	],
 	 "objects":

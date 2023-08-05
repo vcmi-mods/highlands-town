@@ -238,7 +238,7 @@
           "id": 15
         },
         "blacksmith": {
-          "description": "The Blacksmith provides your armies with Ballista.",
+          "description": "The Blacksmith provides your armies with Armored Cannon.",
           "name": "Blacksmith",
           "cost": {
             "wood": 5,
@@ -272,18 +272,23 @@
           "mode": "auto"
         },
         "special1": {
-          "description": "The Temple of Einherjar can give +1 defence for visiting heroes.",
-          "name": "Temple of Einherjar",
-		  "type": "defenceVisitingBonus",
+          "description": "Refinery provides you with an additional +1 gem each day, and produces some random resources each week.",
+          "name": "Refinery",
+		  "produce": { "gems": 1 },
+		  "requires" : [ "allOf", ["horde1"], ["marketplace"] ],
+		  "type" : "mysticPond",
           "cost": {
-            "gold": 1000
-          }
-//          "id": 17
+            "gold": 5000,
+			"ore": 5,
+			"sulfur": 2,
+			"mercury": 2
+          },
+          "id": 17
         },
         "special2": {
-          "description": "The Observation Deck can increase the scouting radius by 5 for each visiting hero once a week.",
+          "description": "The Observation Deck can increase the scouting radius by 2 for each visiting hero once a week.",
           "name": "Observation Deck",
-		  "onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "SIGHT_RADIUS", "val": 5 } ],
+		  "onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "SIGHT_RADIUS", "val": 2 } ],
           "cost": {
             "crystal": 5,
             "gold": 1005
@@ -292,21 +297,17 @@
             "allOf",
             [ "fort" ],
             [ "mageGuild1" ]
-          ]
- //         "id": 21
+          ],
+			"id": 21
         },
         "special3": {
-          "description": "The Dragon's Lair keeps dwarves' treasure and provides gems, sulfur and crystal for your kingdom by 1 respectively per day.",
-          "name": "Dragon's Lair",
-		  "produce": { "gems": 1, "sulfur": 1, "crystal": 1 },
-		  "requires": [ "mageGuild2" ],
+          "description": "The War Memorial can give +1 defence for visiting heroes.",
+          "name": "War Memorial",
+		  "requires": [ "fort" ],
           "cost": {
-            "sulfur": 5,
-			"gems": 5,
-			"wood": 10,
-            "ore": 10,
-            "gold": 3000
+            "gold": 1000
           },
+          "type": "defenceVisitingBonus",
           "id": 22
         },
         "horde2": {
@@ -335,9 +336,12 @@
           "mode": "auto"
         },
         "grail": {
-          "description": "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 5000 gold , 2 wood and 2 ore each day, and \r\n***NOT WORKING YET\r\nalso increase the gold income 30% for your kingdom\r\nNOT WORKING YET***.",
+          "description": "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 3000 gold, It also increases defence skills by 15% for all heroes.",
           "name": "World Tree Branch",
-		  "produce": { "gold": 5000, "ore": 2,"wood": 2 },
+		  "produce": { "gold": 8000},
+		  "bonuses": [ 
+		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": -1, "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" },
+		  ],
           "id": 26,
           "mode": "grail"
         },
@@ -377,7 +381,7 @@
           "id": 32
         },
         "dwellingLvl4": {
-          "description": "The Iceberg Nest allows you to recruit Falcons.",
+          "description": "The Iceberg Nest allows you to recruit Snow Falcons.",
           "name": "Iceberg Nest",
           "cost": {
             "gold": 2000,
@@ -406,7 +410,7 @@
           "id": 34
         },
         "dwellingLvl6": {
-          "description": "The Hall of Clan allows you to recruit Chieftains.",
+          "description": "The Hall of Clan allows you to recruit Thanes.",
           "name": "Hall of Clan",
           "cost": {
             "gold": 4000,
@@ -427,13 +431,21 @@
             "ore": 15,
             "mercury": 15
           },
-          "requires": [
-            "allOf",
-            [ "mageGuild2" ],
-            [ "dwellingLvl5" ]
-          ],
+          "requires": ["allOf",[ "mageGuild2" ],[ "dwellingLvl5" ],[ "noneOf", [ "dwellingLvl7B" ] ]],
           "id": 36
         },
+		"dwellingLvl7B" :
+		{
+			"name" : "Hall of Valhalla",
+			"description" : "Hall of Valhalla allows you to recruit Amazons.",
+			"cost" : {
+						"gems" : 15,
+						"ore" : 10,
+						"gold" : 15000
+					},
+			"id" : 50, 
+			"requires" : [ "allOf", [ "dwellingLvl6" ], [ "blacksmith" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+		},
         "dwellingUpLvl1": {
           "description": "The Dwarven Mines allow you to recruit Mountain Guards.",
           "name": "Upg. Dwarven Mines",
@@ -495,7 +507,7 @@
           "description": "The Hall of Clan allows you to recruit Patriarches",
           "name": "Upg. Hall of Clan",
           "cost": {
-            "gold": 3000,
+            "gold": 4000,
             "ore": 10,
             "sulfur": 5,
             "crystal": 3,
@@ -505,7 +517,7 @@
           "upgrades": "dwellingLvl6"
         },
         "dwellingUpLvl7": {
-          "description": "The Volcanic Vent allows you to recruit Demonic Fafnirs.",
+          "description": "The Volcanic Vent allows you to recruit Nidhoggs.",
           "name": "Upg. Volcanic Vent",
           "cost": {
             "gold": 15000,
@@ -516,7 +528,20 @@
           "id": 43,
           "requires": [ "mageGuild3" ],
           "upgrades": "dwellingLvl7"
-        }
+        },
+		"dwellingUpLvl7B" :
+				{
+					"name" : "Upg. Hall of Valhalla",
+					"description" : "Hall of Valhalla allows you to recruit Valkyries.",
+					"cost" : {
+						"wood" : 10,
+						"gems" : 15,
+						"ore" : 10,
+						"gold" : 15000
+					},
+					"id" : 57, 
+					"upgrades" : "dwellingLvl7B"
+				}
       },
       "buildingsIcons": "bastille/town-hall.def",
       "creatures": [
@@ -526,7 +551,7 @@
         [ "bsnowbird", "bblizzardbird" ],
         [ "bgladiator", "bflameglad" ],
         [ "bmammoth", "bmammothlord" ],
-        [ "bsfafnir", "demonicfafnir" ]
+        [ "bsfafnir", "demonicfafnir","amazonHigh", "valkyrieHigh" ]
       ],
       "guildBackground": "TPMAGE.bmp",
       "guildSpells": {
@@ -573,7 +598,7 @@
         "protectWater": 2,
         "teleport": 2,
 
-        "berserk": 10,
+		"berserk": 10,
         "chainLightning": 10,
         "clone": 5,
         "counterstrike": 5,
@@ -585,6 +610,7 @@
         "resurrection": 5,
         "slayer": 5,
         "sorrow": 0,
+		"armageddon": 10,
         "townPortal": 15,
         "waterWalk": 5,
 
@@ -599,7 +625,7 @@
         "waterElemental": 5
       },
       "guildWindow": "bastille/town-screen/TPFGMAGE.bmp",
-      "hallBackground": "TPTHBKDG",
+      "hallBackground": "bastille/town-screen/TPTHBKFG.png",
       "horde": [ 0, 2 ],
 	  "moatAbility" : "highlandsMoat",
       "icons": {
@@ -935,7 +961,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGSpe2",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 2
         },
         "special3": {
           "animation": "bastille/town-screen/buildings/TBFGSpe3",
@@ -943,7 +969,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGSpe3",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 3
         },
         "horde2": {
           "animation": "bastille/town-screen/buildings/TBFGHRD2",
@@ -951,7 +977,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD2",
           "x": 0,
           "y": 0,
-          "z": 2,
+          "z": 3,
           "hidden": true
         },
         "horde2Upgr": {
@@ -960,7 +986,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD3",
           "x": 0,
           "y": 0,
-          "z": 2,
+          "z": 3,
           "hidden": true
         },
         "grail": {
@@ -989,7 +1015,8 @@
           "area": "bastille/town-screen/buildings-area/TZFGdw_2",
           "border": "bastille/town-screen/buildings-border/TOFGdw_2",
           "x": 0,
-          "y": 0
+          "y": 0,
+		  "z": 2
         },
         "dwellingLvl4": {
           "animation": "bastille/town-screen/buildings/TBFGdw_3",
@@ -1019,6 +1046,13 @@
           "x": 0,
           "y": 0
         },
+		"dwellingLvl7B": {
+          "animation": "bastille/town-screen/buildings/TBFGdw_6E",
+          "area": "bastille/town-screen/buildings-area/TZFGdw_6E",
+          "border": "bastille/town-screen/buildings-border/TOFGdw_6E",
+          "x": 0,
+          "y": 0
+        },
         "dwellingUpLvl1": {
           "animation": "bastille/town-screen/buildings/TBFGup_0",
           "area": "bastille/town-screen/buildings-area/TZFGup_0",
@@ -1038,7 +1072,8 @@
           "area": "bastille/town-screen/buildings-area/TZFGup_2",
           "border": "bastille/town-screen/buildings-border/TOFGup_2",
           "x": 0,
-          "y": 0
+          "y": 0,
+		  "z": 2
         },
         "dwellingUpLvl4": {
           "animation": "bastille/town-screen/buildings/TBFGup_3",
@@ -1067,11 +1102,18 @@
           "border": "bastille/town-screen/buildings-border/TOFGup_6",
           "x": 0,
           "y": 0
+        },
+		"dwellingUpLvl7B": {
+          "animation": "bastille/town-screen/buildings/TBFGup_6E",
+          "area": "bastille/town-screen/buildings-area/TZFGup_6E",
+          "border": "bastille/town-screen/buildings-border/TOFGup_6E",
+          "x": 0,
+          "y": 0
         }
       },
       "tavernVideo": "TAVERN.BIK",
       "townBackground": "bastille/town-screen/TPFGBACK.bmp",
-      "warMachine": "ballista",
+      "warMachine": "dwarftank",
       "hallSlots": [
         [
           [ "villageHall", "townHall", "cityHall", "capitol" ],
@@ -1099,7 +1141,8 @@
         [
           [ "dwellingLvl5", "dwellingUpLvl5" ],
           [ "dwellingLvl6", "dwellingUpLvl6" ],
-          [ "dwellingLvl7", "dwellingUpLvl7" ]
+          [ "dwellingLvl7", "dwellingUpLvl7" ],
+		  [ "dwellingLvl7B", "dwellingUpLvl7B" ]
         ]
       ]
     }

@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Chieftains",
-			"singular" : "Chieftain"
+			"plural" : "Thanes",
+			"singular" : "Thane"
 		},
 		"advMapAmount" :
 		{
@@ -25,18 +25,18 @@
 		},
 		"defense" : 16,
 		"fightValue" : 1704,
-		"graphics": {
-			"animation": "bastille/battle/creatures/CFG6.def",
-			"map": "bastille/map/creatures/AVWC160.def",
-			"iconSmall": "bastille/iconsSmall/creatures/CPrS160B.bmp",
-			"iconLarge": "bastille/iconsBig/creatures/CPrL160B.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime": {
-				"walk": 1,
-				"attack": 1,
-				"idle": 10
-			},
-			"missile" :
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG6.def",
+      "map": "bastille/map/creatures/AVWC160.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPrS160B.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPrL160B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile" :
 			{
 				"projectile" : "CPRGOGX.DEF",
 				"attackClimaxFrame" : 16,
@@ -51,42 +51,89 @@
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
-		},
-		"doubleWide" : true,
+    },
 		"growth" : 2,
 		"hitPoints" : 90,
-		"level": 6,
-		"shots": 12,
+    "level": 6,
 		"upgrades":
 		[
 			"bmammothlord"
 		],
 		"sound" :
 		{
-			"attack" : "bastille/FG6ATTK.wav",
+			"attack" : "GOGGATTK.wav",
 			"defend" : "bastille/FG6DFND.wav",
             "killed": "bastille/FG6KILL.wav",
             "shoot": "bastille/FG6SHOT.wav",
 			"move" : "bastille/FG6MOVE.wav",
+			"startMoving": "FELMATTK.wav",
+			"endMoving": "FELMATTK.wav",
 			"wince" : "bastille/FG6WNCE.wav"
  		},
-		"speed" : 7,
-		"abilities":
+		"speed" : 8,
+    "abilities":
 		{
-			"canShoot" :
+		"FLYING_ARMY" :
 			{
-				"type" : "SHOOTER"
+				"type": "FLYING",
+				"subtype" : 1 // teleports
 			},
-			"noMeleePenalty": 
+			"immuneToFire" :
 			{
-				"type": "NO_MELEE_PENALTY"
-			},
-			"fireball" :
-			{
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireBolt",
-				"addInfo" : [0,2]
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
 			}
-	    }
+	    },
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
 	}
 }

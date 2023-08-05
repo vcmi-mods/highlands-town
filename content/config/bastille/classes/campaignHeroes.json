@@ -1,0 +1,86 @@
+{
+// "special" heroes for new towns
+	"core:ufretin":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "bdefender", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "bjaveliner", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "bbrute", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "bgladiator", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "bmammoth", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

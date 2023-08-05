@@ -8,7 +8,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "bastille/map/dwellings/Baston1",
-                        "mask" : ["VVVV", "VVVV", "VVBB", "VBAB" ]
+                        "mask" : ["VVVV", "VVVV", "VVBB", "VVAB" ]
                     }
                 }
             },
@@ -53,7 +53,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "bastille/map/dwellings/Baston5",
-                        "mask" : [ "VBB","VBB","VBA"                        ]
+                        "mask" : [ "VVV","VBB","VBA" ]
                     }
                 }
             },
@@ -79,7 +79,20 @@
                 "templates" : {
                     "default" : {
                         "animation" : "bastille/map/dwellings/Baston7",
-                        "mask" : ["VVV", "VBB", "VBB","VAB" ]
+                        "mask" : ["VVV", "VVV", "VBB","VAB" ]
+                    }
+                }
+            },
+			"bastilleLevel8" : {
+                "name" : "Hall of Valhalla",
+                "creatures" : [[ "amazonHigh" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "amazonHigh" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "bastille/map/dwellings/Baston8",
+                        "mask" : ["VVV","VBB","VAB" ]
                     }
                 }
             }

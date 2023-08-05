@@ -25,7 +25,7 @@
 			"affect":["bastiSpells/ICEF.def"]
 		},
  
-		"flags" : {"negative": true},
+		"flags" : {"negative": true, "indifferent": true},
  
 		"graphics":
 		{
@@ -55,7 +55,7 @@
 			},
 			"none":
 			{
-				"description": "",
+				"description": "DELETED",
 	 
 				"cost": 0,
 	 
@@ -91,7 +91,7 @@
 			},
 			"basic":
 			{
-				"description": "",
+				"description": "DELETED",
 	 
 				"cost": 0,
 	 
@@ -127,7 +127,7 @@
 			},
 			"advanced":
 			{
-				"description": "",
+				"description": "DELETED",
 	 
 				"cost": 0,
 	 
@@ -163,7 +163,7 @@
 			},
 			"expert":
 			{
-				"description": "",
+				"description": "DELETED",
 	 
 				"cost": 0,
 	 

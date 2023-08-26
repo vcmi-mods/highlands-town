@@ -73,12 +73,12 @@
 				"type" : "CASTS",
 				"val" : 4
 			},
-		"selfLuck" :
+			"selfLuck" :
 			{
 				"type" : "LUCK",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX"
 			}
-    }
-  }
+		}
+	}
 }

@@ -59,7 +59,6 @@
 		"config/bastille/creatures/demonicfafnir.json",
 		"config/bastille/creatures/highAmazon.json",
 		"config/bastille/creatures/highValkyrie.json",		
-		//"config/bastille/creatures/bseinherjar.json",	DELETED
 		"config/bastille/creatures/bcommander.json",
 		"config/bastille/dwarftank/tank.json"
 	],
@@ -93,11 +92,8 @@
 	"spells" :
 	[
 		"config/bastille/NewOldSpells/nImmolation.json",
-		//"config/bastille/NewOldSpells/fireBolt.json",
-		//"config/bastille/NewOldSpells/iceFrozen.json",
 		"config/bastille/NewOldSpells/Barbarity.json",
 		"config/bastille/NewOldSpells/fireVulnerability.json",
-		//"config/bastille/NewOldSpells/summonEinherjar.json",
 		"config/bastille/NewOldSpells/moat.json"
 	],
 	 "objects":

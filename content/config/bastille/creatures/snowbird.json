@@ -48,7 +48,8 @@
     "abilities":
      {
       "canFly": {
-        "type": "FLYING"
+        "type": "FLYING",
+		"subtype" : "movementFlying"
       }
     },
 		"stackExperience" :
@@ -56,7 +57,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -64,7 +65,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -72,7 +73,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -80,7 +81,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]

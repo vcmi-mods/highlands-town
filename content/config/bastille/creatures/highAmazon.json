@@ -89,7 +89,7 @@
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"basicSlayer" : { "type" : "KING", "val": 2 },
+			"basicSlayer" : { "type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE" },
 			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
@@ -100,7 +100,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -108,7 +108,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -116,7 +116,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
@@ -124,7 +124,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]

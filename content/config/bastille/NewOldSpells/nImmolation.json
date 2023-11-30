@@ -25,15 +25,9 @@
 		},
  
 		"flags" : { "offensive": true, "damage": true, "negative" : true },
-
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "bastiSpells/nlAE"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {
@@ -70,7 +64,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.nighoggDamage",
+//					"subtype" : "spell.nighoggDamage",
 					"val" : 5,
 					"duration": "N_TURNS",
 					}
@@ -81,7 +75,7 @@
 			},
 			"basic":
 			{
-								"power": 0.2,
+				"power": 0.2,
 				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
 					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
@@ -95,7 +89,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.nighoggDamage",
+//					"subtype" : "spell.nighoggDamage",
 					"val" : 7,
 					"duration": "N_TURNS",					
 					}
@@ -106,7 +100,7 @@
 				
 			},
 			"advanced":
-			{					"power": 0.25,
+			{	"power": 0.25,
 				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
 					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
@@ -120,7 +114,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.nighoggDamage",
+//					"subtype" : "spell.nighoggDamage",
 					"val" : 10,
 					"duration": "N_TURNS",
 					}
@@ -130,7 +124,7 @@
 				}	
 			},
 			"expert":
-			{					"power": 0.5,
+			{	"power": 0.5,
 				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
 					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
@@ -144,7 +138,7 @@
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "spell.nighoggDamage",
+//					"subtype" : "spell.nighoggDamage",
 					"val" : 12,
 					"duration": "N_TURNS",
 					}
@@ -175,7 +169,7 @@
 			"water": false
 		},
 		"level": 3,
-		"power": 10, //this times spell power
+		"power": 10,
 		
 		"defaultGainChance": 0, 
 		"gainChance":
@@ -189,14 +183,9 @@
  
 		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true },
 
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "bastiSpells/nlAE"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {
@@ -209,7 +198,7 @@
 			{
 				"cost": 5,
 				"range": "0",
-				"power": 20, //base dmg
+				"power": 20,
 				"aiValue": 70,
 				"targetModifier":
 				{
@@ -252,6 +241,4 @@
 			}
 		}
 	}
- 
- 
 }

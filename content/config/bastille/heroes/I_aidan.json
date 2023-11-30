@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"sorcery" : {
-					"subtype" : -1,
+					"subtype" : "spellSchool.any",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SPELL_DAMAGE",
 					"valueType" : "PERCENT_TO_TARGET_TYPE",

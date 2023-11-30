@@ -336,11 +336,11 @@
           "mode": "auto"
         },
         "grail": {
-          "description": "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 3000 gold, It also increases defence skills by 15% for all heroes.",
+          "description": "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 8000 gold, It also increases defence skills by 15% for all heroes.",
           "name": "World Tree Branch",
 		  "produce": { "gold": 8000},
 		  "bonuses": [ 
-		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": -1, "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" },
+		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": "damageTypeAll", "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" },
 		  ],
           "id": 26,
           "mode": "grail"

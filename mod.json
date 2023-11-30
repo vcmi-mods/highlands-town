@@ -4,7 +4,7 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.00",
+	"version" : "2.01",
 	"modType" : "Town",	
 	"conflicts" :
     [
@@ -12,10 +12,11 @@
     ],
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.4.0"
 	},
 	"changelog" :
     {
+		"2.00"	:	["Update to vcmi-1.4 version"],
 		"2.00"	:	["Update to 2.00 version"],
 		"1.10"   : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"1.09"   : ["Update to vcmi-1.3"],
@@ -36,6 +37,7 @@
 	},	
 	"chinese" : {
 		"name" : "高地",
+		"description" : "高地",
 		"translations" : [
 			"translation/bastille/chinese.json"
 		]

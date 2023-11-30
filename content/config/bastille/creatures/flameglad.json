@@ -58,7 +58,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -66,7 +66,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -74,7 +74,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
@@ -82,7 +82,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
@@ -97,10 +97,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "FIRE_IMMUNITY",
-					"subtype" : 2
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
 			}
 		]
   }

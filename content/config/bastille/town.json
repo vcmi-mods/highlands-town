@@ -926,8 +926,8 @@
           "animation": "bastille/town-screen/buildings/TBFGBLAK",
           "area": "bastille/town-screen/buildings-area/TZFGBLAK",
           "border": "bastille/town-screen/buildings-border/TOFGBLAK",
-          "x": 0,
-          "y": 0
+          "x": 208,
+          "y": 183
         },
         "horde1": {
           "animation": "bastille/town-screen/buildings/TBFGHRD0",

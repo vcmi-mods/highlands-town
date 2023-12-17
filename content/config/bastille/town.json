@@ -817,7 +817,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGmage",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "mageGuild2": {
           "animation": "bastille/town-screen/buildings/TBFGmag2",
@@ -825,7 +825,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGmag2",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "mageGuild3": {
           "animation": "bastille/town-screen/buildings/TBFGmag3",
@@ -833,7 +833,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGmag3",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "mageGuild4": {
           "animation": "bastille/town-screen/buildings/TBFGmag4",
@@ -841,7 +841,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGmag4",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "mageGuild5": {
           "animation": "bastille/town-screen/buildings/TBFGmag5",
@@ -849,70 +849,79 @@
           "border": "bastille/town-screen/buildings-border/TOFGmag5",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "tavern": {
           "animation": "bastille/town-screen/buildings/TBFGTVRN",
           "area": "bastille/town-screen/buildings-area/TZFGTVRN",
           "border": "bastille/town-screen/buildings-border/TOFGTVRN",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "fort": {
           "animation": "bastille/town-screen/buildings/TBFGCSTL",
           "area": "bastille/town-screen/buildings-area/TZFGCSTL",
           "border": "bastille/town-screen/buildings-border/TOFGCSTL",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "citadel": {
           "animation": "bastille/town-screen/buildings/TBFGCAS2",
           "area": "bastille/town-screen/buildings-area/TZFGCAS2",
           "border": "bastille/town-screen/buildings-border/TOFGCAS2",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "castle": {
           "animation": "bastille/town-screen/buildings/TBFGCAS3",
           "area": "bastille/town-screen/buildings-area/TZFGCAS3",
           "border": "bastille/town-screen/buildings-border/TOFGCAS3",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "villageHall": {
           "animation": "bastille/town-screen/buildings/TBFGhall",
           "area": "bastille/town-screen/buildings-area/TZFGhall",
           "border": "bastille/town-screen/buildings-border/TOFGhall",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "townHall": {
           "animation": "bastille/town-screen/buildings/TBFGhal2",
           "area": "bastille/town-screen/buildings-area/TZFGhal2",
           "border": "bastille/town-screen/buildings-border/TOFGhal2",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "cityHall": {
           "animation": "bastille/town-screen/buildings/TBFGhal3",
           "area": "bastille/town-screen/buildings-area/TZFGhal3",
           "border": "bastille/town-screen/buildings-border/TOFGhal3",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "capitol": {
           "animation": "bastille/town-screen/buildings/TBFGhal4",
           "area": "bastille/town-screen/buildings-area/TZFGhal4",
           "border": "bastille/town-screen/buildings-border/TOFGhal4",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "marketplace": {
           "animation": "bastille/town-screen/buildings/TBFGmark",
           "area": "bastille/town-screen/buildings-area/TZFGmark",
           "border": "bastille/town-screen/buildings-border/TOFGmark",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "resourceSilo": {
           "animation": "bastille/town-screen/buildings/TBFGsilo",
@@ -920,14 +929,15 @@
           "border": "bastille/town-screen/buildings-border/TOFGsilo",
           "x": 0,
           "y": 0,
-		  "z": 1
+		  "z": 3
         },
         "blacksmith": {
           "animation": "bastille/town-screen/buildings/TBFGBLAK",
           "area": "bastille/town-screen/buildings-area/TZFGBLAK",
           "border": "bastille/town-screen/buildings-border/TOFGBLAK",
           "x": 208,
-          "y": 183
+          "y": 183,
+          "z": 1
         },
         "horde1": {
           "animation": "bastille/town-screen/buildings/TBFGHRD0",
@@ -935,7 +945,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD0",
           "x": 0,
           "y": 0,
-          "z": 2,
+          "z": 3,
           "hidden": true
         },
         "horde1Upgr": {
@@ -944,7 +954,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD1",
           "x": 0,
           "y": 0,
-          "z": 2,
+          "z": 3,
           "hidden": true
         },
         "special1": {
@@ -953,7 +963,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGSPEC",
           "x": 0,
           "y": 0,
-          "z": -1
+          "z": 0
         },
         "special2": {
           "animation": "bastille/town-screen/buildings/TBFGSpe2",
@@ -961,7 +971,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGSpe2",
           "x": 0,
           "y": 0,
-          "z": 2
+          "z": 3
         },
         "special3": {
           "animation": "bastille/town-screen/buildings/TBFGSpe3",
@@ -969,7 +979,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGSpe3",
           "x": 0,
           "y": 0,
-          "z": 3
+          "z": 4
         },
         "horde2": {
           "animation": "bastille/town-screen/buildings/TBFGHRD2",
@@ -977,7 +987,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD2",
           "x": 0,
           "y": 0,
-          "z": 3,
+          "z": 4,
           "hidden": true
         },
         "horde2Upgr": {
@@ -986,7 +996,7 @@
           "border": "bastille/town-screen/buildings-border/TOFGHRD3",
           "x": 0,
           "y": 0,
-          "z": 3,
+          "z": 4,
           "hidden": true
         },
         "grail": {
@@ -994,21 +1004,24 @@
           "area": "bastille/town-screen/buildings-area/TZFGHoly",
           "border": "bastille/town-screen/buildings-border/TOFGHoly",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingLvl1": {
           "animation": "bastille/town-screen/buildings/TBFGdw_0",
           "area": "bastille/town-screen/buildings-area/TZFGdw_0",
           "border": "bastille/town-screen/buildings-border/TOFGdw_0",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingLvl2": {
           "animation": "bastille/town-screen/buildings/TBFGdw_1",
           "area": "bastille/town-screen/buildings-area/TZFGdw_1",
           "border": "bastille/town-screen/buildings-border/TOFGdw_1",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingLvl3": {
           "animation": "bastille/town-screen/buildings/TBFGdw_2",
@@ -1016,56 +1029,63 @@
           "border": "bastille/town-screen/buildings-border/TOFGdw_2",
           "x": 0,
           "y": 0,
-		  "z": 2
+		  "z": 3
         },
         "dwellingLvl4": {
           "animation": "bastille/town-screen/buildings/TBFGdw_3",
           "area": "bastille/town-screen/buildings-area/TZFGdw_3",
           "border": "bastille/town-screen/buildings-border/TOFGdw_3",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "dwellingLvl5": {
           "animation": "bastille/town-screen/buildings/TBFGdw_4",
           "area": "bastille/town-screen/buildings-area/TZFGdw_4",
           "border": "bastille/town-screen/buildings-border/TOFGdw_4",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "dwellingLvl6": {
           "animation": "bastille/town-screen/buildings/TBFGdw_5",
           "area": "bastille/town-screen/buildings-area/TZFGdw_5",
           "border": "bastille/town-screen/buildings-border/TOFGdw_5",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "dwellingLvl7": {
           "animation": "bastille/town-screen/buildings/TBFGdw_6",
           "area": "bastille/town-screen/buildings-area/TZFGdw_6",
           "border": "bastille/town-screen/buildings-border/TOFGdw_6",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
 		"dwellingLvl7B": {
           "animation": "bastille/town-screen/buildings/TBFGdw_6E",
           "area": "bastille/town-screen/buildings-area/TZFGdw_6E",
           "border": "bastille/town-screen/buildings-border/TOFGdw_6E",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 0
         },
         "dwellingUpLvl1": {
           "animation": "bastille/town-screen/buildings/TBFGup_0",
           "area": "bastille/town-screen/buildings-area/TZFGup_0",
           "border": "bastille/town-screen/buildings-border/TOFGup_0",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "dwellingUpLvl2": {
           "animation": "bastille/town-screen/buildings/TBFGup_1",
           "area": "bastille/town-screen/buildings-area/TZFGup_1",
           "border": "bastille/town-screen/buildings-border/TOFGup_1",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 2
         },
         "dwellingUpLvl3": {
           "animation": "bastille/town-screen/buildings/TBFGup_2",
@@ -1073,42 +1093,47 @@
           "border": "bastille/town-screen/buildings-border/TOFGup_2",
           "x": 0,
           "y": 0,
-		  "z": 2
+		  "z": 3
         },
         "dwellingUpLvl4": {
           "animation": "bastille/town-screen/buildings/TBFGup_3",
           "area": "bastille/town-screen/buildings-area/TZFGup_3",
           "border": "bastille/town-screen/buildings-border/TOFGup_3",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingUpLvl5": {
           "animation": "bastille/town-screen/buildings/TBFGup_4",
           "area": "bastille/town-screen/buildings-area/TZFGup_4",
           "border": "bastille/town-screen/buildings-border/TOFGup_4",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingUpLvl6": {
           "animation": "bastille/town-screen/buildings/TBFGup_5",
           "area": "bastille/town-screen/buildings-area/TZFGup_5",
           "border": "bastille/town-screen/buildings-border/TOFGup_5",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
         "dwellingUpLvl7": {
           "animation": "bastille/town-screen/buildings/TBFGup_6",
           "area": "bastille/town-screen/buildings-area/TZFGup_6",
           "border": "bastille/town-screen/buildings-border/TOFGup_6",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 1
         },
 		"dwellingUpLvl7B": {
           "animation": "bastille/town-screen/buildings/TBFGup_6E",
           "area": "bastille/town-screen/buildings-area/TZFGup_6E",
           "border": "bastille/town-screen/buildings-border/TOFGup_6E",
           "x": 0,
-          "y": 0
+          "y": 0,
+          "z": 0
         }
       },
       "tavernVideo": "TAVERN.BIK",

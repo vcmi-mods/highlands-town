@@ -1,10 +1,10 @@
 {
 	"name" : "Highlands Town",
-	"description" : "Town made by Turbanellos. New townscreen.",
+	"description" : "New town made by Turbanellos. New townscreen.",
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.01",
+	"version" : "2.02",
 	"modType" : "Town",	
 	"conflicts" :
     [
@@ -16,6 +16,7 @@
 	},
 	"changelog" :
     {
+		"2.02"	:	["Fixed the creatures' stackExp, the commander and other bugs"],
 		"2.01"	:	["Update to vcmi-1.4 version"],
 		"2.00"	:	["Update to 2.00 version"],
 		"1.10"   : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],

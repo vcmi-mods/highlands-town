@@ -106,6 +106,14 @@
 			{
 				"bonus" :
 				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
 					"type" : "ENCHANTED",
 					"subtype" : "spell.frenzy", 
 				},

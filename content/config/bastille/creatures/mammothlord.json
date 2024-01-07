@@ -141,6 +141,14 @@
 			{
 				"bonus" :
 				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
 					"type" : "MAGIC_RESISTANCE"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]

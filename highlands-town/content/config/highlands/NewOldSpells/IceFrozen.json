@@ -46,158 +46,60 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"description": "DELETED",
+				"cost": 0,
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.stoneGaze",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"defenceBoost" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"val" : 50,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : [
+						    "UNTIL_BEING_ATTACKED",
+						    "N_TURNS"
+						]
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "DELETED",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"defenceBoost" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 50,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
-						]
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "DELETED",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"defenceBoost" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 50,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
-						]
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "DELETED",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"defenceBoost" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 50,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
-						]
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "DELETED",
-	 
-				"cost": 0,
-	 
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"defenceBoost" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 50,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
-						]
-					}
-				}
+
 			}
 		}
-	}
- 
+	} 
 }

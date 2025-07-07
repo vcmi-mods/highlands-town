@@ -30,7 +30,7 @@
 				"description": "{Liquid Flame}\n\nFire Breath effect.",
 				"cost": 20,
 				"power": 20,
-				"aiValue": 15,
+//				"aiValue": 15,
 				"range" : "0",
 				"battleEffects" : {
 					"obstacle" : {
@@ -38,7 +38,7 @@
 						"hidden" : false,
 						"passable" : true,
 						"trap" : false,
-						
+						"patchCount" : 4,
 						"triggerAbility" : "core:fireWallTrigger",
 
 						"turnsRemaining" : 2,

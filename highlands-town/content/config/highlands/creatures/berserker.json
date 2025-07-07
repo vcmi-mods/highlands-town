@@ -54,9 +54,12 @@
 		"speed" : 8,
 		"abilities" :
 		{
-      "fearless" :
+			"fearless" :
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
 			"castsCount" :
 			{

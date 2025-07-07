@@ -58,11 +58,14 @@
 		"speed" : 7,
 		"abilities" :
 		{
-    "fearless" :
+			"fearless" :
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			}
-		},
+		},	
 		"stackExperience" :
 		[
 			{

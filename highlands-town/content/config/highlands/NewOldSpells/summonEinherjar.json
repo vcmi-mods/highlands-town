@@ -16,7 +16,7 @@
 		"levels" : {
 			"base": {
 				"description" : "",
-				"aiValue" : 0,
+//				"aiValue" : 0,
 				"power" : 40,
 				"cost" : 1,
 				"range" : "0",
@@ -42,7 +42,8 @@
 				"bonus.NON_LIVING" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute",
-				"bonus.GARGOYLE" : "absolute"
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.MECHANICAL" : "absolute"
 			}
 		}
 	}

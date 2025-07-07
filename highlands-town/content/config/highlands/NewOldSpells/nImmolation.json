@@ -45,10 +45,7 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
+				},
 				"description": "IMMOLATION DAMAGE",
 				"power": 0.1,
 	 
@@ -71,90 +68,54 @@
 					}
 					
 					}
-				}
+				}				
+			},
+			"none":
+			{
+
 			},
 			"basic":
 			{
 				"power": 0.2,
-				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
 					"harm" :
 					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.nighoggDamage",
-						"val" : 1,
-						"duration": "N_TURNS",
+						"val" : 1
 					},
 					"power" :
 					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.nighoggDamage",
-					"val" : 7,
-					"duration": "N_TURNS",					
-					}
-					}
-					
+						"val" : 7			
 					}
 				}
-				
 			},
 			"advanced":
 			{	"power": 0.25,
-				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
 					"harm" :
 					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.nighoggDamage",
-						"val" : 2,
-						"duration": "N_TURNS",
+						"val" : 2
 					},
 					"power" :
 					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.nighoggDamage",
-					"val" : 10,
-					"duration": "N_TURNS",
+						"val" : 10				
 					}
-					}
-					
-					}
-				}	
+				}
 			},
 			"expert":
 			{	"power": 0.5,
-				"description": "IMMOLATION DAMAGE",
 				"battleEffects" : {
-					"curse" : {"type":"core:timed", "cumulative": false, "bonus":  {
 					"harm" :
 					{
-						"type" : "ENCHANTED",
-						"subtype" : "spell.nighoggDamage",
-						"val" : 3,
-						"duration": "N_TURNS",
+						"val" : 3
 					},
 					"power" :
 					{
-					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.nighoggDamage",
-					"val" : 12,
-					"duration": "N_TURNS",
-					}
-					}
-					
+						"val" : 12				
 					}
 				}
 			}
 		}
 	},
- 
- 
- 
- 
- 
- 
  
  "nighoggDamage":
 	{
@@ -199,45 +160,32 @@
 				"cost": 5,
 				"range": "0",
 				"power": 20,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": true
-				}
-			},
-			"none":
-			{
+				},
 				"description": "IMMOLATION DAMAGE",
 				"power": 20, 
 	 
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+				}				
+			},
+			"none":
+			{
 			},
 			"basic":
 			{
-								"power": 25,
-				"description": "IMMOLATION DAMAGE",
-				
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+				"power": 25
 			},
 			"advanced":
-			{					"power": 30,
-				"description": "IMMOLATION DAMAGE",
-				
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+			{	
+				"power": 30
 			},
 			"expert":
-			{					"power": 35,
-				"description": "IMMOLATION DAMAGE",
-				
-				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "valueType": 	"INDEPENDENT_MIN"}
-				}
+			{					
+				"power": 35
 			}
 		}
 	}

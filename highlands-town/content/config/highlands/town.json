@@ -359,7 +359,7 @@
           "name": "World Tree Branch",
 		  "produce": { "gold": 8000},
 		  "bonuses": [ 
-		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": "damageTypeAll", "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" },
+		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": "damageTypeAll", "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" },
 		  ],
           "id": 26,
           "mode": "grail"

@@ -17,6 +17,9 @@
 		},
 		"defense" : 5,
 		"fightValue" : 130,
+		"cost" : {
+			"gold" : 2000
+		},
 		"graphics" :
 		{
 			"animation" : "highlands/battle/creatures/bcommander.def",
@@ -87,7 +90,7 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.removeObstacle",
-				"val" : 3
+				"val" : 1
 			}
 	    }
 	}

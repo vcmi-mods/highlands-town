@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "highlands/iconsSmall/creatures/tankicon.bmp",
-			"map": "highlands/map/creatures/AVWTANK.def"
+			"map": "highlands/map/creatures/AVWTANK.def",
+			"scenarioBonus": "highlands/scenarioBonus/bonusBlank.png"
 		}
 	}
 }

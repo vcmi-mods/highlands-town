@@ -51,7 +51,7 @@
 				"description": "{Fire Bolt}\r\n\r\nYou cannot see this description.",	 
 				"cost": 0,
 //				"aiValue": 12,
-				"power": 10				
+				"power": 10,			
 				"battleEffects" : {
 					"directDamage" : {
 						"type":"core:damage",

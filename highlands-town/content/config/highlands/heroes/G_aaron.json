@@ -1,32 +1,26 @@
 {
-	"g_aaron" :
-	{
-    "class": "bwarlord",
-    "female" : false,
-		
-		"texts" :
-		{
+	"g_aaron" : {
+		"class" : "bwarlord",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Aaron",
 			"biography" : "Aaron claims he is a philosopher, but many people do not recognize him. Because this dwarf never relates himself with philosophy. However, he still suppose that no one found his 'true' wisdom. ",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 10% per level bonus to Learning skill percentage.",
 				"tooltip" : "Skill bonus: Learning",
 				"name" : "Learning"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "highlands/heroes/aaron/skill32-7.bmp",
 			"specialtyLarge" : "highlands/heroes/aaron/skill7.bmp",
 			"large" : "highlands/heroes/aaron/HPL006DW.bmp",
 			"small" : "highlands/heroes/aaron/HPS006DW.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "bdefender",
 				"max" : 30,
@@ -43,17 +37,15 @@
 				"min" : 2
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "learning"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "learning"
 		}
 	}
 }
-

@@ -1,35 +1,30 @@
 {
-	"l_astride" :
-	{
+	"l_astride" : {
 		"class" : "bpyromancer",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Astride",
 			"biography" : "Astride (former name is Astra) was a sorceress in Enroth, she came to Vori simply because of the myterious covenant between sorceresses and dwarves. Although the covenant had became invalid recent years, she is still not willing to leave here. Maybe she is attracted by fire magic.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Fire Ball with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Fire Ball",
 				"name" : "Fire Ball"
 			}
 		},
 
-    "images": 		{
+		"images" : {
 			"specialtySmall" : "highlands/heroes/astride/skill32-12.bmp",
 			"specialtyLarge" : "highlands/heroes/astride/skill12.bmp",
 			"large" : "highlands/heroes/astride/HPL003PY.bmp",
 			"small" : "highlands/heroes/astride/HPS003PY.bmp"
 		},
 
-    "spellbook" :
-		[
-			"fireball" 
+		"spellbook" : [
+			"fireball"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "bdefender",
 				"max" : 20,
@@ -47,18 +42,17 @@
 			}
 		],
 
-		"skills" :
-		[
-      {
-        "level": "basic",
-        "skill": "fireMagic"
-      },
-      {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
 				"level" : "basic",
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {

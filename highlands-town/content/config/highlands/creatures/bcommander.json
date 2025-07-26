@@ -1,8 +1,6 @@
 {
-	"bcommander":
-	{
-		"name" :
-		{
+	"bcommander" : {
+		"name" : {
 			"plural" : "Runemages",
 			"singular" : "Runemage"
 		},
@@ -10,35 +8,30 @@
 		"faction" : "highlands",
 		"aiValue" : 156,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
 		"cost" : {
 			"gold" : 2000
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "highlands/battle/creatures/bcommander.def",
 			"map" : "highlands/map/creatures/mapbcommander.def",
 			"iconSmall" : "highlands/iconsSmall/creatures/bcommander.bmp",
 			"iconLarge" : "highlands/iconsBig/creatures/bcommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
-				"projectile": "CPRZEAX.DEF",
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -46,52 +39,58 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
 		"level" : 0,
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "PSNTATTK.wav",
-			"defend": "PSNTDFND.wav",
-			"killed": "PSNTKILL.wav",
-			"move": "PSNTMOVE.wav",
-			"wince": "PSNTWNCE.wav",
-			"shoot": "ZELTSHOT.wav"
- 		},
+		"sound" : {
+			"attack" : "PSNTATTK.wav",
+			"defend" : "PSNTDFND.wav",
+			"killed" : "PSNTKILL.wav",
+			"move" : "PSNTMOVE.wav",
+			"wince" : "PSNTWNCE.wav",
+			"shoot" : "ZELTSHOT.wav"
+		},
 		"speed" : 4,
-		"abilities" :
-		{
-		    "magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "removeObstacle",
 				"val" : 1
 			}
-	    }
+		}
 	}
 }

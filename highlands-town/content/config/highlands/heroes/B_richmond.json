@@ -1,32 +1,26 @@
 {
-	"b_richmond" :
-	{
-    "class": "bwarlord",
-    "female" : false,
-		
-		"texts" :
-		{
+	"b_richmond" : {
+		"class" : "bwarlord",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Richmond",
 			"biography" : "Richmond supposes he would be the hermit in the snow mountain. Only cold weather will make him comfortable. Thus he tamed many falcons as his companions. However, sometimes he will be found in a little pub, maybe the lonely dwarf is also eager to a warm atmosphere.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Falcons and Blizzard Falcons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature bonus: Falcons",
 				"name" : "Falcons"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "highlands/heroes/richmond/skill32-2.bmp",
 			"specialtyLarge" : "highlands/heroes/richmond/skill2.bmp",
 			"large" : "highlands/heroes/richmond/HPL001DW.bmp",
 			"small" : "highlands/heroes/richmond/HPS001DW.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "bdefender",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 2
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
@@ -54,10 +47,9 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "bsnowbird"
 		}
 	}
 }
-

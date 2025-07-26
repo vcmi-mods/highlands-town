@@ -1,32 +1,26 @@
 {
-	"c_harrigan" :
-	{
-    "class": "bwarlord",
-    "female" : false,
-		
-		"texts" :
-		{
+	"c_harrigan" : {
+		"class" : "bwarlord",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Harrigan",
 			"biography" : "As the leader of 'Hunter Alliance', Harrigan often goes hunting with his group members, and gives out his harvests to the poor. In his view, hunting is not for food, but for improving his skills. He believes his talent can be used into battlefields.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Javeliners and Harpooners by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature bonus: Javeliners",
 				"name" : "Javeliners"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "highlands/heroes/harrigan/skill32-3.bmp",
 			"specialtyLarge" : "highlands/heroes/harrigan/skill3.bmp",
 			"large" : "highlands/heroes/harrigan/HPL002DW.bmp",
 			"small" : "highlands/heroes/harrigan/HPS002DW.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "bdefender",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 5
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -54,10 +47,9 @@
 				"skill" : "logistics"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "bjaveliner"
 		}
 	}
 }
-

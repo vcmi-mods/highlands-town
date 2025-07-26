@@ -1,5 +1,5 @@
 {
-  "core:artillery" : {
+	"core:artillery" : {
 		"base" : {
 			"effects" : {
 				"tankExtra" : {
@@ -16,21 +16,33 @@
 		},
 		"basic" : {
 			"effects" : {
-				"tankExtra" : { "val" : 0 },
-				"damagePowerTank" : { "val" : 0 }
+				"tankExtra" : {
+					"val" : 0
+				},
+				"damagePowerTank" : {
+					"val" : 0
+				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"tankExtra" : { "val" : 75 },
-				"damagePowerTank" : { "val" : 100 }
+				"tankExtra" : {
+					"val" : 75
+				},
+				"damagePowerTank" : {
+					"val" : 100
+				}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"tankExtra" : { "val" : 100 },
-				"damagePowerTank" : { "val" : 150 }
+				"tankExtra" : {
+					"val" : 100
+				},
+				"damagePowerTank" : {
+					"val" : 150
+				}
 			}
 		}
-  }
+	}
 }

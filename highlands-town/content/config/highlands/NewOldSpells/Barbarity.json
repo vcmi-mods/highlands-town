@@ -1,103 +1,84 @@
 //Barbarity ability for Highlands berserkers
 {
-	"barbarity":
-	{
-		"type": "ability",
-		"name": "Barbarity",
-		"school":
-		{
-			"air": false,
-			"earth": true,
-			"fire": false,
-			"water": false
+	"barbarity" : {
+		"type" : "ability",
+		"name" : "Barbarity",
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
 		"canCastOnSelf" : true,
-		"canCastWithoutSkip": true,
-		"canCastOnlyOnSelf": true,
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : true,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
-		"animation":{
-			"affect":["C08SPF0"]
+		"animation" : {
+			"affect" : [
+				"C08SPF0"
+			]
 		},
 
-		"flags" : {"positive": true, "indifferent": true},
-
-		"graphics":
-		{
-			"iconBook": "highlandSpells/USELESS.bmp",
-			"iconScroll": "highlandSpells/USELESS2.bmp",
-			"iconScenarioBonus": "highlandSpells/USELESS3.bmp",
-			"iconEffect": "highlandSpells/INBAR.bmp"
+		"flags" : {
+			"positive" : true,
+			"indifferent" : true
 		},
 
-		"sounds":
-		{
-			"cast": "FRENZY"
+		"graphics" : {
+			"iconBook" : "highlandSpells/USELESS.bmp",
+			"iconScroll" : "highlandSpells/USELESS2.bmp",
+			"iconScenarioBonus" : "highlandSpells/USELESS3.bmp",
+			"iconEffect" : "highlandSpells/INBAR.bmp"
+		},
+
+		"sounds" : {
+			"cast" : "FRENZY"
 		},
 		"targetType" : "LOCATION",
-		"targetCondition" :
-		{
-			"anyOf" :
-			{
-				"bastille:creature.bberserker":"absolute"
+		"targetCondition" : {
+			"anyOf" : {
+				"bastille:creature.bberserker" : "absolute"
 			}
 		},
 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
 
-				"description": "",
+				"description" : "",
 
-				"cost": 0,
+				"cost" : 0,
 
-				"targetModifier":
-				{
-					"smart": true
+				"targetModifier" : {
+					"smart" : true
 				},
-				"effects":
-				{
+				"effects" : {
 					"attacksNearestCreature" : {
 						"type" : "ATTACKS_NEAREST_CREATURE",
 						"duration" : "N_TURNS",
-						"turns": 1
+						"turns" : 1
 					},
-					"inFrenzy" : 
-					{
+					"inFrenzy" : {
 						"type" : "IN_FRENZY",
 						"val" : 150,
 						"duration" : "N_TURNS",
-						"turns": 1
+						"turns" : 1
 					}
 				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

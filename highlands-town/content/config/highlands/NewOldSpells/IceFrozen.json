@@ -58,7 +58,7 @@
 					"notActive" : {
 						"val" : 0,
 						"type" : "NOT_ACTIVE",
-						"subtype" : "spell.stoneGaze",
+						"subtype" : "stoneGaze",
 						"duration" : [
 							"UNTIL_BEING_ATTACKED",
 							"N_TURNS"

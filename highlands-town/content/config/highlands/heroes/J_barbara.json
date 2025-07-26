@@ -10,7 +10,7 @@
 			"biography" : "Since her request for dancing was rejected in a party, Barbara started to know the inherent gap between human and dwarves. She desperated to integrate with human but finally she found it is impossible. Thus, she had to anchor her hope on magic, and then became a sorceress. ",
 			"specialty" :
 			{
-				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill percentage.",
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Skill bonus: Intelligence",
 				"name" : "Intelligence"
 			}
@@ -60,14 +60,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"intelligence" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "intelligence"
 		}
 	}
 }

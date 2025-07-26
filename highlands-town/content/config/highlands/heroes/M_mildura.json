@@ -10,7 +10,7 @@
 			"biography" : "As an assistant for Sanya the cleric, Mildura spent her early years in a monastery in Erathia. She found her behavior is totally different from other dwarves when she back home. However, she never give up to humanize the people in her hometown, by using the truth she had learned previously.",
 			"specialty" :
 			{
-				"description" : "{Crystals}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
+				"description" : "Increases kingdom's crystal production by 1 per day.",
 				"tooltip" : "+1 Crystal per day",
 				"name" : "+1 Crystal"
 			}
@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"crystal" : {
-					"subtype" : "resource.crystal",
+					"subtype" : "crystal",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}

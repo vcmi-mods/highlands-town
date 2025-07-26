@@ -82,13 +82,13 @@
 			"summons40HP" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.fireVulnerability",
+				"subtype" : "fireVulnerability",
 				"val" : 25
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.fireVulnerability",
+				"subtype" : "fireVulnerability",
 				"val" : 0
 			},
 			"castsAmount" :

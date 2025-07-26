@@ -54,14 +54,14 @@
 					"harm" :
 					{
 						"type" : "ENCHANTED",
-						"subtype" : "spell.nighoggDamage",
+						"subtype" : "nighoggDamage",
 						"val" : 0,
 						"duration": "N_TURNS",
 					},
 					"power" :
 					{
 					"type" : "CREATURE_SPELL_POWER",
-//					"subtype" : "spell.nighoggDamage",
+//					"subtype" : "nighoggDamage",
 					"val" : 5,
 					"duration": "N_TURNS",
 					}

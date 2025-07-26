@@ -10,7 +10,7 @@
 			"biography" : "Melisa claims that she was the only surviour of a catastrophe. She used to experience a deadly volcanic eruption in Kreegan when she was young. After that, she started to learn fire magic, and hope she can make the devastation once again, by using her own ability. ",
 			"specialty" :
 			{
-				"description" : "{Fire Shield}\r\n\r\nCasts Fire Shield with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Fire Shield with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Fire Shield",
 				"name" : "Fire Shield"
 			}
@@ -58,7 +58,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"fireShield" : {
-					"subtype" : "spell.fireShield",
+					"subtype" : "fireShield",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

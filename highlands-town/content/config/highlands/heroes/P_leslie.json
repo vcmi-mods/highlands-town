@@ -10,7 +10,7 @@
 			"biography" : "Leslie married a dwarf prince and then become the nobility in Vori. However, she never feels pride for that. She never condescends herself to others while meeting with civillians. ",
 			"specialty" :
 			{
-				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage.",
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"tooltip" : "Skill bonus: Logistics",
 				"name" : "Logistics"
 			}
@@ -60,15 +60,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"subtype" : "heroMovementLand",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MOVEMENT",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "logistics"
 		}
 	}
 }

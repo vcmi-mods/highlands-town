@@ -85,9 +85,10 @@
 			"castsBless" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.bless",
+				"subtype" : "bless",
 				"val" : 3,
-				"addInfo" : 3
+				"addInfo" : 3,
+				"description" : "{Enchanter}\nCan cast Bless every three turns"
 			},
 			"basicSlayer" : { "type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE" },
 			"noMeleePenalty" :

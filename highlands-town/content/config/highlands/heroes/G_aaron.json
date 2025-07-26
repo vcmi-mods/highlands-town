@@ -10,7 +10,7 @@
 			"biography" : "Aaron claims he is a philosopher, but many people do not recognize him. Because this dwarf never relates himself with philosophy. However, he still suppose that no one found his 'true' wisdom. ",
 			"specialty" :
 			{
-				"description" : "{Learning}\r\n\r\nReceives a 10% per level bonus to Learning skill percentage.",
+				"description" : "Receives a 10% per level bonus to Learning skill percentage.",
 				"tooltip" : "Skill bonus: Learning",
 				"name" : "Learning"
 			}
@@ -52,14 +52,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"learning" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "learning"
 		}
 	}
 }

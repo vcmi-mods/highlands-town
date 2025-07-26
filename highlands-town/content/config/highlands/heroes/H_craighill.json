@@ -10,7 +10,7 @@
 			"biography" : "Craig Hill used to be a fighter in Krewlod. After experienced a long period sojourn, he became increasingly like a barbarian. Although he has already backed home, he cannot find the original feeling as a dwarf.",
 			"specialty" :
 			{
-				"description" : "{Gladiators and Flame Gladiators}\r\n\r\nIncreases Speed of any Gladiators and Flame Gladiators by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"description" : "Increases Speed of any Gladiators and Flame Gladiators by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature bonus: Gladiators",
 				"name" : "Gladiators"
 			}

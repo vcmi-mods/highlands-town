@@ -10,7 +10,7 @@
 			"biography" : "Renee doesn't like the lifestyle of dwarves, but she has to choose Vori as her refuge. Someone indicated she is a betrayed necromancer. Almost everyone know the truth of her even though she never admits her history. ",
 			"specialty" :
 			{
-				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill percentage.",
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
 				"tooltip" : "Skill bonus: Mysticism",
 				"name" : "Mysticism"
 			}
@@ -60,14 +60,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"mysticism" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "mysticism"
 		}
 	}
 }

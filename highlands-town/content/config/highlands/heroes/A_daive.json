@@ -10,7 +10,7 @@
 			"biography" : "Daive used to be the loyal advocate for Gelu the elf king. He had been a dwarf leader in Avlee for many years. However, since he learned the madness of Gelu from his friend Ufretin, the leader did not decide to fight for him anymore. He started to back home and fight for his own people.",
 			"specialty" :
 			{
-				"description" : "{Defenders and Mountain Guards}\r\n\r\nIncreases Speed of any Defenders and Mountain Guards by 1 and their Attack and Defense skills by 5% for every level.",
+				"description" : "Increases Speed of any Defenders and Mountain Guards by 1 and their Attack and Defense skills by 5% for every level.",
 				"tooltip" : "Creature bonus: Defenders",
 				"name" : "Defenders"
 			}

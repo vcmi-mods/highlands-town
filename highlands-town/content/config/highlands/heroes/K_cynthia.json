@@ -10,7 +10,7 @@
 			"biography" : "Cynthia believes that she should be a fairy, instead of a dwarf. Before she backed to her hometown, she had lived in Avlee with sprites for a long time. Everyone who know her suppose that she looks like a true fairy, except without a pair of wings. ",
 			"specialty" :
 			{
-				"description" : "{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Ice Bolt",
 				"name" : "Ice Bolt"
 			}
@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"iceBolt" : {
-					"subtype" : "spell.iceBolt",
+					"subtype" : "iceBolt",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

@@ -60,7 +60,7 @@
       "thunderStrength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"val" : 8
 			},
 			"immuneToWater" :
@@ -72,7 +72,7 @@
 			"thunderOnAttack" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"val" : 20,
 				"addInfo" : [2, 2]
 			}

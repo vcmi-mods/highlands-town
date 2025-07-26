@@ -54,12 +54,12 @@
 		"speed" : 8,
 		"abilities" :
 		{
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "highlands/icons/bonusIcons/e_fearl.png"
 			},
 			"castsCount" :
 			{
@@ -69,7 +69,7 @@
 			"barbarity" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.barbarity",
+				"subtype" : "barbarity",
 				"val" : 0
 			},
       "extraAttack" :
@@ -83,28 +83,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageBoth",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" :
@@ -125,7 +115,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.frenzy", 
+					"subtype" : "frenzy", 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 2, 2, 3 ]			
 			},

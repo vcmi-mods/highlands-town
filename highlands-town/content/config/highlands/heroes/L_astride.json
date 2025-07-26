@@ -10,7 +10,7 @@
 			"biography" : "Astride (former name is Astra) was a sorceress in Enroth, she came to Vori simply because of the myterious covenant between sorceresses and dwarves. Although the covenant had became invalid recent years, she is still not willing to leave here. Maybe she is attracted by fire magic.",
 			"specialty" :
 			{
-				"description" : "{Fire Ball}\r\n\r\nCasts Fire Ball with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Fire Ball with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Fire Ball",
 				"name" : "Fire Ball"
 			}
@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {
-					"subtype" : "spell.fireball",
+					"subtype" : "fireball",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

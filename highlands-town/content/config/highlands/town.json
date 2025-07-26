@@ -73,8 +73,7 @@
             "wood": 5,
             "ore": 5,
             "gold": 2000
-          },
-          "id": 0
+          }
         },
         "mageGuild2": {
 
@@ -88,9 +87,7 @@
             "crystal": 4,
             "gems": 4,
             "gold": 1000
-          },
-          "id": 1,
-          "upgrades": "mageGuild1"
+          }
         },
         "mageGuild3": {
           "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -103,9 +100,7 @@
             "crystal": 6,
             "gems": 6,
             "gold": 1000
-          },
-          "id": 2,
-          "upgrades": "mageGuild2"
+          }
         },
         "mageGuild4": {
           "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -118,9 +113,7 @@
             "crystal": 8,
             "gems": 8,
             "gold": 1000
-          },
-          "id": 3,
-          "upgrades": "mageGuild3"
+          }
         },
         "mageGuild5": {
           "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -133,9 +126,7 @@
             "crystal": 10,
             "gems": 10,
             "gold": 1000
-          },
-          "id": 4,
-          "upgrades": "mageGuild4"
+          }
         },
         "tavern": {
           "name": "Tavern",
@@ -143,8 +134,8 @@
           "cost": {
             "wood": 5,
             "gold": 500
-          },
-          "id": 5
+          }
+          
         },
         "fort": {
           "name": "Fort",
@@ -153,8 +144,8 @@
             "wood": 20,
             "ore": 20,
             "gold": 5000
-          },
-          "id": 7
+          }
+          
         },
         "citadel": {
           "name": "Citadel",
@@ -162,9 +153,7 @@
           "cost": {
             "ore": 5,
             "gold": 2500
-          },
-          "id": 8,
-          "upgrades": "fort"
+          }
         },
         "castle": {
           "name": "Castle",
@@ -173,50 +162,32 @@
             "wood": 10,
             "ore": 10,
             "gold": 5000
-          },
-          "id": 9,
-          "upgrades": "citadel"
+          }
         },
         "villageHall": {
           "name": "Village Hall",
-          "description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-          "id": 10,
-          "mode": "auto"
+          "description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
         },
         "townHall": {
           "name": "Town Hall",
           "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
           "cost": {
             "gold": 2500
-          },
-          "id": 11,
-          "requires": [ "tavern" ],
-          "upgrades": "villageHall"
+          }
         },
         "cityHall": {
           "name": "City Hall",
           "description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
           "cost": {
             "gold": 5000
-          },
-          "requires": [
-            "allOf",
-            [ "mageGuild1" ],
-            [ "marketplace" ],
-            [ "blacksmith" ]
-          ],
-          "id": 12,
-          "upgrades": "townHall"
+          }
         },
         "capitol": {
           "name": "Capitol",
           "description": "The Capitol earns your kingdom 4000 gold per day.",
           "cost": {
             "gold": 10000
-          },
-          "id": 13,
-          "requires": [ "castle" ],
-          "upgrades": "cityHall"
+          }
         },
         "marketplace": {
           "name": "Marketplace",
@@ -224,9 +195,8 @@
           "cost": {
             "wood": 5,
             "gold": 500
-          },
-		  "marketModes" : ["resource-resource", "resource-player"],
-          "id": 14
+          }
+          
         },
         "resourceSilo": {
           "description": "The Resource Silo provides you with an additional +1 wood and ore each day.",
@@ -235,9 +205,8 @@
             "ore": 5,
             "gold": 5000
           },
-          "requires": [ "marketplace" ],
 			"produce": { "wood": 1, "ore": 1 },
-			"id" : 15
+			
         },
         "blacksmith": {
           "description": "The Blacksmith provides your armies with Armored Cannon.",
@@ -246,8 +215,8 @@
           "cost": {
             "wood": 5,
             "gold": 1000
-          },
-          "id": 16
+          }
+          
         },
         "horde1": {
           "description": "The Miner Hut increases Defender production by 6 per week.",
@@ -255,7 +224,7 @@
           "cost": {
             "gold": 1000
           },
-          "id": 18,
+          
           "upgrades": "dwellingLvl1",
           "requires": [
             "allOf",
@@ -270,9 +239,7 @@
             "gold": 1000
           },
           "requires" : [ "allOf", ["horde1"], ["dwellingUpLvl1"] ],
-          "upgrades": "dwellingUpLvl1",
-          "id": 19,
-          "mode": "auto"
+          "upgrades": "dwellingUpLvl1"
         },
         "special1": {
           "description": "Refinery provides you with an additional +1 gem each day, and produces some random resources each week.",
@@ -285,8 +252,8 @@
 			"ore": 5,
 			"sulfur": 2,
 			"mercury": 2
-          },
-          "id": 17
+          }
+          
         },
         "special2": {
           "description": "The Observation Deck can increase the scouting radius by 2 for each visiting hero once a week.",
@@ -308,8 +275,8 @@
             "allOf",
             [ "fort" ],
             [ "mageGuild1" ]
-          ],
-			"id": 21
+          ]
+			
         },
         "special3": {
           "description": "The War Memorial can give +1 defense for visiting heroes.",
@@ -323,11 +290,11 @@
 				"rewards" : [
 					{
 						"message" : "Spending time in the War Memorial, the experienced warriors therein teach you additional defensive skills (+1 Defense)",
-						"bonuses" : [ { "type" : "PRIMARY_SKILL", "val" : 2, "subtype": "primarySkill.defence" } ]
+						"bonuses" : [ { "type" : "PRIMARY_SKILL", "val" : 2, "subtype": "defence" } ]
 					}
 				]
-			},
-          "id": 22
+			}
+          
         },
         "horde2": {
           "description": "The Warlord's Statue increases Brute production by 3 per week.",
@@ -335,7 +302,7 @@
           "cost": {
             "gold": 1500
           },
-          "id": 24,
+          
           "upgrades": "dwellingLvl3",
           "requires": [
             "allOf",
@@ -350,9 +317,7 @@
             "gold": 1500
           },
           "requires" : [ "allOf", ["horde2"], ["dwellingUpLvl3"] ],
-          "upgrades": "dwellingUpLvl3",
-          "id": 25,
-          "mode": "auto"
+          "upgrades": "dwellingUpLvl3"
         },
         "grail": {
           "description": "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 8000 gold, It also increases defence skills by 15% for all heroes.",
@@ -360,9 +325,7 @@
 		  "produce": { "gold": 8000},
 		  "bonuses": [ 
 		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": "damageTypeAll", "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" },
-		  ],
-          "id": 26,
-          "mode": "grail"
+		  ]
         },
         "dwellingLvl1": {
           "description": "The Dwarven Mines allow you to recruit Defenders.",
@@ -371,8 +334,8 @@
             "gold": 500,
             "ore": 10
           },
-          "requires": [ "fort" ],
-          "id": 30
+          "requires": [ "fort" ]
+          
         },
         "dwellingLvl2": {
           "description": "The Hunter Camp allows you to recruit Javeliners.",
@@ -381,8 +344,8 @@
             "gold": 1000,
             "ore": 5
           },
-          "requires": [ "fort" ],
-          "id": 31
+          "requires": [ "fort" ]
+          
         },
         "dwellingLvl3": {
           "description": "The Longhouse allows you to recruit Brutes.",
@@ -396,8 +359,8 @@
             "allOf",
             [ "blacksmith" ],
             [ "dwellingLvl1" ]
-          ],
-          "id": 32
+          ]
+          
         },
         "dwellingLvl4": {
           "description": "The Iceberg Nest allows you to recruit Snow Falcons.",
@@ -411,8 +374,8 @@
             "allOf",
             [ "mageGuild1" ],
             [ "dwellingLvl2" ]
-          ],
-          "id": 33
+          ]
+          
         },
         "dwellingLvl5": {
           "description": "The Battle Fortress allows you to recruit Gladiators.",
@@ -425,8 +388,8 @@
             "allOf",
             [ "mageGuild1" ],
             [ "dwellingLvl3" ]
-          ],
-          "id": 34
+          ]
+          
         },
         "dwellingLvl6": {
           "description": "The Hall of Clan allows you to recruit Thanes.",
@@ -438,8 +401,8 @@
             "crystal": 10,
             "mercury": 10
           },
-          "requires": [ "dwellingLvl4" ],
-          "id": 35
+          "requires": [ "dwellingLvl4" ]
+          
         },
         "dwellingLvl7": {
           "description": "The Volcanic Vent allows you to recruit Fire Dragons.",
@@ -449,8 +412,8 @@
             "wood": 15,
             "ore": 15
           },
-          "requires": ["allOf",[ "mageGuild1" ],[ "dwellingLvl5" ]],
-          "id": 36
+          "requires": ["allOf",[ "mageGuild1" ],[ "dwellingLvl5" ]]
+          
         },
 		"dwellingLvl8" :
 		{
@@ -461,7 +424,7 @@
 						"ore" : 10,
 						"gold" : 15000
 					},
-			"id" : 150, 
+			 
 			"requires" : [ "allOf", [ "dwellingLvl6" ], [ "blacksmith" ] ]
 		},
         "dwellingUpLvl1": {
@@ -470,7 +433,7 @@
           "cost": {
             "gold": 1000
           },
-          "id": 37,
+          
           "requires": [ "tavern" ],
           "upgrades": "dwellingLvl1"
         },
@@ -483,7 +446,7 @@
             "ore": 5,
             "mercury": 2
           },
-          "id": 38,
+          
           "upgrades": "dwellingLvl2"
         },
         "dwellingUpLvl3": {
@@ -495,7 +458,7 @@
             "sulfur": 5
           },
           "requires": [ "dwellingUpLvl1" ],
-          "id": 39,
+          
           "upgrades": "dwellingLvl3"
         },
         "dwellingUpLvl4": {
@@ -506,7 +469,7 @@
             "wood": 5,
             "crystal": 5
           },
-          "id": 40,
+          
           "upgrades": "dwellingLvl4"
         },
         "dwellingUpLvl5": {
@@ -518,7 +481,7 @@
             "sulfur": 5
           },
 		  "requires": [ "special1" ],
-          "id": 41,
+          
           "upgrades": "dwellingLvl5"
         },
         "dwellingUpLvl6": {
@@ -531,7 +494,7 @@
             "crystal": 3,
             "mercury": 3
           },
-          "id": 42,
+          
           "upgrades": "dwellingLvl6"
         },
         "dwellingUpLvl7": {
@@ -544,7 +507,7 @@
             "mercury": 5,
 			"sulfur": 5
           },
-          "id": 43,
+          
           "upgrades": "dwellingLvl7"
         },
 		"dwellingUpLvl8" :
@@ -557,7 +520,7 @@
 						"ore" : 10,
 						"gold" : 15000
 					},
-					"id" : 57, 
+					 
 					"upgrades" : "dwellingLvl8"
 				}
       },

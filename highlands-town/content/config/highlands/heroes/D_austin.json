@@ -10,7 +10,7 @@
 			"biography" : "Austin is interested in the research of ballista. He likes learning the mechnical principles and use it into practice. That makes him skilled in artillery.",
 			"specialty" :
 			{
-				"description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 4 levels (rounded up).",
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature bonus: Ballista",
 				"name" : "Ballista"
 			}

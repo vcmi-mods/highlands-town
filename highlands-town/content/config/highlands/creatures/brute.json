@@ -58,12 +58,12 @@
 		"speed" : 7,
 		"abilities" :
 		{
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "highlands/icons/bonusIcons/e_fearl.png"
 			}
 		},	
 		"stackExperience" :

@@ -10,7 +10,7 @@
 			"biography" : "Richmond supposes he would be the hermit in the snow mountain. Only cold weather will make him comfortable. Thus he tamed many falcons as his companions. However, sometimes he will be found in a little pub, maybe the lonely dwarf is also eager to a warm atmosphere.",
 			"specialty" :
 			{
-				"description" : "{Falcons and Blizzard Falcons}\r\n\r\nIncreases Speed of any Falcons and Blizzard Falcons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"description" : "Increases Speed of any Falcons and Blizzard Falcons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature bonus: Falcons",
 				"name" : "Falcons"
 			}

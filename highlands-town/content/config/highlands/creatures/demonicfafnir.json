@@ -62,13 +62,13 @@
 			},
 			"immuneToFire" :
 			{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 			},
 			"castLiquidFlame" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.liquidFlame",
+				"subtype" : "liquidFlame",
 				"val" : 100
 			},
 			"castLiquidFlameStrength" :
@@ -85,31 +85,43 @@
 			{
 				"type": "DISINTEGRATE",
 			},
-			"waterWeaken" :
+			"waterWeaken1" :
 			{
-                 "type" : "SPELL_DAMAGE_REDUCTION",
-                 "val" : -100,
-                 "subtype" : "spellSchool.water",
+                 "type" : "MORE_DAMAGE_FROM_SPELL",
+                 "val" : 100,
+                 "subtype" : "iceBolt",
+				 "hidden" : true
             },
+			"waterWeaken2" :
+			{
+                 "type" : "MORE_DAMAGE_FROM_SPELL",
+                 "val" : 100,
+                 "subtype" : "frostRing",
+				"description" : "{Water damege vulnerable}\nIce Bolt and Frost Ring do +100% more damage",
+				"icon" : "highlands/icons/bonusIcons/eradicate.png"			 
+            },			
 			"attackInLava" : 
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"val" : 1,
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["lava"]
-				} ]
+					"terrain" : "lava"
+				} ],
+				"description" : "{Lava Lord}\nAt lava terrain attack, defence and speed is increased by one",
+				"icon" : "highlands/icons/bonusIcons/placeholder.png"				
 				
 			},
 			"defenceInLava"  : {
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"val" : 1,
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["lava"]
-				} ]
+					"terrain" : "lava"
+				} ],
+				"hidden" : true
 				
 			},
 			"speedInLava" : {
@@ -117,8 +129,9 @@
 				"val" : 1,
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["lava"]
-				} ]
+					"terrain" : "lava"
+				} ],
+				"hidden" : true
 				
 			}
 		},
@@ -128,18 +141,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -170,7 +181,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.boneDragon"
+					"subtype" : "boneDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},
@@ -178,7 +189,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.ghostDragon"
+					"subtype" : "ghostDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},

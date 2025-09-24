@@ -1,0 +1,10 @@
+{
+	"basepath" : "highlands/map/dwellings/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "highldw2"
+		}
+	]
+}

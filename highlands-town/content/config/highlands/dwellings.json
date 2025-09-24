@@ -19,7 +19,8 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw1.def"
 			},
 			"highlandsLevel2" : {
 				"name" : "Hunter Camp",
@@ -37,7 +38,8 @@
 							"VBAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw2.def"
 			},
 			"highlandsLevel3" : {
 				"name" : "Longhouse",
@@ -56,7 +58,8 @@
 							"VVAA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw3.def"
 			},
 			"highlandsLevel4" : {
 				"name" : "Iceberg Nest",
@@ -74,7 +77,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw4.def"
 			},
 			"highlandsLevel5" : {
 				"name" : "Battle Fortress",
@@ -98,7 +102,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw5.def"
 			},
 			"highlandsLevel6" : {
 				"name" : "Hall of Clan",
@@ -122,7 +127,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw6.def"
 			},
 			"highlandsLevel7" : {
 				"name" : "Volcanic Vent",
@@ -147,7 +153,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw7.def"
 			},
 			"highlandsLevel8" : {
 				"name" : "Hall of Valhalla",
@@ -171,7 +178,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw8.def"
 			}
 		}
 	}

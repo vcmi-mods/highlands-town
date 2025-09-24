@@ -4,7 +4,7 @@
 
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.23",
+	"version" : "2.24",
 	"modType" : "Town",
 	"conflicts" : [
 		"bastille"
@@ -13,6 +13,9 @@
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.24" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"2.23" : [
 			"Another update to vcmi-1.7 format",
 			"missing creature ability icons added"

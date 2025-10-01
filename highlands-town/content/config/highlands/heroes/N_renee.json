@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/renee/skill32-14.bmp",
-			"specialtyLarge" : "highlands/heroes/renee/skill14.bmp",
-			"large" : "highlands/heroes/renee/HPL005PY.bmp",
-			"small" : "highlands/heroes/renee/HPS005PY.bmp"
+			"specialtySmall" : "highlands/heroes/renee/skill32-14",
+			"specialtyLarge" : "highlands/heroes/renee/skill14",
+			"large" : "highlands/heroes/renee/HPL005PY",
+			"small" : "highlands/heroes/renee/HPS005PY"
 		},
 
 		"spellbook" : [

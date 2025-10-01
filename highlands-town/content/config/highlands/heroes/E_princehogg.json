@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/princehogg/skill32-5.bmp",
-			"specialtyLarge" : "highlands/heroes/princehogg/skill5.bmp",
-			"large" : "highlands/heroes/princehogg/HPL004DW.bmp",
-			"small" : "highlands/heroes/princehogg/HPS004DW.bmp"
+			"specialtySmall" : "highlands/heroes/princehogg/skill32-5",
+			"specialtyLarge" : "highlands/heroes/princehogg/skill5",
+			"large" : "highlands/heroes/princehogg/HPL004DW",
+			"small" : "highlands/heroes/princehogg/HPS004DW"
 		},
 
 		"army" : [

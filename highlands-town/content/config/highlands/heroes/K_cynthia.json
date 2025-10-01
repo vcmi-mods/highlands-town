@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/cynthia/skill32-11.bmp",
-			"specialtyLarge" : "highlands/heroes/cynthia/skill11.bmp",
-			"large" : "highlands/heroes/cynthia/HPL002PY.bmp",
-			"small" : "highlands/heroes/cynthia/HPS002PY.bmp"
+			"specialtySmall" : "highlands/heroes/cynthia/skill32-11",
+			"specialtyLarge" : "highlands/heroes/cynthia/skill11",
+			"large" : "highlands/heroes/cynthia/HPL002PY",
+			"small" : "highlands/heroes/cynthia/HPS002PY"
 		},
 
 		"spellbook" : [

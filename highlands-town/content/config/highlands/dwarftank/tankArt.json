@@ -13,7 +13,7 @@
 			"event" : "You are lucky to find an armored cannon in the field."
 		},
 		"graphics" : {
-			"image" : "highlands/iconsSmall/creatures/tankicon.bmp",
+			"image" : "highlands/iconsSmall/creatures/tankicon",
 			"map" : "highlands/map/creatures/AVWTANK.def",
 			"scenarioBonus" : "highlands/scenarioBonus/bonusBlank.png"
 		}

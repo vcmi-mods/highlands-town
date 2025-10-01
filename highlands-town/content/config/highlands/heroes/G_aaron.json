@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/aaron/skill32-7.bmp",
-			"specialtyLarge" : "highlands/heroes/aaron/skill7.bmp",
-			"large" : "highlands/heroes/aaron/HPL006DW.bmp",
-			"small" : "highlands/heroes/aaron/HPS006DW.bmp"
+			"specialtySmall" : "highlands/heroes/aaron/skill32-7",
+			"specialtyLarge" : "highlands/heroes/aaron/skill7",
+			"large" : "highlands/heroes/aaron/HPL006DW",
+			"small" : "highlands/heroes/aaron/HPS006DW"
 		},
 
 		"army" : [

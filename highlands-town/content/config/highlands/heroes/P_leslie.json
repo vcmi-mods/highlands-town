@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/leslie/skill32-16.bmp",
-			"specialtyLarge" : "highlands/heroes/leslie/skill16.bmp",
-			"large" : "highlands/heroes/leslie/HPL007PY.bmp",
-			"small" : "highlands/heroes/leslie/HPS007PY.bmp"
+			"specialtySmall" : "highlands/heroes/leslie/skill32-16",
+			"specialtyLarge" : "highlands/heroes/leslie/skill16",
+			"large" : "highlands/heroes/leslie/HPL007PY",
+			"small" : "highlands/heroes/leslie/HPS007PY"
 		},
 
 		"spellbook" : [

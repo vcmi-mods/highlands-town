@@ -3,8 +3,8 @@
 		"alignment" : "neutral",
 		"boat" : "boatCastle",
 		"creatureBackground" : {
-			"120px" : "highlands/creature-bg-120px.bmp",
-			"130px" : "highlands/creature-bg-130px.bmp"
+			"120px" : "highlands/creature-bg-120px",
+			"130px" : "highlands/creature-bg-130px"
 		},
 		"name" : "Highlands",
 		"nativeTerrain" : "snow",
@@ -835,7 +835,7 @@
 					"valkyrieHigh"
 				]
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE",
 			"guildSpells" : {
 				"bless" : 10,
 				"bloodlust" : 10,
@@ -906,7 +906,7 @@
 				"sacrifice" : 11,
 				"waterElemental" : 5
 			},
-			"guildWindow" : "highlands/town-screen/TPFGMAGE.bmp",
+			"guildWindow" : "highlands/town-screen/TPFGMAGE",
 			"hallBackground" : "highlands/town-screen/TPTHBKFG.png",
 			"horde" : [
 				0,
@@ -916,22 +916,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "highlands/icons/hall-small.bmp",
-						"large" : "highlands/icons/hall-big.bmp"
+						"small" : "highlands/icons/hall-small",
+						"large" : "highlands/icons/hall-big"
 					},
 					"built" : {
-						"small" : "highlands/icons/hall-builded-small.bmp",
-						"large" : "highlands/icons/hall-builded-big.bmp"
+						"small" : "highlands/icons/hall-builded-small",
+						"large" : "highlands/icons/hall-builded-big"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "highlands/icons/fort-small.bmp",
-						"large" : "highlands/icons/fort-big.bmp"
+						"small" : "highlands/icons/fort-small",
+						"large" : "highlands/icons/fort-big"
 					},
 					"built" : {
-						"small" : "highlands/icons/fort-builded-small.bmp",
-						"large" : "highlands/icons/fort-builded-big.bmp"
+						"small" : "highlands/icons/fort-builded-small",
+						"large" : "highlands/icons/fort-builded-big"
 					}
 				}
 			},
@@ -1429,7 +1429,7 @@
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "highlands/town-screen/TPFGBACK.bmp",
+			"townBackground" : "highlands/town-screen/TPFGBACK",
 			"hallSlots" : [
 				[
 					[

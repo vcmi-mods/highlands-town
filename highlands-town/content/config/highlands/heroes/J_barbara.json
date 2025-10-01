@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/barbara/skill32-10.bmp",
-			"specialtyLarge" : "highlands/heroes/barbara/skill10.bmp",
-			"large" : "highlands/heroes/barbara/HPL001PY.bmp",
-			"small" : "highlands/heroes/barbara/HPS001PY.bmp"
+			"specialtySmall" : "highlands/heroes/barbara/skill32-10",
+			"specialtyLarge" : "highlands/heroes/barbara/skill10",
+			"large" : "highlands/heroes/barbara/HPL001PY",
+			"small" : "highlands/heroes/barbara/HPS001PY"
 		},
 
 		"spellbook" : [

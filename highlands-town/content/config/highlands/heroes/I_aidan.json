@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/aidan/skill32-9.bmp",
-			"specialtyLarge" : "highlands/heroes/aidan/skill9.bmp",
-			"large" : "highlands/heroes/aidan/HPL000PY.bmp",
-			"small" : "highlands/heroes/aidan/HPS000PY.bmp"
+			"specialtySmall" : "highlands/heroes/aidan/skill32-9",
+			"specialtyLarge" : "highlands/heroes/aidan/skill9",
+			"large" : "highlands/heroes/aidan/HPL000PY",
+			"small" : "highlands/heroes/aidan/HPS000PY"
 		},
 
 		"spellbook" : [

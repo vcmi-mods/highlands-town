@@ -1,10 +1,9 @@
 {
 	"name" : "Highlands Town",
 	"description" : "New town made by Ben Yan. New townscreen.",
-
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.24",
+	"version" : "2.25",
 	"modType" : "Town",
 	"conflicts" : [
 		"bastille"
@@ -13,6 +12,9 @@
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.25" : [
+			"Added Czech translation by George King"
+		],
 		"2.24" : [
 			"Added flagport frames (Kingdom Overwiev window)"
 		],
@@ -104,6 +106,13 @@
 		"description" : "堡垒取材自北欧神话，是一个矮人的种族，位于矮人故乡的北方大陆沃里。矮人战士擅长防御，法师则擅长火系魔法。和壁垒关系较为密切，但并不是对立或从中独立的种族。",
 		"translations" : [
 			"translation/highlands/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Vrchovina",
+		"description" : "Vrchovina je město ukryté v nehostinných horách a ledových pláních, kde trpasličí klany a válečníci přežívají díky nezdolné síle a magii run. Jejich společnost ctí čest, odvahu a neochvějnou vůli vzdorovat každé hrozbě.<br/><br/>Jeho armádu tvoří <b>obránci</b>, <b>oštěpaři</b>, <b>hrubiáni</b>, <b>sokoli</b>, <b>gladiátoři</b> a mocní <b>thanové</b>, posílení ohnivými a magmatickými <b>draky</b>, odvážnými <b>amazonkami</b> a <b>valkýrami</b>.<br/><br/>Vrchovina se specializuje na houževnatou obranu, runová kouzla a moc ohně i ledu. Díky tomu dokáže její armáda využít sílu hor a živlů proti nepřátelům.<br/><br/>Je to frakce pro hráče, kteří preferují nezdolnou sílu, odolnost a mocnou runovou magii.",
+		"translations" : [
+			"translation/highlands/czech.json"
 		]
 	},
 	"french" : {

@@ -32,10 +32,10 @@
 		},
 
 		"graphics" : {
-			"iconBook" : "highlandSpells/USELESS.bmp",
-			"iconScroll" : "highlandSpells/USELESS2.bmp",
-			"iconScenarioBonus" : "highlandSpells/USELESS3.bmp",
-			"iconEffect" : "highlandSpells/INBAR.bmp"
+			"iconBook" : "highlandSpells/USELESS",
+			"iconScroll" : "highlandSpells/USELESS2",
+			"iconScenarioBonus" : "highlandSpells/USELESS3",
+			"iconEffect" : "highlandSpells/INBAR"
 		},
 
 		"sounds" : {

@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/mildura/skill32-13.bmp",
-			"specialtyLarge" : "highlands/heroes/mildura/skill13.bmp",
-			"large" : "highlands/heroes/mildura/HPL004PY.bmp",
-			"small" : "highlands/heroes/mildura/HPS004PY.bmp"
+			"specialtySmall" : "highlands/heroes/mildura/skill32-13",
+			"specialtyLarge" : "highlands/heroes/mildura/skill13",
+			"large" : "highlands/heroes/mildura/HPL004PY",
+			"small" : "highlands/heroes/mildura/HPS004PY"
 		},
 
 		"spellbook" : [

@@ -20,8 +20,8 @@
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/bcommander.def",
 			"map" : "highlands/map/creatures/mapbcommander.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/bcommander.bmp",
-			"iconLarge" : "highlands/iconsBig/creatures/bcommander.bmp",
+			"iconSmall" : "highlands/iconsSmall/creatures/bcommander",
+			"iconLarge" : "highlands/iconsBig/creatures/bcommander",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.3,

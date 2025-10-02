@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/craighill/skill32-8.bmp",
-			"specialtyLarge" : "highlands/heroes/craighill/skill8.bmp",
-			"large" : "highlands/heroes/craighill/HPL007DW.bmp",
-			"small" : "highlands/heroes/craighill/HPS007DW.bmp"
+			"specialtySmall" : "highlands/heroes/craighill/skill32-8",
+			"specialtyLarge" : "highlands/heroes/craighill/skill8",
+			"large" : "highlands/heroes/craighill/HPL007DW",
+			"small" : "highlands/heroes/craighill/HPS007DW"
 		},
 
 		"army" : [

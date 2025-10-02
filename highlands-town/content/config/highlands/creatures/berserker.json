@@ -23,8 +23,8 @@
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG3U.def",
 			"map" : "highlands/map/creatures/AVWC155.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/CPrS155B.bmp",
-			"iconLarge" : "highlands/iconsBig/creatures/CPrL155B.bmp",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPrS155B",
+			"iconLarge" : "highlands/iconsBig/creatures/CPrL155B",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

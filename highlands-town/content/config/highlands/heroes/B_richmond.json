@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/richmond/skill32-2.bmp",
-			"specialtyLarge" : "highlands/heroes/richmond/skill2.bmp",
-			"large" : "highlands/heroes/richmond/HPL001DW.bmp",
-			"small" : "highlands/heroes/richmond/HPS001DW.bmp"
+			"specialtySmall" : "highlands/heroes/richmond/skill32-2",
+			"specialtyLarge" : "highlands/heroes/richmond/skill2",
+			"large" : "highlands/heroes/richmond/HPL001DW",
+			"small" : "highlands/heroes/richmond/HPS001DW"
 		},
 
 		"army" : [

@@ -20,8 +20,8 @@
 		"fightValue" : 4600,
 		"graphics" : {
 			"animation" : "highlands/battle/tank/DRAWFCANNON.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/CPRS658.bmp",
-			"iconLarge" : "highlands/iconsBig/creatures/CPRL658.bmp",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPRS658",
+			"iconLarge" : "highlands/iconsBig/creatures/CPRL658",
 			"map" : "highlands/map/creatures/AVWTANK.def",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {

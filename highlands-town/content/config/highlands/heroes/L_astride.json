@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/astride/skill32-12.bmp",
-			"specialtyLarge" : "highlands/heroes/astride/skill12.bmp",
-			"large" : "highlands/heroes/astride/HPL003PY.bmp",
-			"small" : "highlands/heroes/astride/HPS003PY.bmp"
+			"specialtySmall" : "highlands/heroes/astride/skill32-12",
+			"specialtyLarge" : "highlands/heroes/astride/skill12",
+			"large" : "highlands/heroes/astride/HPL003PY",
+			"small" : "highlands/heroes/astride/HPS003PY"
 		},
 
 		"spellbook" : [

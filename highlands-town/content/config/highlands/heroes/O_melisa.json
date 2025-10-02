@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/melisa/skill32-15.bmp",
-			"specialtyLarge" : "highlands/heroes/melisa/skill15.bmp",
-			"large" : "highlands/heroes/melisa/HPL006PY.bmp",
-			"small" : "highlands/heroes/melisa/HPS006PY.bmp"
+			"specialtySmall" : "highlands/heroes/melisa/skill32-15",
+			"specialtyLarge" : "highlands/heroes/melisa/skill15",
+			"large" : "highlands/heroes/melisa/HPL006PY",
+			"small" : "highlands/heroes/melisa/HPS006PY"
 		},
 
 		"spellbook" : [

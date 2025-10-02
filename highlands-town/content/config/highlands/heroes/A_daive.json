@@ -14,10 +14,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "highlands/heroes/daive/skill32-1.bmp",
-			"specialtyLarge" : "highlands/heroes/daive/skill1.bmp",
-			"large" : "highlands/heroes/daive/HPL000DW.bmp",
-			"small" : "highlands/heroes/daive/HPS000DW.bmp"
+			"specialtySmall" : "highlands/heroes/daive/skill32-1",
+			"specialtyLarge" : "highlands/heroes/daive/skill1",
+			"large" : "highlands/heroes/daive/HPL000DW",
+			"small" : "highlands/heroes/daive/HPS000DW"
 		},
 
 		"army" : [

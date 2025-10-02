@@ -24,8 +24,8 @@
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/HL6_einherjar.def",
 			"map" : "highlands/map/creatures/AVWCEXT.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/CPrSEXTB.bmp",
-			"iconLarge" : "highlands/iconsBig/creatures/CPrLEXTB.bmp",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPrSEXTB",
+			"iconLarge" : "highlands/iconsBig/creatures/CPrLEXTB",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

@@ -24,8 +24,8 @@
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG8.def",
 			"map" : "highlands/map/creatures/AVWCFG8.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/CPRSex01.bmp",
-			"iconLarge" : "highlands/iconsBig/creatures/CPRLex01.bmp",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPRSex01",
+			"iconLarge" : "highlands/iconsBig/creatures/CPRLex01",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.25,

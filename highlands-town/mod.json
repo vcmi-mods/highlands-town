@@ -3,7 +3,7 @@
 	"description" : "New town made by Ben Yan. New townscreen.",
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.26",
+	"version" : "2.27",
 	"modType" : "Town",
 	"conflicts" : [
 		"bastille"
@@ -12,6 +12,9 @@
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.27" : [
+			"Fixed townscreen palette"
+		],
 		"2.26" : [
 			"Converted BMPs to PNGs"
 		],

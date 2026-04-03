@@ -1,0 +1,37 @@
+{
+	"hota.bulwark:runes" : {
+		"base" : {
+			"effects" : {
+				"runeMagic" : {
+					"subtype" : "spellSchool.runeHighlands",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Runes}\n\nBasic Runes allow hero's units to accumulate up to 3 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.\n\nIt can also raise a hero's rune spell level to the basic level.",
+			"effects" : {
+				"runeMagic" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Runes}\n\nAdvanced Runes allow hero's units to accumulate up to 6 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed;\n{4}: +2 attack, {5}: +2 defence, {6}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.\n\nIt can also raise a hero's rune spell level to the advanced level.",
+			"effects" : {
+				"runeMagic" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Runes}\n\nExpert Runes allow hero's units to accumulate up to 9 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed;\n{4}: +2 attack, {5}: +2 defence, {6}: +1 speed;\n{7}: +2 attack, {8}: +2 defence, {9}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.\n\nIt can also raise a hero's rune spell level to the expert level.",
+			"effects" : {
+				"runeMagic" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}

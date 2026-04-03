@@ -3,15 +3,19 @@
 	"description" : "New town made by Ben Yan. New townscreen.",
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.27",
+	"version" : "3.00",
 	"modType" : "Town",
+	"depends" : ["hota.bulwark"],
 	"conflicts" : [
 		"bastille"
 	],
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.7.3"
 	},
 	"changelog" : {
+		"3.00" : [
+			"Update the two screen and relate to HotA Bulwark"
+		],
 		"2.27" : [
 			"Fixed townscreen palette"
 		],
@@ -163,6 +167,8 @@
 		"config/highlands/creatures/highAmazon.json",
 		"config/highlands/creatures/highValkyrie.json",
 		"config/highlands/creatures/bcommander.json",
+		"config/highlands/creatures/bulwarkEXT1.json",
+		"config/highlands/creatures/bulwarkEXT2.json",
 		"config/highlands/dwarftank/tank.json"
 	],
 
@@ -187,19 +193,33 @@
 		"config/highlands/heroes/M_mildura.json",
 		"config/highlands/heroes/N_renee.json",
 		"config/highlands/heroes/O_melisa.json",
-		"config/highlands/heroes/P_leslie.json"
+		"config/highlands/heroes/P_leslie.json",
+		"config/highlands/heroes/S_sylphine.json"
 	],
 	"artifacts" : [
-		"config/highlands/dwarftank/tankArt.json"
+		"config/highlands/dwarftank/tankArt.json",
+		"config/highlands/artifacts/runeArtifacts.json"
 	],
 	"spells" : [
 		"config/highlands/NewOldSpells/liquidFlame.json",
 		"config/highlands/NewOldSpells/Barbarity.json",
 		"config/highlands/NewOldSpells/fireVulnerability.json",
+		"config/highlands/NewOldSpells/runeSpell.json",
+		"config/highlands/NewOldSpells/runeExtra.json",
 		"config/highlands/NewOldSpells/moat.json"
 	],
+	"spellSchools" : {
+		"runeHighlands" : {
+			"name": "Runes",
+			"schoolBookmark" : "highlands/bookmarks/runeBookmark.def",
+			"schoolBorders" : "highlands/bookmarks/runeSchoolFrames.json",
+			"schoolHeader" : "highlands/bookmarks/runeHeader.png"
+			
+		}
+	},
 	"skills" : [
-		"config/highlands/dwarftank/artillery.json"
+		"config/highlands/dwarftank/artillery.json",
+		"config/highlands/runes.json",
 	],
 	"objects" : [
 		"config/highlands/dwellings.json"

@@ -1,0 +1,1076 @@
+{
+	"basepath" : "highlands/battle/creatures/CICEMA/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "cicem40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "cicem41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "cicem42.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "cicem43.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "cicem44.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "cicem45.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "cicem46.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "cicem62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "cicem63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "cicem64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "cicem65.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "null.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "cicem65.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "cicem64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "cicem63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "cicem62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "cicem46.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "cicem45.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "cicem44.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "cicem43.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "cicem42.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "cicem41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "cicem40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "cicem01.png",
+            "generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "cicem02.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "cicem03.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "cicem04.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "cicem09.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "cicem10.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "cicem11.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "cicem12.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "cicem13.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "cicem14.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "cicem15.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 11,
+			"file" : "cicem16.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 12,
+			"file" : "cicem17.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 13,
+			"file" : "cicem18.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 14,
+			"file" : "cicem19.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 15,
+			"file" : "cicem20.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 16,
+			"file" : "cicem21.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 17,
+			"file" : "cicem22.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 18,
+			"file" : "cicem23.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "cicem01.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "cicem02.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "cicem03.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "cicem04.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "cicem05.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "cicem06.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "cicem07.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "cicem08.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "cicem24.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "cicem25.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "cicem26.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "cicem24.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "cicem25.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "cicem26.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "cicem53.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "cicem54.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "cicem55.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "cicem56.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "cicem57.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "cicem01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "cicem01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "cicem01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "cicem01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "cicem52.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "cicem50.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "cicem51.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "cicem38.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "cicem39.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "cicem47.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "cicem48.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "cicem49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "cicem38.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "cicem39.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "cicem47.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "cicem48.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "cicem49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "cicem38.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "cicem39.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 2,
+			"file" : "cicem28.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 3,
+			"file" : "cicem29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 4,
+			"file" : "cicem30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 5,
+			"file" : "cicem31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 6,
+			"file" : "cicem32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 7,
+			"file" : "cicem33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 8,
+			"file" : "cicem34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 9,
+			"file" : "cicem35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 10,
+			"file" : "cicem36.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 11,
+			"file" : "cicem37.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 12,
+			"file" : "cicem27.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 13,
+			"file" : "cicem61.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 14,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 2,
+			"file" : "cicem28.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 3,
+			"file" : "cicem29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 4,
+			"file" : "cicem30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 5,
+			"file" : "cicem31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 6,
+			"file" : "cicem32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 7,
+			"file" : "cicem33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 8,
+			"file" : "cicem34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 9,
+			"file" : "cicem35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 10,
+			"file" : "cicem36.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 11,
+			"file" : "cicem37.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 12,
+			"file" : "cicem27.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 13,
+			"file" : "cicem61.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 14,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 0,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 1,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 2,
+			"file" : "cicem28.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 3,
+			"file" : "cicem29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 4,
+			"file" : "cicem30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 5,
+			"file" : "cicem31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 6,
+			"file" : "cicem32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 7,
+			"file" : "cicem33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 8,
+			"file" : "cicem34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 9,
+			"file" : "cicem35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 10,
+			"file" : "cicem36.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 11,
+			"file" : "cicem37.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 12,
+			"file" : "cicem27.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 13,
+			"file" : "cicem61.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 14,
+			"file" : "cicem59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 0,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 1,
+			"file" : "cicem40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 2,
+			"file" : "cicem41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 3,
+			"file" : "cicem42.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 4,
+			"file" : "cicem43.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 5,
+			"file" : "cicem44.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 6,
+			"file" : "cicem45.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 7,
+			"file" : "cicem46.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 8,
+			"file" : "cicem62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 9,
+			"file" : "cicem63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 10,
+			"file" : "cicem64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 11,
+			"file" : "cicem65.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 0,
+			"file" : "cicem65.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 1,
+			"file" : "cicem64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 2,
+			"file" : "cicem63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 3,
+			"file" : "cicem62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 4,
+			"file" : "cicem46.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 5,
+			"file" : "cicem45.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 6,
+			"file" : "cicem44.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 7,
+			"file" : "cicem43.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 8,
+			"file" : "cicem42.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 9,
+			"file" : "cicem41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 10,
+			"file" : "cicem40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 11,
+			"file" : "cicem58.png",
+			"generateShadow" : 1
+		}
+	]
+}

@@ -10,7 +10,7 @@
 		},
 		"faction" : "highlands",
 		"aiValue" : 463,
-		"attack" : 10,
+		"attack" :9,
 		"cost" : {
 			"gold" : 240
 		},
@@ -32,7 +32,7 @@
 				"idle" : 10
 			}
 		},
-		"growth" : 7,
+		"growth" : 6,
 		"horde" : 3,
 		"hitPoints" : 25,
 		"level" : 3,
@@ -43,7 +43,7 @@
 			"move" : "highlands/FG3UMOVE.wav",
 			"wince" : "highlands/FG3UWNCE.wav"
 		},
-		"speed" : 8,
+		"speed" : 7,
 		"abilities" : {
 			"fearless" : {
 				"type" : "FEARFUL",
@@ -59,7 +59,8 @@
 			"barbarity" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "barbarity",
-				"val" : 0
+				"val" : 0,
+				"icon" : "highlands/icons/bonusIcons/frenzy0.png"
 			},
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",

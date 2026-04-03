@@ -1,0 +1,35 @@
+{
+	"name" : "Game balance",
+	"description" : "Balance from Highlands faction.",
+	"modType" : "Mechanics",
+	"author" : "Ben Yan",
+	"contact" : "benyan9110@gmail.com",
+	"version" : "1.0",
+	"compatibility" : {
+		"min" : "1.7.3"
+	},
+	"chinese" : {
+		"name" : "游戏平衡",
+		"description" : "堡垒种族中的平衡性改进。"
+	},
+	"czech" : {
+		"name" : "Vyvážení hry",
+		"description" : "Zůstatek z frakce Vysočiny."
+	},
+	"french" : {
+		"name" : "Équilibre du jeu",
+		"description" : "Équilibre de la faction des Hautes Terres."
+	},
+	"polish" : {
+		"name" : "Balans gry (HotA)",
+		"description" : "Zmiany z uwzględnieniem balansu HotA."
+	},
+	"russian" : {
+		"name" : "Баланс игры",
+		"description" : "Баланс от фракции Хайлендс."
+	},
+	"german" : {
+		"name" : "Spielbalance",
+		"description" : "Gleichgewicht von der Hochland fraktion."
+	}
+}

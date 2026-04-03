@@ -1,0 +1,100 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ftDwarfBank" : 
+			{
+				"name" : "Dwarven Treasury",
+				"aiValue" : 4000,
+				"templates" : {
+					"base" : { "animation" : "highlands/map/dwellings/dwarfbank2.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVVV", "VBBV", "VABV" ],
+					"allowedTerrains":["snow"] 
+					}
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : "{Dwarven Treasury}\r\n\r\nThe mountain dwarves dislike forming alliances with others. They've amassed considerable wealth in their mines, and you've requested access to their mines for surveying, but they've refused. Are you going to force your way in?",
+				"onVisitedMessage" : "{Dwarven Treasury}\r\n\r\nEntering the mine, you found nothing of value, only some mining derricks and excavating equipment. Perhaps the dwarves had already struck gold and ore and returned home in glory.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 10, "type" : "bdefender" },
+							{ "amount": 10, "type" : "bdefender" ,"upgradeChance": 50 },
+							{ "amount": 10, "type" : "bjaveliner", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "bjaveliner" },
+							{ "amount": 10, "type" : "bdefender" }
+						],
+							"resources": 
+							{
+								"ore" : 5,
+								"gold" : 1500
+							}
+					},					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 13, "type" : "bdefender" },
+							{ "amount": 13, "type" : "bdefender" ,"upgradeChance": 50 },
+							{ "amount": 10, "type" : "bjaveliner", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "bjaveliner" },
+							{ "amount": 5, "type" : "bbrute" }
+						],
+							"resources": 
+							{
+							
+								"ore" : 10,
+								"gold" : 3000
+							}
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 20, "type" : "bdefender" ,"upgradeChance": 50 },
+							{ "amount": 20, "type" : "bjaveliner", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "bbrute", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "bgladiator" }
+						],
+							"resources": 
+							{
+								"ore" : 12,
+								"gold" : 4000
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 20, "type" : "bdefender" ,"upgradeChance": 50 },
+							{ "amount": 20, "type" : "bjaveliner", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "bbrute", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "bgladiator", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "bmammoth", }
+						],
+							"resources": 
+							{
+							
+								"ore" : 16,
+								"gold" : 6500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+					}
+				]
+			}
+		}
+	}
+}

@@ -9,17 +9,17 @@
 			"min" : 5
 		},
 		"faction" : "highlands",
-		"aiValue" : 1974,
-		"attack" : 15,
+		"aiValue" : 2160,
+		"attack" : 14,
 		"cost" : {
 			"gold" : 1000
 		},
 		"damage" : {
 			"max" : 20,
-			"min" : 16
+			"min" : 14
 		},
-		"defense" : 16,
-		"fightValue" : 1704,
+		"defense" : 15,
+		"fightValue" : 1904,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG6.def",
 			"map" : "highlands/map/creatures/AVWC160.def",

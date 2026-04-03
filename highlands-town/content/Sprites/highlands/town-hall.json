@@ -1,0 +1,189 @@
+{
+	"basepath" : "highlands/town-hall/",
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "TCFGMAGE.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "TCFGMAG2.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "TCFGMAG3.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "TCFGMAG4.png"
+		},
+		{
+			"frame" : 4,
+			"file" : "TCFGMAG5.png"
+		},
+		{
+			"frame" : 5,
+			"file" : "TCFGTVRN.png"
+		},
+		{
+			"frame" : 6,
+			"file" : "TCFGMAGE.png"
+		},
+		{
+			"frame" : 7,
+			"file" : "TCFGCSTL.png"
+		},
+		{
+			"frame" : 8,
+			"file" : "TCFGCAS2.png"
+		},
+		{
+			"frame" : 9,
+			"file" : "TCFGCAS3.png"
+		},
+		{
+			"frame" : 10,
+			"file" : "TCFGHALL.png"
+		},
+		{
+			"frame" : 11,
+			"file" : "TCFGHAL2.png"
+		},
+		{
+			"frame" : 12,
+			"file" : "TCFGHAL3.png"
+		},
+		{
+			"frame" : 13,
+			"file" : "TCFGHAL4.png"
+		},
+		{
+			"frame" : 14,
+			"file" : "TCFGMARK.png"
+		},
+		{
+			"frame" : 15,
+			"file" : "TCFGSILO.png"
+		},
+		{
+			"frame" : 16,
+			"file" : "TCFGBLAK.png"
+		},
+		{
+			"frame" : 17,
+			"file" : "TCFGSPE2.png"
+		},
+		{
+			"frame" : 18,
+			"file" : "TCFGdw_0.png"
+		},
+		{
+			"frame" : 19,
+			"file" : "TCFGup_0.png"
+		},
+		{
+			"frame" : 20,
+			"file" : "TCFGMAGE.png"
+		},
+		{
+			"frame" : 21,
+			"file" : "TCFGSPEC.png"
+		},
+		{
+			"frame" : 22,
+			"file" : "TCFGSPE3.png"
+		},
+		{
+			"frame" : 23,
+			"file" : "TCFGSPE4.png"
+		},
+		{
+			"frame" : 24,
+			"file" : "TCFGHRD3.png"
+		},
+		{
+			"frame" : 25,
+			"file" : "TCFGHRD4.png"
+		},
+		{
+			"frame" : 26,
+			"file" : "TCFGHOLY.png"
+		},
+		{
+			"frame" : 27,
+			"file" : "TCFGSPE5.png"
+		},
+		{
+			"frame" : 28,
+			"file" : "TCFGMAGE.png"
+		},
+		{
+			"frame" : 29,
+			"file" : "TCFGMAGE.png"
+		},
+		{
+			"frame" : 30,
+			"file" : "TCFGdw_0.png"
+		},
+		{
+			"frame" : 31,
+			"file" : "TCFGdw_1.png"
+		},
+		{
+			"frame" : 32,
+			"file" : "TCFGdw_2.png"
+		},
+		{
+			"frame" : 33,
+			"file" : "TCFGdw_3.png"
+		},
+		{
+			"frame" : 34,
+			"file" : "TCFGdw_4.png"
+		},
+		{
+			"frame" : 35,
+			"file" : "TCFGdw_5.png"
+		},
+		{
+			"frame" : 36,
+			"file" : "TCFGdw_6.png"
+		},
+		{
+			"frame" : 37,
+			"file" : "TCFGup_0.png"
+		},
+		{
+			"frame" : 38,
+			"file" : "TCFGup_1.png"
+		},
+		{
+			"frame" : 39,
+			"file" : "TCFGup_2.png"
+		},
+		{
+			"frame" : 40,
+			"file" : "TCFGup_3.png"
+		},
+		{
+			"frame" : 41,
+			"file" : "TCFGup_4.png"
+		},
+		{
+			"frame" : 42,
+			"file" : "TCFGup_5.png"
+		},
+		{
+			"frame" : 43,
+			"file" : "TCFGup_6.png"
+		},
+		{
+			"frame" : 150,
+			"file" : "VAL01.png"
+		},
+		{
+			"frame" : 151,
+			"file" : "VAL02.png"
+		}
+	]
+}

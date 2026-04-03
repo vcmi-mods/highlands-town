@@ -1,0 +1,66 @@
+{
+	"11bulwarkSylphine" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "highlands/heroes/sylphine/portrait-large.png",
+			"small" : "highlands/heroes/sylphine/portrait-small.png",
+			"specialtyLarge" : "highlands/heroes/sylphine/specialtyLarge.png",
+			"specialtySmall" : "highlands/heroes/sylphine/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "bulwarkEXT1",
+			"bonuses" : {
+				"gcrsylph2CASTS":{
+					"type" : "CASTS",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters": [ {
+					"type":"CREATURE_TYPE_LIMITER",
+					"creature" : "bulwarkEXT1",
+					"includeUpgrades" : true
+					} ]
+				}
+			}
+		},
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
+			"name" : "Sylphine",
+			"biography" : "Sylphine is the leader of the legendary snow elf witches and a highly learned archmage. During the war against the ice demons, she and her apprentices greatly aided the Vori elves. They steadfastly guarded every inch of their homeland.",
+			"specialty" : {
+				"name" : "Snow Witches",
+				"description" : "Increases the Speed and Cast of allied Snow Witches and Ice Sorceresses by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Snow Witches"
+			}
+		}
+	}
+}

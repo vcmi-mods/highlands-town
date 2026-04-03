@@ -1,0 +1,322 @@
+{
+	"runeArtifact01":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Charge",
+			"description": "{Rune of Charge}\r\n\r\nAllow hero to use {Rune of Charge}.\r\nLearning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv1.png",
+			"scenarioBonus": "highlands/artifacts/rune1Bonus.png",
+			"map"  : "highlands/artifacts/runeMap1.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas01",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact02":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Resistance",
+			"description": "{Rune of Resistance}\r\n\r\nAllow hero to use {Rune of Resistance}.\r\nLearning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv2.png",
+			"scenarioBonus": "highlands/artifacts/rune1Bonus.png",
+			"map"  : "highlands/artifacts/runeMap1.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas02",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact03":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Cure",
+			"description": "{Rune of Cure}\r\n\r\nAllow hero to use {Rune of Cure}.\r\nLearning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv3.png",
+			"scenarioBonus": "highlands/artifacts/rune1Bonus.png",
+			"map"  : "highlands/artifacts/runeMap1.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas03",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact04":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Swift",
+			"description": "{Rune of Swift}\r\n\r\nAllow hero to use {Rune of Swift}.\r\nUsing this stone requires {Advanced Runes}, and learning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv4.png",
+			"scenarioBonus": "highlands/artifacts/rune2Bonus.png",
+			"map"  : "highlands/artifacts/runeMap2.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas04",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact05":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Rage",
+			"description": "{Rune of Rage}\r\n\r\nAllow hero to use {Rune of Rage}.\r\nUsing this stone requires {Advanced Runes}, and learning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv5.png",
+			"scenarioBonus": "highlands/artifacts/rune2Bonus.png",
+			"map"  : "highlands/artifacts/runeMap2.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas05",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact06":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Etherealness",
+			"description": "{Rune of Etherealness}\r\n\r\nAllow hero to use {Rune of Etherealness}.\r\nUsing this stone requires {Advanced Runes}, and learning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv6.png",
+			"scenarioBonus": "highlands/artifacts/rune2Bonus.png",
+			"map"  : "highlands/artifacts/runeMap2.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas06",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact07":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Dragonform",
+			"description": "{Rune of Dragonform}\r\n\r\nAllow hero to use {Rune of Dragonform}.\r\nUsing this stone requires {Advanced Runes}, and learning {Runes} skill can enhance the effect.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv7.png",
+			"scenarioBonus": "highlands/artifacts/rune3Bonus.png",
+			"map"  : "highlands/artifacts/runeMap3.def",
+		},
+		"bonuses":
+		{
+			"spellGain":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas07",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			},
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	},
+	"runeArtifact08":
+	{
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot":	"MISC",
+		"value": 500,	
+		"text":
+		{
+			"name": "Rune of Resurrection",
+			"description": "{Rune of Resurrection}\r\n\r\nAllow hero to use {Rune of Resurrection}.\r\nMastering {Expert Runes} allows hero to retain resurrection effects after battle.\r\nOnce the number of uses is exhausted, the runestone will disappear.",
+			"event": "You find a runestone during your travels and put it in your bag."
+		},
+		"graphics":
+		{
+			"image": "highlands/artifacts/runeLv8.png",
+			"scenarioBonus": "highlands/artifacts/rune3Bonus.png",
+			"map"  : "highlands/artifacts/runeMap3.def",
+		},
+		"bonuses":
+		{
+			"spellGain7":
+			{
+				"type": "SPELL",
+				"subtype" : "spell.runeBas08",
+				"limiters" : [
+				{
+					"type" : "HAS_CHARGES_LIMITER",
+					"parameters" : [1]
+				}
+				],
+				"hidden" : true
+			}
+		},
+		"charged" : 
+		{
+			"usageType" : "SPELLCAST",
+			"removeOnDepletion" : true,
+			"startingCharges" : 3
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"name" : "Heroes",
+	"description" : "Change the HotA balance for Highlands faction.",
+	"modType" : "Mechanics",
+	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.1",
+	"softDepends" : [
+		"hota.bulwark",
+		"highlands-town"
+	],
+	"settings" : {
+		"heroes" : {
+			"specialtyCreatureGrowth" : 20
+		}
+	},
+	"heroes" : [
+		"config/highlands/heroes.json",
+	],
+	"chinese" : {
+		"name" : "英雄",
+		"description" : "和HotA类似的英雄特长加成。",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Hrdinové",
+		"description" : "Změňte vyváženost HotA pro frakci Highlands.",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"german" : {
+		"name" : "Helden",
+		"description" : "Ändert die Balance in HotA für die Hochland-Fraktion.",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"french" : {
+		"name" : "Héros",
+		"description" : "Modifier l'équilibrage de HotA pour la faction des Hautes Terres.",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"russian" : {
+		"name" : "Герои",
+		"description" : "Измените баланс HotA для фракции Хайлендс.",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"polish" : {
+		"name" : "Balans bohaterów (HotA)",
+		"description" : "Zmiany z uwzględnieniem balansu HotA."
+	}
+}

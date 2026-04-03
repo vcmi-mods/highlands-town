@@ -10,15 +10,15 @@
 		},
 		"faction" : "highlands",
 		"aiValue" : 891,
-		"attack" : 13,
+		"attack" : 12,
 		"cost" : {
 			"gold" : 600
 		},
 		"damage" : {
-			"max" : 14,
-			"min" : 12
+			"max" : 13,
+			"min" : 11
 		},
-		"defense" : 12,
+		"defense" : 11,
 		"fightValue" : 815,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG5.def",
@@ -45,7 +45,7 @@
 			"move" : "highlands/FG5MOVE.wav",
 			"wince" : "highlands/FG5WNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 5,
 		"stackExperience" : [
 			{
 				"bonus" : {

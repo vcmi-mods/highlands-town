@@ -15,7 +15,7 @@
 		}
 	},
 	"heroes" : [
-		"config/highlands/heroes.json",
+		"config/highlands/heroes.json"
 	],
 	"chinese" : {
 		"name" : "英雄",

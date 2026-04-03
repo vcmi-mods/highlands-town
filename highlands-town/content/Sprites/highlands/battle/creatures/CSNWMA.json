@@ -179,225 +179,225 @@
 			"group" : 1,
 			"frame" : 0,
 			"file" : "csnwm01.png",
-            "generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateShadow" : 1,
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 1,
 			"file" : "csnwm02.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 2,
 			"file" : "csnwm03.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 3,
 			"file" : "csnwm04.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 4,
 			"file" : "csnwm13.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 5,
 			"file" : "csnwm14.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 6,
 			"file" : "csnwm15.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 7,
 			"file" : "csnwm16.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 8,
 			"file" : "csnwm17.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 9,
 			"file" : "csnwm18.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 10,
 			"file" : "csnwm19.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 11,
 			"file" : "csnwm20.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 12,
 			"file" : "csnwm21.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 13,
 			"file" : "csnwm22.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 14,
 			"file" : "csnwm23.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 15,
 			"file" : "csnwm24.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 16,
 			"file" : "csnwm04.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 17,
 			"file" : "csnwm03.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 18,
 			"file" : "csnwm02.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 1,
 			"frame" : 19,
 			"file" : "csnwm01.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 0,
 			"file" : "csnwm01.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 1,
 			"file" : "csnwm02.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 2,
 			"file" : "csnwm03.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 3,
 			"file" : "csnwm04.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 4,
 			"file" : "csnwm05.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 5,
 			"file" : "csnwm06.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 6,
 			"file" : "csnwm07.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 7,
 			"file" : "csnwm08.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 8,
 			"file" : "csnwm09.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 9,
 			"file" : "csnwm10.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 10,
 			"file" : "csnwm11.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 2,
 			"frame" : 11,
 			"file" : "csnwm12.png",
 			"generateShadow" : 1,
-            "generateOverlay" : 1
+			"generateOverlay" : 1
 		},
 		{
 			"group" : 3,

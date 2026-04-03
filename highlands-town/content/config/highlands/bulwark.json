@@ -2,25 +2,128 @@
 	"hota.bulwark:bulwark" : {
 		"town" : {
 			"hallBackground" : "highlands/town-screen/TPTHBWFG.png",
-			"buildingsIcons": "highlands/townhallBulwark.json",
+			"buildingsIcons" : "highlands/townhallBulwark.json",
 			"hallSlots" : [
-				[ [ "villageHall", "townHall", "cityHall", "capitol"],["fort","citadel","castle"],["tavern"],["blacksmith"] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1","mageGuild2","mageGuild3","mageGuild4" ],[ "special4" ],[ "shipyard" ] ],
-				[ [ "special1" ],[ "special2","special3" ],[ "horde1", "horde1Upgr" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl6B", "dwellingUpLvl6B" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special4"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special2",
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl6B",
+						"dwellingUpLvl6B"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
 			],
 			"creatures" : [
-				[ "kobold","koboldForeman"],
-				[ "mountainRam", "argali" ],
-				[ "snowElf", "steelElf" ],
-				[ "yeti", "yetiRunemaster"],
-				[ "shaman", "greatShaman" ],
-				[ "mammoth","warMammoth", "bulwarkEXT1", "bulwarkEXT2" ],
-				[ "jotunn", "jotunnWarlord" ]
+				[
+					"kobold",
+					"koboldForeman"
+				],
+				[
+					"mountainRam",
+					"argali"
+				],
+				[
+					"snowElf",
+					"steelElf"
+				],
+				[
+					"yeti",
+					"yetiRunemaster"
+				],
+				[
+					"shaman",
+					"greatShaman"
+				],
+				[
+					"mammoth",
+					"warMammoth",
+					"bulwarkEXT1",
+					"bulwarkEXT2"
+				],
+				[
+					"jotunn",
+					"jotunnWarlord"
+				]
 			],
-			"buildings" :
-			{
+			"buildings" : {
 				"special2" : {
 					"name" : "Sieidi of Runes",
 					"description" : "The Sieidi of the Runes allows local heroes to learn Runes secondary skill.",
@@ -98,141 +201,249 @@
 						]
 					}
 				},
-				"special4": {
-					"description": "Runestone Shop sells eight categories of Runestones, but you can only buy once per day.",
-					"name": "Runestone Shop",
+				"special4" : {
+					"description" : "Runestone Shop sells eight categories of Runestones, but you can only buy once per day.",
+					"name" : "Runestone Shop",
 					"manualHeroVisit" : true,
-					"configuration" :
-					{
+					"configuration" : {
 						"rewards" : [
 							{
-								"limiter" : { "resources" : { "wood" : 3 } },
-								"resources" : { "wood" : -3 },
-								"artifacts" : [ "runeArtifact01" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3
+								},
+								"artifacts" : [
+									"runeArtifact01"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "wood" : 3 } },
-								"resources" : { "wood" : -3 },
-								"artifacts" : [ "runeArtifact02" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3
+								},
+								"artifacts" : [
+									"runeArtifact02"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "wood" : 3 } },
-								"resources" : { "wood" : -3 },
-								"artifacts" : [ "runeArtifact03" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3
+								},
+								"artifacts" : [
+									"runeArtifact03"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
-								"resources" : { "wood" : -3, "ore": -3 },
-								"artifacts" : [ "runeArtifact04" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3,
+										"ore" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3,
+									"ore" : -3
+								},
+								"artifacts" : [
+									"runeArtifact04"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
-								"resources" : { "wood" : -3, "ore": -3 },
-								"artifacts" : [ "runeArtifact05" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3,
+										"ore" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3,
+									"ore" : -3
+								},
+								"artifacts" : [
+									"runeArtifact05"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
-								"resources" : { "wood" : -3, "ore": -3 },
-								"artifacts" : [ "runeArtifact06" ],
+								"limiter" : {
+									"resources" : {
+										"wood" : 3,
+										"ore" : 3
+									}
+								},
+								"resources" : {
+									"wood" : -3,
+									"ore" : -3
+								},
+								"artifacts" : [
+									"runeArtifact06"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "crystal" : 3, "gems": 3 } },
-								"resources" : { "crystal" : -3, "gems": -3 },
-								"artifacts" : [ "runeArtifact07" ],
+								"limiter" : {
+									"resources" : {
+										"crystal" : 3,
+										"gems" : 3
+									}
+								},
+								"resources" : {
+									"crystal" : -3,
+									"gems" : -3
+								},
+								"artifacts" : [
+									"runeArtifact07"
+								]
 							},
 							{
-								"limiter" : { "resources" : { "crystal" : 3, "gems": 3 } },
-								"resources" : { "crystal" : -3, "gems": -3 },
-								"artifacts" : [ "runeArtifact08" ],
+								"limiter" : {
+									"resources" : {
+										"crystal" : 3,
+										"gems" : 3
+									}
+								},
+								"resources" : {
+									"crystal" : -3,
+									"gems" : -3
+								},
+								"artifacts" : [
+									"runeArtifact08"
+								]
 							}
 						],
 						"onSelectMessage" : "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}： Price is 3 wood and 3 ores\n{Expert Runes}： Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
-						"onVisitedMessage": "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}： Price is 3 wood and 3 ores\n{Expert Runes}： Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
-						"onEmptyMessage": "{Runestone Shop}\r\n\r\nYour visit pleased the runemasters, but they refused to make runestones for you when they heard that you hadn't brought enough resources.",
+						"onVisitedMessage" : "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}： Price is 3 wood and 3 ores\n{Expert Runes}： Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
+						"onEmptyMessage" : "{Runestone Shop}\r\n\r\nYour visit pleased the runemasters, but they refused to make runestones for you when they heard that you hadn't brought enough resources.",
 						"visitMode" : "once",
 						"resetParameters" : {
-								"period" : 1,
-								"visitors" : true,
-								"rewards" : true
-							},  
-							"canRefuse": true,
-							"selectMode" : "selectPlayer",
-					},
-					"cost": {
-						"crystal": 5,
-						"gold": 1000
+							"period" : 1,
+							"visitors" : true,
+							"rewards" : true
 						},
-					"requires": [
+						"canRefuse" : true,
+						"selectMode" : "selectPlayer"
+					},
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 1000
+					},
+					"requires" : [
 						"allOf",
-							[ "special2" ],
-							[ "mageGuild1" ]
-						]
-					},
-					"horde1" : { "requires" : [ "allOf", [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl6B" ] ] ] },
-					"dwellingLvl6":   { "requires" : [ "allOf", [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl6B" ] ] ] },
-					"dwellingLvl6B" :
-					{
-						"name" : "The Polar Library allows you to recruit Snow Witches.",
-						"cost" : 
-						{
-							"gold" : 4000,
-							"crystal" : 5,
-							"gems": 5
-						},
-						"id" : 49, 
-						"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf", [ "dwellingLvl6" ] ] ]
-					},
-					"dwellingUpLvl6B" :
-					{
-						"name" : "Upg. Polar Library",
-						"description" : "The Upg. Polar Library allows you to recruit Ice Sorceresses.\nIt increases Ice Sorceress production by 1 per week.",
-						"bonuses": [
-							{ 
-								"type" : "CREATURE_GROWTH",
-								"subtype" : "creatureLevel6",
-								"val" : 1,
-								"description" : "@Town Bonus +1",
-								"propagator": "TOWN"
-							} 
+						[
+							"special2"
 						],
-						"cost" : 
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"horde1" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl6B"
+							]
+						]
+					]
+				},
+				"dwellingLvl6" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl6B"
+							]
+						]
+					]
+				},
+				"dwellingLvl6B" : {
+					"name" : "The Polar Library allows you to recruit Snow Witches.",
+					"cost" : {
+						"gold" : 4000,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"id" : 49,
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl6"
+							]
+						]
+					]
+				},
+				"dwellingUpLvl6B" : {
+					"name" : "Upg. Polar Library",
+					"description" : "The Upg. Polar Library allows you to recruit Ice Sorceresses.\nIt increases Ice Sorceress production by 1 per week.",
+					"bonuses" : [
 						{
-							"gold" : 4000,
-							"crystal" : 5,
-							"gems": 5
-						},
-						"id" : 56, 
-						"upgrades" : "dwellingLvl6B"
-					}
+							"type" : "CREATURE_GROWTH",
+							"subtype" : "creatureLevel6",
+							"val" : 1,
+							"description" : "@Town Bonus +1",
+							"propagator" : "TOWN"
+						}
+					],
+					"cost" : {
+						"gold" : 4000,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"id" : 56,
+					"upgrades" : "dwellingLvl6B"
+				}
 			},
-			"structures" :
-			{
-				"special4": {
-					"animation": "highlands/town-screen/buildings/TBBuSpc4",
-					"area": "highlands/town-screen/buildings-area/TZBuSpc4",
-					"border": "highlands/town-screen/buildings-border/TOBuSpc4",
-					"x": 0,
-					"y": 0,
-					"z": -3
+			"structures" : {
+				"special4" : {
+					"animation" : "highlands/town-screen/buildings/TBBuSpc4",
+					"area" : "highlands/town-screen/buildings-area/TZBuSpc4",
+					"border" : "highlands/town-screen/buildings-border/TOBuSpc4",
+					"x" : 0,
+					"y" : 0,
+					"z" : -3
 				},
-				"dwellingLvl6B": {
-					"animation": "highlands/town-screen/buildings/TBBuDW62",
-					"area": "highlands/town-screen/buildings-area/TZBuDW62",
-					"border": "highlands/town-screen/buildings-border/TOBuDW62",
-					"x": 0,
-					"y": 0,
-					"z": 5
+				"dwellingLvl6B" : {
+					"animation" : "highlands/town-screen/buildings/TBBuDW62",
+					"area" : "highlands/town-screen/buildings-area/TZBuDW62",
+					"border" : "highlands/town-screen/buildings-border/TOBuDW62",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
 				},
-				"dwellingUpLvl6B": {
-					"animation": "highlands/town-screen/buildings/TBBuUP62",
-					"area": "highlands/town-screen/buildings-area/TZBuUP62",
-					"border": "highlands/town-screen/buildings-border/TOBuUP62",
-					"x": 0,
-					"y": 0,
-					"z": 6
-				},
+				"dwellingUpLvl6B" : {
+					"animation" : "highlands/town-screen/buildings/TBBuUP62",
+					"area" : "highlands/town-screen/buildings-area/TZBuUP62",
+					"border" : "highlands/town-screen/buildings-border/TOBuUP62",
+					"x" : 0,
+					"y" : 0,
+					"z" : 6
+				}
 			}
-
 		}
 	}
 }

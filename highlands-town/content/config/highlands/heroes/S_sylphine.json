@@ -38,15 +38,17 @@
 		"specialty" : {
 			"creature" : "bulwarkEXT1",
 			"bonuses" : {
-				"gcrsylph2CASTS":{
+				"gcrsylph2CASTS" : {
 					"type" : "CASTS",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
-					"limiters": [ {
-					"type":"CREATURE_TYPE_LIMITER",
-					"creature" : "bulwarkEXT1",
-					"includeUpgrades" : true
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "bulwarkEXT1",
+							"includeUpgrades" : true
+						}
+					]
 				}
 			}
 		},

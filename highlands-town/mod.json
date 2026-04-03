@@ -5,7 +5,9 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "3.00",
 	"modType" : "Town",
-	"depends" : ["hota.bulwark"],
+	"depends" : [
+		"hota.bulwark"
+	],
 	"conflicts" : [
 		"bastille"
 	],
@@ -210,16 +212,15 @@
 	],
 	"spellSchools" : {
 		"runeHighlands" : {
-			"name": "Runes",
+			"name" : "Runes",
 			"schoolBookmark" : "highlands/bookmarks/runeBookmark.def",
 			"schoolBorders" : "highlands/bookmarks/runeSchoolFrames.json",
 			"schoolHeader" : "highlands/bookmarks/runeHeader.png"
-			
 		}
 	},
 	"skills" : [
 		"config/highlands/dwarftank/artillery.json",
-		"config/highlands/runes.json",
+		"config/highlands/runes.json"
 	],
 	"objects" : [
 		"config/highlands/dwellings.json"

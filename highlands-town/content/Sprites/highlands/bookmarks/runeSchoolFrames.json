@@ -1,8 +1,20 @@
 {
 	"images" : [
-		{ "frame" : 0, "file" : "highlands/bookmarks/runeSpell01.png" },
-		{ "frame" : 1, "file" : "highlands/bookmarks/runeSpell02.png" },
-		{ "frame" : 2, "file" : "highlands/bookmarks/runeSpell03.png" },
-		{ "frame" : 3, "file" : "highlands/bookmarks/runeSpell04.png" }
+		{
+			"frame" : 0,
+			"file" : "highlands/bookmarks/runeSpell01.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "highlands/bookmarks/runeSpell02.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "highlands/bookmarks/runeSpell03.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "highlands/bookmarks/runeSpell04.png"
+		}
 	]
 }

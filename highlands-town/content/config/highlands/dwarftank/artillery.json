@@ -17,8 +17,8 @@
 					"propagator" : "ARMY",
 					"limiters" : [
 						{
-					"type" : "CREATURE_TYPE_LIMITER",
-					"creature" : "dwarftank"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "dwarftank"
 						}
 					],
 					"valueType" : "INDEPENDENT_MIN"
@@ -27,23 +27,41 @@
 		},
 		"basic" : {
 			"effects" : {
-				"tankExtra" : { "val" : 0 },
-				"damagePowerTank" : { "val" : 0 },
-				"damageCapTank" : { "val" : 40 }
+				"tankExtra" : {
+					"val" : 0
+				},
+				"damagePowerTank" : {
+					"val" : 0
+				},
+				"damageCapTank" : {
+					"val" : 40
+				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"tankExtra" : { "val" : 75 },
-				"damagePowerTank" : { "val" : 100 },
-				"damageCapTank" : { "val" : 40 }
+				"tankExtra" : {
+					"val" : 75
+				},
+				"damagePowerTank" : {
+					"val" : 100
+				},
+				"damageCapTank" : {
+					"val" : 40
+				}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"tankExtra" : { "val" : 100 },
-				"damagePowerTank" : { "val" : 150 },
-				"damageCapTank" : { "val" : 40 }
+				"tankExtra" : {
+					"val" : 100
+				},
+				"damagePowerTank" : {
+					"val" : 150
+				},
+				"damageCapTank" : {
+					"val" : 40
+				}
 			}
 		}
 	}

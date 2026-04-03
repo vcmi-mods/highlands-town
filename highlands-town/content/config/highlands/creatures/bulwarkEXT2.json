@@ -1,47 +1,40 @@
 {
-	"bulwarkEXT2":
-	{
-		"name" :
-		{
+	"bulwarkEXT2" : {
+		"name" : {
 			"plural" : "Ice Sorceresses",
 			"singular" : "Ice Sorceress"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "bulwark",
 		"aiValue" : 2760,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-		"damage" :
-		{
-			 "max" : 22,
-			 "min" : 16
+		"damage" : {
+			"max" : 22,
+			"min" : 16
 		},
 		"defense" : 12,
 		"fightValue" : 2504,
-    "graphics": {
-      "animation": "highlands/battle/creatures/CICEMA.json",
-      "map": "highlands/map/creatures/AVWBSIA0.def",
-      "iconSmall": "highlands/iconsSmall/creatures/CPRS6EXT2.png",
-      "iconLarge": "highlands/iconsBig/creatures/CPRL6EXT2.png",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1,
-        "attack": 1,
-        "idle": 10
-      },
-      "missile" :
-			{
+		"graphics" : {
+			"animation" : "highlands/battle/creatures/CICEMA.json",
+			"map" : "highlands/map/creatures/AVWBSIA0.def",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPRS6EXT2.png",
+			"iconLarge" : "highlands/iconsBig/creatures/CPRL6EXT2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "CPRGOGX.DEF",
 				"attackClimaxFrame" : 16,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -49,30 +42,40 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-    },
+		},
 		"growth" : 2,
-		"horde": 1,
+		"horde" : 1,
 		"hitPoints" : 55,
-		"level": 6,
-		"sound" :
-		{
+		"level" : 6,
+		"sound" : {
 			"attack" : "highlands/BLN6ATTK.wav",
 			"defend" : "highlands/BLN6WNCE.wav",
-            "killed": "highlands/BLN6KILL.wav",
-            "shoot": "highlands/BLN6SHOT.wav",
+			"killed" : "highlands/BLN6KILL.wav",
+			"shoot" : "highlands/BLN6SHOT.wav",
 			"move" : "highlands/FG6MOVE.wav",
-			"startMoving": "highlands/BLN6EXT1.wav",
-			"endMoving": "highlands/BLN6EXT2.wav",
+			"startMoving" : "highlands/BLN6EXT1.wav",
+			"endMoving" : "highlands/BLN6EXT2.wav",
 			"wince" : "highlands/BLN6WNCE.wav"
- 		},
+		},
 		"speed" : 13,
-    "abilities":
-		{
-			"FLYING_ARMY" :
-			{
-				"type": "FLYING",
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
 			"freezingAttack" : {
@@ -88,65 +91,64 @@
 				"val" : 2,
 				"icon" : "highlands/icons/bonusIcons/icebolt2.png"
 			},
-			"castPower" :
-			{
+			"castPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.iceBolt",
 				"val" : 17
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"combatEvent":
-			{
+			"combatEvent" : {
 				"type" : "ON_COMBAT_EVENT",
 				"subtype" : "combatEventDefend",
 				"addInfo" : {
 					"effect" : [
-					{
-						"action" : "bonus",
-						"targetEnemy" : false,
-						"bonus" : {
-							"type": "CASTS",
-								"val" : 2, 
-								"duration" : ["ONE_BATTLE"]
-							}				
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "CASTS",
+								"val" : 2,
+								"duration" : [
+									"ONE_BATTLE"
+								]
+							}
 						}
 					]
 				},
-				"hidden": true
+				"hidden" : true
 			},
 			"castsRune1" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.runeBas01",
 				"val" : 3,
-				"addInfo": 20,
+				"addInfo" : 20,
 				"icon" : "highlands/icons/bonusIcons/airshield2",
-				"hidden": true
+				"hidden" : true
 			},
 			"castsRune2" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.runeBas02",
 				"val" : 3,
-				"addInfo": 20,
+				"addInfo" : 20,
 				"icon" : "highlands/icons/bonusIcons/airshield2",
-				"hidden": true
+				"hidden" : true
 			},
 			"castsRune3" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.runeBas04",
 				"val" : 3,
-				"addInfo": 20,
+				"addInfo" : 20,
 				"icon" : "highlands/icons/bonusIcons/airshield2",
-				"hidden": true
+				"hidden" : true
 			},
 			"castsRune4" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.runeBas05",
 				"val" : 3,
-				"addInfo": 20,
+				"addInfo" : 20,
 				"description" : "{Advanced Runes}\nRandomly use Rune of {Charge}, {Resistance}, {Swift}, {Rage} and {Etherealness}.",
 				"icon" : "highlands/icons/bonusIcons/runeAdvanced.png"
 			},
@@ -154,61 +156,119 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.runeBas06",
 				"val" : 3,
-				"addInfo": 20,
+				"addInfo" : 20,
 				"description" : "{Magic Rebirth}\nGain two spellcasts when defending.",
 				"icon" : "highlands/icons/bonusIcons/sor1.png"
 			}
-			
-	    },
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	}

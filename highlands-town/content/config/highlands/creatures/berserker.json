@@ -10,7 +10,7 @@
 		},
 		"faction" : "highlands",
 		"aiValue" : 463,
-		"attack" :9,
+		"attack" : 9,
 		"cost" : {
 			"gold" : 240
 		},

@@ -1,186 +1,147 @@
 {
-	"core:creatureGeneratorCommon" : {
-		"types" : {
-			"highlandsLevel1" : {
-				"name" : "Dwarven Mines",
-				"creatures" : [
-					[
-						"bdefender"
-					]
-				],
-
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands1",
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VVBB",
-							"VVAB"
-						]
-					}
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "highlandsLevel1" : {
+                "name" : "Dwarven Mines",
+                "creatures" : [[ "bdefender" ]],
+				"sounds": {
+					"ambient": ["LOOPCRYS"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw1.def"
-			},
-			"highlandsLevel2" : {
-				"name" : "Hunter Camp",
-				"creatures" : [
-					[
-						"bjaveliner"
-					]
-				],
-
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands2",
-						"mask" : [
-							"VVBB",
-							"VBAB"
-						]
-					}
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas1.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands1",
+                        "mask" : ["VVVV", "VVVV", "VVBB", "VVAB" ]
+                    }
+                }
+            },
+            "highlandsLevel2" : {
+                "name" : "Hunter Camp",
+                "creatures" : [[ "bjaveliner" ]],
+				"sounds": {
+					"ambient": ["LOOPCAMP"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw2.def"
-			},
-			"highlandsLevel3" : {
-				"name" : "Longhouse",
-				"creatures" : [
-					[
-						"bbrute"
-					]
-				],
-
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands3",
-						"mask" : [
-							"VVVV",
-							"VBBV",
-							"VVAA"
-						]
-					}
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas2.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands2",
+                        "mask" : [ "VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "highlandsLevel3" : {
+                "name" : "Longhouse",
+                "creatures" : [[ "bbrute" ]],
+				"sounds": {
+					"ambient": ["LOOPCAMP"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw3.def"
-			},
-			"highlandsLevel4" : {
-				"name" : "Iceberg Nest",
-				"creatures" : [
-					[
-						"bsnowbird"
-					]
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands4",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VAB"
-						]
-					}
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas3.def",
+                "templates" : {
+                    "default" : {   
+                        "animation" : "highlands/map/dwellings/Highlands3",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "highlandsLevel4" : {
+                "name" : "Iceberg Nest",
+                "creatures" : [[ "bsnowbird" ]],
+				"sounds": {
+					"ambient": ["LOOPBIRD"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw4.def"
-			},
-			"highlandsLevel5" : {
-				"name" : "Battle Fortress",
-				"creatures" : [
-					[
-						"bgladiator"
-					]
-				],
-				"guards" : [
-					{
-						"amount" : 9,
-						"type" : "bgladiator"
-					}
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands5",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VBA"
-						]
-					}
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas4.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands4",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "highlandsLevel5" : {
+                "name" : "Battle Fortress",
+                "creatures" : [[ "bgladiator" ]],
+				"sounds": {
+					"ambient": ["LOOPFLAG"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw5.def"
-			},
-			"highlandsLevel6" : {
-				"name" : "Hall of Clan",
-				"creatures" : [
-					[
-						"bmammoth"
-					]
-				],
-				"guards" : [
-					{
-						"amount" : 6,
-						"type" : "bmammoth"
-					}
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands6",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VAB"
-						]
-					}
+                "guards" : [
+                    { "amount" : 9, "type" : "bgladiator" }
+                ],
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas5.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands5",
+                        "mask" : [ "VVV","VBB","VBA"  ]
+                    }
+                }
+            },
+            "highlandsLevel6" : {
+                "name" : "Hall of Clan",
+                "creatures" : [[ "bmammoth" ]],
+				"sounds": {
+					"ambient": ["LOOPLEAR"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw6.def"
-			},
-			"highlandsLevel7" : {
-				"name" : "Volcanic Vent",
-				"creatures" : [
-					[
-						"bsfafnir"
-					]
-				],
-				"guards" : [
-					{
-						"amount" : 3,
-						"type" : "bsfafnir"
-					}
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands7",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBB",
-							"VAB"
-						]
-					}
+                "guards" : [
+                    { "amount" : 6, "type" : "bmammoth" }
+                ],
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas6.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands6",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "highlandsLevel7" : {
+                "name" : "Volcanic Vent",
+                "creatures" : [[ "bsfafnir" ]],
+				"sounds": {
+					"ambient": ["LOOPDRAG"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw7.def"
-			},
+                "guards" : [
+                    { "amount" : 3, "type" : "bsfafnir" }
+                ],
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas7.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands7",
+                        "mask" : ["VVV", "VVV", "VBB","VAB" ]
+                    }
+                }
+            },
 			"highlandsLevel8" : {
-				"name" : "Hall of Valhalla",
-				"creatures" : [
-					[
-						"amazonHigh"
-					]
-				],
-				"guards" : [
-					{
-						"amount" : 3,
-						"type" : "amazonHigh"
-					}
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "highlands/map/dwellings/Highlands8",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VAB"
-						]
-					}
+                "name" : "Hall of Valhalla",
+                "creatures" : [[ "amazonHigh" ]],
+				"sounds": {
+					"ambient": ["LOOPLEAR"]
 				},
-				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/highldw8.def"
-			}
-		}
-	}
-}
+                "guards" : [
+                    { "amount" : 3, "type" : "amazonHigh" }
+                ],
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/bas8.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/Highlands8",
+                        "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+			"bulwarkExtra" : {
+                "name" : "Polar Library",
+                "creatures" : [[ "bulwarkEXT1" ]],
+				"sounds": {
+					"ambient": ["LOOPLEAR"]
+				},
+                "guards" : [
+                    { "amount" : 6, "type" : "bulwarkEXT1" }
+                ],
+				"kingdomOverviewImage" : "highlands/map/dwellings/flagports/AVGbulSFG.def",
+                "templates" : {
+                    "default" : {
+                        "animation" : "highlands/map/dwellings/AVGbulS02.def",
+                        "mask" : ["VVV","VBB","VBA" ]
+                    }
+                }
+            }
+        }       
+    }
+} 

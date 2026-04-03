@@ -1,0 +1,261 @@
+//Barbarity ability for Highlands berserkers
+{
+	"runeWunjo":
+	{
+		"type": "ability",
+		"name": "Rune Wunjo",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+		"animation":{
+			"affect":["highlandSpells/runeBas1"]
+		},
+
+		"flags" : {"positive": true, "nonMagical": true, "persistent" : true},
+
+		"graphics":
+		{
+			"iconBook": "highlandSpells/USELESS.bmp",
+			"iconScroll": "highlandSpells/USELESS2.bmp",
+			"iconScenarioBonus": "highlandSpells/USELESS3.bmp",
+			"iconEffect": "highlandSpells/SpellIntBAS01.png"
+		},
+
+		"sounds":
+		{
+			"cast": "FRENZY"
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" :
+		{
+		},
+
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"range": "0",
+
+				"description": "",
+
+				"cost": 0,
+
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"effects":
+				{
+					"attack" : {
+						"val" : 2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"duration" : "PERMANENT"
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{Rune Wunjo}\r\n\r\nHeroes who master runes gain +2 attack."
+			},
+			"basic":
+			{
+				"description": "{Rune Wunjo}\r\n\r\nHeroes who master runes gain +2 attack."
+			},
+			"advanced":
+			{
+				"description": "{Rune Wunjo}\r\n\r\nHeroes who master runes gain +2 attack."
+			},
+			"expert":
+			{
+				"description": "{Rune Wunjo}\r\n\r\nHeroes who master runes gain +2 attack."
+			}
+		}
+	},
+	"runeBerkana":
+	{
+		"type": "ability",
+		"name": "Rune Berkana",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+		"animation":{
+			"affect":["highlandSpells/runeBas2"]
+		},
+
+		"flags" : {"positive": true, "nonMagical": true, "persistent" : true},
+
+		"graphics":
+		{
+			"iconBook": "highlandSpells/USELESS.bmp",
+			"iconScroll": "highlandSpells/USELESS2.bmp",
+			"iconScenarioBonus": "highlandSpells/USELESS3.bmp",
+			"iconEffect": "highlandSpells/SpellIntBAS02.png"
+		},
+
+		"sounds":
+		{
+			"cast": "FRENZY"
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" :
+		{
+		},
+
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"range": "0",
+
+				"description": "",
+
+				"cost": 0,
+
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"effects":
+				{
+					"defence" : {
+						"val" : 2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"duration" : "PERMANENT"
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{Rune Berkana}\r\n\r\nHeroes who master runes gain +2 defence."
+			},
+			"basic":
+			{
+				"description": "{Rune Berkana}\r\n\r\nHeroes who master runes gain +2 defence."
+			},
+			"advanced":
+			{
+				"description": "{Rune Berkana}\r\n\r\nHeroes who master runes gain +2 defence."
+			},
+			"expert":
+			{
+				"description": "{Rune Berkana}\r\n\r\nHeroes who master runes gain +2 defence."
+			}
+		}
+	},
+	"runePerth":
+	{
+		"type": "ability",
+		"name": "Rune Perth",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+		"animation":{
+			"affect":["highlandSpells/runeBas3"]
+		},
+
+		"flags" : {"positive": true, "nonMagical": true, "persistent" : true},
+
+		"graphics":
+		{
+			"iconBook": "highlandSpells/USELESS.bmp",
+			"iconScroll": "highlandSpells/USELESS2.bmp",
+			"iconScenarioBonus": "highlandSpells/USELESS3.bmp",
+			"iconEffect": "highlandSpells/SpellIntBAS03.png"
+		},
+
+		"sounds":
+		{
+			"cast": "FRENZY"
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" :
+		{
+		},
+
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"range": "0",
+
+				"description": "",
+
+				"cost": 0,
+
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"effects":
+				{
+					"speed":{
+						"type" : "STACKS_SPEED",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER",
+						"duration" : "PERMANENT"
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{Rune Perth}\r\n\r\nHeroes who master runes gain +1 speed."
+			},
+			"basic":
+			{
+				"description": "{Rune Perth}\r\n\r\nHeroes who master runes gain +1 speed."
+			},
+			"advanced":
+			{
+				"description": "{Rune Perth}\r\n\r\nHeroes who master runes gain +1 speed."
+			},
+			"expert":
+			{
+				"description": "{Rune Perth}\r\n\r\nHeroes who master runes gain +1 speed."
+			}
+		}
+	}
+}

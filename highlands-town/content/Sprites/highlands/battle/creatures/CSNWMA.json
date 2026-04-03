@@ -1,0 +1,1141 @@
+{
+	"basepath" : "highlands/battle/creatures/CSNWMA/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "csnwm15.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "csnwm49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "csnwm50.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "csnwm51.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "csnwm52.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "csnwm53.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "csnwm54.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "csnwm55.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "csnwm56.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "csnwm57.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "csnwm58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "csnwm59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "csnwm60.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "null.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "csnwm60.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "csnwm59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "csnwm58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "csnwm57.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "csnwm56.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "csnwm55.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "csnwm54.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "csnwm53.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "csnwm52.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "csnwm51.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "csnwm50.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "csnwm49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "csnwm15.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+            "generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "csnwm03.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "csnwm04.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "csnwm13.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "csnwm14.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "csnwm15.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "csnwm16.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "csnwm17.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "csnwm18.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "csnwm19.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 11,
+			"file" : "csnwm20.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 12,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 13,
+			"file" : "csnwm22.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 14,
+			"file" : "csnwm23.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 15,
+			"file" : "csnwm24.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 16,
+			"file" : "csnwm04.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 17,
+			"file" : "csnwm03.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 18,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 1,
+			"frame" : 19,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "csnwm03.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "csnwm04.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "csnwm05.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "csnwm06.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "csnwm07.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "csnwm08.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 8,
+			"file" : "csnwm09.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 9,
+			"file" : "csnwm10.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 10,
+			"file" : "csnwm11.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 2,
+			"frame" : 11,
+			"file" : "csnwm12.png",
+			"generateShadow" : 1,
+            "generateOverlay" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "csnwm26.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "csnwm27.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "csnwm28.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "csnwm03.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "csnwm26.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "csnwm27.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "csnwm28.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "csnwm03.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "csnwm26.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "csnwm44.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "csnwm45.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "csnwm46.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "csnwm47.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "csnwm48.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "turn02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "csnwm39.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "csnwm42.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "csnwm43.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "csnwm40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "csnwm41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "csnwm36.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "csnwm37.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "csnwm38.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "csnwm40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "csnwm41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "csnwm36.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "csnwm37.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "csnwm38.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "csnwm40.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "csnwm41.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 2,
+			"file" : "csnwm29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 3,
+			"file" : "csnwm30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 4,
+			"file" : "csnwm31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 5,
+			"file" : "csnwm32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 6,
+			"file" : "csnwm33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 7,
+			"file" : "csnwm34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 8,
+			"file" : "csnwm35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 9,
+			"file" : "csnwm62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 10,
+			"file" : "csnwm63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 11,
+			"file" : "csnwm64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 12,
+			"file" : "csnwm25.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 13,
+			"file" : "csnwm24.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 17,
+			"frame" : 14,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 2,
+			"file" : "csnwm29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 3,
+			"file" : "csnwm30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 4,
+			"file" : "csnwm31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 5,
+			"file" : "csnwm32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 6,
+			"file" : "csnwm33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 7,
+			"file" : "csnwm34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 8,
+			"file" : "csnwm35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 9,
+			"file" : "csnwm62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 10,
+			"file" : "csnwm63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 11,
+			"file" : "csnwm64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 12,
+			"file" : "csnwm25.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 13,
+			"file" : "csnwm24.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 18,
+			"frame" : 14,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 0,
+			"file" : "csnwm01.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 1,
+			"file" : "csnwm21.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 2,
+			"file" : "csnwm29.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 3,
+			"file" : "csnwm30.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 4,
+			"file" : "csnwm31.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 5,
+			"file" : "csnwm32.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 6,
+			"file" : "csnwm33.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 7,
+			"file" : "csnwm34.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 8,
+			"file" : "csnwm35.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 9,
+			"file" : "csnwm62.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 10,
+			"file" : "csnwm63.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 11,
+			"file" : "csnwm64.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 12,
+			"file" : "csnwm25.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 13,
+			"file" : "csnwm24.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 19,
+			"frame" : 14,
+			"file" : "csnwm02.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 0,
+			"file" : "csnwm15.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 1,
+			"file" : "csnwm49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 2,
+			"file" : "csnwm50.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 3,
+			"file" : "csnwm51.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 4,
+			"file" : "csnwm52.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 5,
+			"file" : "csnwm53.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 6,
+			"file" : "csnwm54.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 7,
+			"file" : "csnwm55.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 8,
+			"file" : "csnwm56.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 9,
+			"file" : "csnwm57.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 10,
+			"file" : "csnwm58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 11,
+			"file" : "csnwm59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 12,
+			"file" : "csnwm60.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 50,
+			"frame" : 13,
+			"file" : "csnwm61.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 0,
+			"file" : "csnwm60.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 1,
+			"file" : "csnwm59.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 2,
+			"file" : "csnwm58.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 3,
+			"file" : "csnwm57.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 4,
+			"file" : "csnwm56.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 5,
+			"file" : "csnwm55.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 6,
+			"file" : "csnwm54.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 7,
+			"file" : "csnwm53.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 8,
+			"file" : "csnwm52.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 9,
+			"file" : "csnwm51.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 10,
+			"file" : "csnwm50.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 11,
+			"file" : "csnwm49.png",
+			"generateShadow" : 1
+		},
+		{
+			"group" : 51,
+			"frame" : 12,
+			"file" : "csnwm15.png",
+			"generateShadow" : 1
+		}
+	]
+}

@@ -1,0 +1,958 @@
+{
+	"runeBas01":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Charge",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 1,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE1", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"counters" : {
+			"spell.slow": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa01.png",
+			"iconEffect": "highlandSpells/runes/runeEffect01.png",
+			"iconScroll": "highlandSpells/runes/runeBook01.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus01.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 50% for one turn.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 50,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"turns": 1
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 100% for one turn.",
+				
+				"cost": 0,
+	 
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"turns": 1
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 100% for two turns.",
+				
+				"cost": 0,
+	 
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"turns": 2
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 100% for three turns.",
+				
+				"cost": 0,
+	 
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"turns": 3
+					}
+				}
+			}
+		}
+	},
+	"runeBas02":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Resistance",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 1,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE2", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa02.png",
+			"iconEffect": "highlandSpells/runes/runeEffect02.png",
+			"iconScroll": "highlandSpells/runes/runeBook02.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus02.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 20%.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"duration" : "N_TURNS",
+						"val" : 20
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 20%.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"duration" : "N_TURNS",
+						"val" : 20
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 30%.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"duration" : "N_TURNS",
+						"val" : 30
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 50%.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+		}
+	},
+	"runeBas03":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Cure",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 1,
+		"power": 20,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE3", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true,"nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa03.png",
+			"iconEffect": "highlandSpells/runes/runeEffect03.png",
+			"iconScroll": "highlandSpells/runes/runeBook03.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus03.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Cure}\r\n\r\nCures and dispels negative effects on selected friendly unit.",
+	 
+				"cost": 0,
+	 
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"heal",
+						"healPower":"permanent",
+						"optional":true
+					},
+					"cure":{
+						"type":"core:dispel",
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Rune of Cure}\r\n\r\nCures and dispels negative effects on selected friendly unit.",
+	 
+				"cost": 0,
+	 
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"heal",
+						"healPower":"permanent",
+						"optional":true
+					},
+					"cure":{
+						"type":"core:dispel",
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Cure}\r\n\r\nCures and dispels negative effects on selected friendly unit.",
+	 
+				"cost": 0,
+	 
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"heal",
+						"healPower":"permanent",
+						"optional":true
+					},
+					"cure":{
+						"type":"core:dispel",
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Cure}\r\n\r\nCures and dispels negative effects on all friendly units.",
+	 
+				"cost": 0,
+				"range": "X",
+	 
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"heal",
+						"healPower":"permanent",
+						"optional":true
+					},
+					"cure":{
+						"type":"core:dispel",
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				}
+			}
+		}
+	},
+	"runeBas04":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Swift",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 2,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE4", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa04.png",
+			"iconEffect": "highlandSpells/runes/runeEffect04.png",
+			"iconScroll": "highlandSpells/runes/runeBook04.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus04.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"basic":
+			{
+				"description": "{Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn.",
+				"cost": 0,
+	 
+				"effects" : {
+					"extraAttacks":
+					{
+						"type": "ADDITIONAL_ATTACK",
+						"val": 1,
+						"duration": ["N_TURNS"],
+						"turns": 1
+						
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit within two turns.",
+				"cost": 0,
+	 
+				"effects" : {
+					"extraAttacks":
+					{
+						"type": "ADDITIONAL_ATTACK",
+						"val": 1,
+						"duration": ["N_TURNS"],
+						"turns": 2
+						
+					}
+				}
+			}
+		}
+	},
+	"runeBas05":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Rage",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 2,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE5", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa05.png",
+			"iconEffect": "highlandSpells/runes/runeEffect05.png",
+			"iconScroll": "highlandSpells/runes/runeBook05.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus05.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within two turns.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"basic":
+			{
+				"description": "{Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within two turns.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within two turns.",
+				"cost": 0,
+	 
+				"effects" : {
+					"damageBoost":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": "creatureDamageBoth",
+						"val" : 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS",
+						"turns": 2
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within three turns.",
+				"cost": 0,
+	 
+				"effects" : {
+					"damageBoost":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": "creatureDamageBoth",
+						"val" : 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS",
+						"turns": 3
+					}
+				}
+			}
+		}
+	},
+	"runeBas06":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Etherealness",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 2,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE6", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa06.png",
+			"iconEffect": "highlandSpells/runes/runeEffect06.png",
+			"iconScroll": "highlandSpells/runes/runeBook06.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus06.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Etherealness}\r\n\r\nIncreases the defense percentage of any friendly unit.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"basic":
+			{
+				"description": "{Rune of Etherealness}\r\n\r\nIncreases the defense percentage of any friendly unit.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Etherealness}\r\n\r\nIncreases the defense of any friendly unit by 80% during current turn.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 80,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 1
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Etherealness}\r\n\r\nIncreases the defense of any friendly unit by 100% within two turns.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 2
+					}
+				}
+			}
+		}
+	},
+	"runeBas07":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Dragonform",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 3,
+		"power": 1,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE7", "transparency" : 0.6}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa07.png",
+			"iconEffect": "highlandSpells/runes/runeEffect07.png",
+			"iconScroll": "highlandSpells/runes/runeBook07.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus07.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "FRENZY"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 100% for one turn, and makes it immune to all spell damage.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"basic":
+			{
+				"description": "{Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 100% for one turn, and makes it immune to all spell damage.\nUsing this spell requires {Advanced Runes}.",
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 100% for one turn, and makes it immune to all spell damage.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 1
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 1
+					},
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 100,
+						"duration": "N_TURNS",
+						"turns": 1
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 100% for two turns, and makes it immune to all spell damage.",
+	 
+				"cost": 0,
+	 
+				"effects" : {
+					"boostAttack":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 2
+					},
+					"boostDefense":
+                    {
+                        "type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 100,
+						"valueType" : "PERCENT_TO_ALL",
+                        "duration": "N_TURNS",
+						"turns": 2
+					},
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 100,
+						"duration": "N_TURNS",
+						"turns": 2
+					}
+				}
+			}
+		}
+	},
+	"runeBas08":
+	{
+		"type": "combat", 
+		"targetType": "CREATURE", 
+		"name": "Rune of Resurrection",
+		"school":
+		{
+			"runeHighlands": true
+		},
+		"level": 3,
+		"power": 40,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName" : "highlandSpells/runes/runeE8", "transparency" : 0.5}]
+		},
+ 
+		"flags" : { "positive": true, "nonMagical": true, "special" : true },
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.UNDEAD" : "absolute",
+				"bonus.MECHANICAL" : "absolute",
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook": "highlandSpells/runes/runeMa08.png",
+			"iconEffect": "highlandSpells/runes/runeEffect08.png",
+			"iconScroll": "highlandSpells/runes/runeBook08.png",
+			"iconScenarioBonus": "highlandSpells/runes/runeBonus08.png",
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "RESURECT"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 5,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (P*40)+5, and it will not be retained after the battle.",
+				
+				"cost": 0,
+				"power": 5,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (P*40)+5, and it will not be retained after the battle.",
+				
+				"cost": 0,
+				"power": 5,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (P*40)+30, and it will not be retained after the battle.",
+				
+				"cost": 0,
+				"power": 30,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (P*40)+45, which is retained after the battle.",
+				
+				"cost": 0,
+				"power": 45,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"permanent",
+						"minFullUnits" : 1
+					}
+				}
+			}
+		}
+	}
+
+}
+	
+ 

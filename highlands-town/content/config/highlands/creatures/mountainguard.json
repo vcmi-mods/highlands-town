@@ -10,15 +10,15 @@
 		},
 		"faction" : "highlands",
 		"aiValue" : 115,
-		"attack" : 4,
+		"attack" : 3,
 		"cost" : {
-			"gold" : 65
+			"gold" : 80
 		},
 		"damage" : {
-			"max" : 3,
+			"max" : 2,
 			"min" : 1
 		},
-		"defense" : 7,
+		"defense" : 6,
 		"fightValue" : 123,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG1U.def",

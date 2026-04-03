@@ -10,7 +10,7 @@
 		},
 		"faction" : "highlands",
 		"aiValue" : 299,
-		"attack" : 9,
+		"attack" : 7,
 		"cost" : {
 			"gold" : 200
 		},
@@ -18,7 +18,7 @@
 			"max" : 5,
 			"min" : 4
 		},
-		"defense" : 6,
+		"defense" : 5,
 		"fightValue" : 299,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG3.def",
@@ -32,7 +32,7 @@
 				"idle" : 10
 			}
 		},
-		"growth" : 7,
+		"growth" : 6,
 		"horde" : 3,
 		"hitPoints" : 20,
 		"level" : 3,
@@ -46,7 +46,7 @@
 			"move" : "highlands/FG3MOVE.wav",
 			"wince" : "highlands/FG3WNCE.wav"
 		},
-		"speed" : 7,
+		"speed" : 6,
 		"abilities" : {
 			"fearless" : {
 				"type" : "FEARFUL",

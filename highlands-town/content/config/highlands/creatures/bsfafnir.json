@@ -49,7 +49,8 @@
 		"speed" : 5,
 		"abilities" : {
 			"nonLiving" : {
-				"type" : "NON_LIVING"
+				"type" : "NON_LIVING",
+				"icon" : "highlands/icons/bonusIcons/NonLivingelemental.png"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
@@ -59,7 +60,8 @@
 				"val" : 0
 			},
 			"fireBreath" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "highlands/icons/bonusIcons/firesdr.png"
 			},
 			"disintegrate" : {
 				"type" : "DISINTEGRATE"
@@ -71,7 +73,8 @@
 			"castLiquidFlame" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "liquidFlame",
-				"val" : 50
+				"val" : 50,
+				"icon" : "highlands/icons/bonusIcons/fireatt.png"
 			},
 			"castLiquidFlameStrength" : {
 				"type" : "CREATURE_SPELL_POWER",
@@ -101,7 +104,7 @@
 					}
 				],
 				"description" : "{Lava Lord}\nAt lava terrain attack, defence and speed is increased by one",
-				"icon" : "highlands/icons/bonusIcons/placeholder.png"
+				"icon" : "highlands/icons/bonusIcons/lava.png"
 			},
 			"defenceInLava" : {
 				"type" : "PRIMARY_SKILL",

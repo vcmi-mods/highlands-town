@@ -12,7 +12,7 @@
 		"aiValue" : 211,
 		"attack" : 6,
 		"cost" : {
-			"gold" : 100
+			"gold" : 115
 		},
 		"damage" : {
 			"max" : 4,

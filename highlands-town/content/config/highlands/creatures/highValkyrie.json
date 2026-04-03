@@ -80,9 +80,9 @@
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"basicSlayer" : {
+			"advancedSlayer" : {
 				"type" : "KING",
-				"val" : 1,
+				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			"castsBless" : {
@@ -90,7 +90,8 @@
 				"subtype" : "bless",
 				"val" : 3,
 				"addInfo" : 3,
-				"description" : "{Enchanter}\nCan cast Bless every three turns"
+				"description" : "{Enchanter}\nCan cast Bless every three turns",
+				"icon" : "highlands/icons/bonusIcons/bless3.png"
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"

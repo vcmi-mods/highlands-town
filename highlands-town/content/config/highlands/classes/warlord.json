@@ -1,70 +1,45 @@
 {
 	"bwarlord" : {
 		"affinity" : "might",
-		"animation" : {
-			"battle" : {
-				"female" : "highlands/battle/heroes/CH19",
-				"male" : "highlands/battle/heroes/CH18"
-			}
-		},
+		"animation" : { "battle" : { "female" : "highlands/battle/heroes/CH19", "male" : "highlands/battle/heroes/CH18" } },
 		"commander" : "bcommander",
 		"defaultTavern" : 5,
 		"faction" : "highlands",
-		"highLevelChance" : {
-			"attack" : 30,
-			"defence" : 30,
-			"knowledge" : 20,
-			"spellpower" : 20
-		},
-		"lowLevelChance" : {
-			"attack" : 30,
-			"defence" : 50,
-			"knowledge" : 10,
-			"spellpower" : 10
-		},
-		"mapObject" : {
-			"templates" : {
-				"default" : {
-					"animation" : "highlands/map/heroes/AH18_"
-				}
-			}
-		},
+		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
+		"lowLevelChance" : { "attack" : 30, "defence" : 50, "knowledge" : 10, "spellpower" : 10 },
+		"mapObject" : { "templates" : { "default" : { "animation" : "highlands/map/heroes/AH18_" } } },
 		"name" : "Warlord",
-		"primarySkills" : {
-			"attack" : 0,
-			"defence" : 4,
-			"knowledge" : 1,
-			"spellpower" : 1
-		},
+		"primarySkills" : { "attack" : 0, "defence" : 4, "knowledge" : 1, "spellpower" : 1 },
 		"secondarySkills" : {
-			"pathfinding" : 8,
-			"archery" : 7,
-			"logistics" : 8,
-			"scouting" : 7,
-			"diplomacy" : 1,
-			"navigation" : 8,
-			"leadership" : 5,
-			"wisdom" : 2,
-			"mysticism" : 2,
-			"luck" : 2,
-			"ballistics" : 7,
-			"eagleEye" : 1,
-			"necromancy" : 0,
-			"estates" : 1,
-			"fireMagic" : 5,
-			"airMagic" : 1,
-			"waterMagic" : 2,
-			"earthMagic" : 3,
-			"scholar" : 1,
-			"tactics" : 6,
-			"artillery" : 8,
-			"learning" : 4,
-			"offence" : 5,
-			"armorer" : 10,
+			"pathfinding"  : 8,
+			"archery"      : 7,
+			"logistics"    : 8,
+			"scouting"     : 7,
+			"diplomacy"    : 1,
+			"navigation"   : 8,
+			"leadership"   : 5,
+			"wisdom"       : 2,
+			"mysticism"    : 2,
+			"luck"         : 2,
+			"ballistics"   : 7,
+			"eagleEye"     : 1,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 5,
+			"airMagic"     : 1,
+			"waterMagic"   : 2,
+			"earthMagic"   : 3,
+			"scholar"      : 1,
+			"tactics"      : 6,
+			"artillery"    : 8,
+			"learning"     : 4,
+			"offence"      : 5,
+			"armorer"      : 10,
 			"intelligence" : 1,
-			"sorcery" : 1,
-			"resistance" : 5,
-			"firstAid" : 1
+			"sorcery"      : 1,
+			"resistance"   : 4,
+			"firstAid"     : 1,
+			"runes"        : 5
 		},
 		"tavern" : {
 			"castle" : 2,
@@ -76,7 +51,8 @@
 			"necropolis" : 5,
 			"rampart" : 6,
 			"stronghold" : 6,
-			"tower" : 6
+			"tower" : 6,
+			"bulwark": 6
 		}
 	}
 }

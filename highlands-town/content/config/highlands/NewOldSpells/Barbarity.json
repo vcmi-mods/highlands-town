@@ -44,7 +44,7 @@
 		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"anyOf" : {
-				"bastille:creature.bberserker" : "absolute"
+				"highlands:creature.bberserker" : "absolute"
 			}
 		},
 

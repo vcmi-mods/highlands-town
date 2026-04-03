@@ -1,274 +1,88 @@
 {
-	"highlands" : {
-		"alignment" : "neutral",
-		"boat" : "boatCastle",
-		"creatureBackground" : {
-			"120px" : "highlands/creature-bg-120px",
-			"130px" : "highlands/creature-bg-130px"
-		},
-		"name" : "Highlands",
-		"nativeTerrain" : "snow",
-		"puzzleMap" : {
-			"prefix" : "PUZRAM",
-			"pieces" : [
-				{
-					"x" : 7,
-					"y" : 8,
-					"index" : 2
-				},
-				{
-					"x" : 7,
-					"y" : 101,
-					"index" : 13
-				},
-				{
-					"x" : 7,
-					"y" : 195,
-					"index" : 20
-				},
-				{
-					"x" : 7,
-					"y" : 310,
-					"index" : 6
-				},
-				{
-					"x" : 7,
-					"y" : 378,
-					"index" : 22
-				},
-				{
-					"x" : 7,
-					"y" : 449,
-					"index" : 21
-				},
-				{
-					"x" : 61,
-					"y" : 8,
-					"index" : 19
-				},
-				{
-					"x" : 97,
-					"y" : 42,
-					"index" : 8
-				},
-				{
-					"x" : 98,
-					"y" : 201,
-					"index" : 24
-				},
-				{
-					"x" : 108,
-					"y" : 308,
-					"index" : 36
-				},
-				{
-					"x" : 115,
-					"y" : 461,
-					"index" : 1
-				},
-				{
-					"x" : 129,
-					"y" : 366,
-					"index" : 7
-				},
-				{
-					"x" : 134,
-					"y" : 8,
-					"index" : 4
-				},
-				{
-					"x" : 157,
-					"y" : 188,
-					"index" : 25
-				},
-				{
-					"x" : 160,
-					"y" : 309,
-					"index" : 39
-				},
-				{
-					"x" : 162,
-					"y" : 441,
-					"index" : 11
-				},
-				{
-					"x" : 164,
-					"y" : 126,
-					"index" : 28
-				},
-				{
-					"x" : 174,
-					"y" : 390,
-					"index" : 33
-				},
-				{
-					"x" : 178,
-					"y" : 188,
-					"index" : 46
-				},
-				{
-					"x" : 187,
-					"y" : 258,
-					"index" : 41
-				},
-				{
-					"x" : 190,
-					"y" : 24,
-					"index" : 38
-				},
-				{
-					"x" : 215,
-					"y" : 272,
-					"index" : 45
-				},
-				{
-					"x" : 255,
-					"y" : 443,
-					"index" : 9
-				},
-				{
-					"x" : 265,
-					"y" : 323,
-					"index" : 40
-				},
-				{
-					"x" : 277,
-					"y" : 45,
-					"index" : 47
-				},
-				{
-					"x" : 278,
-					"y" : 383,
-					"index" : 27
-				},
-				{
-					"x" : 292,
-					"y" : 196,
-					"index" : 43
-				},
-				{
-					"x" : 294,
-					"y" : 266,
-					"index" : 48
-				},
-				{
-					"x" : 310,
-					"y" : 8,
-					"index" : 17
-				},
-				{
-					"x" : 330,
-					"y" : 493,
-					"index" : 16
-				},
-				{
-					"x" : 339,
-					"y" : 8,
-					"index" : 12
-				},
-				{
-					"x" : 339,
-					"y" : 167,
-					"index" : 29
-				},
-				{
-					"x" : 344,
-					"y" : 108,
-					"index" : 35
-				},
-				{
-					"x" : 361,
-					"y" : 239,
-					"index" : 31
-				},
-				{
-					"x" : 363,
-					"y" : 385,
-					"index" : 44
-				},
-				{
-					"x" : 398,
-					"y" : 310,
-					"index" : 42
-				},
-				{
-					"x" : 400,
-					"y" : 130,
-					"index" : 23
-				},
-				{
-					"x" : 404,
-					"y" : 436,
-					"index" : 32
-				},
-				{
-					"x" : 421,
-					"y" : 127,
-					"index" : 26
-				},
-				{
-					"x" : 429,
-					"y" : 8,
-					"index" : 37
-				},
-				{
-					"x" : 430,
-					"y" : 106,
-					"index" : 30
-				},
-				{
-					"x" : 462,
-					"y" : 393,
-					"index" : 14
-				},
-				{
-					"x" : 469,
-					"y" : 270,
-					"index" : 10
-				},
-				{
-					"x" : 486,
-					"y" : 8,
-					"index" : 3
-				},
-				{
-					"x" : 499,
-					"y" : 481,
-					"index" : 15
-				},
-				{
-					"x" : 511,
-					"y" : 255,
-					"index" : 34
-				},
-				{
-					"x" : 516,
-					"y" : 48,
-					"index" : 18
-				},
-				{
-					"x" : 525,
-					"y" : 169,
-					"index" : 5
-				}
+  "highlands": {
+    "alignment": "good",
+    "creatureBackground": {
+      "120px": "highlands/creature-bg-120px.png",
+      "130px": "highlands/creature-bg-130px.png"
+    },
+    "name": "Highlands",
+	"description" : "The Highlands (Mountain Dwarves) are primarily located in the Vori Mountains and consist of dwarves who remained in their homeland. Unlike some dwarves who migrated to warmer regions, the Mountain Dwarves are more martial and skilled in using fire. Sharing the same origins as the dwarves and elves who migrated to Avlee, the Kingdom of Vori is also composed of dwarves and snow elves.",
+    "nativeTerrain": "snow",
+	"boat" : "boatCastle",
+    "puzzleMap": {
+      "prefix" : "highlands/puzzle-map/BAPUZ",
+			"pieces" :
+			[
+				{ "index" : 48, "x" : 6,  "y" : 7 },
+				{ "index" : 47, "x" : 6,  "y" : 7 },
+				{ "index" : 46, "x" : 6,  "y" : 7 },
+				{ "index" : 45, "x" : 6,  "y" : 7 },
+				{ "index" : 44, "x" : 6,  "y" : 7 },
+				{ "index" : 43, "x" : 6,  "y" : 7 },
+				{ "index" : 42, "x" : 6,  "y" : 7 },
+				{ "index" : 41, "x" : 6,  "y" : 7 },
+				{ "index" : 40, "x" : 6,  "y" : 7 },
+				{ "index" : 39, "x" : 6,  "y" : 7 },
+				{ "index" : 38, "x" : 6,  "y" : 7 },
+				{ "index" : 37, "x" : 6,  "y" : 7 },
+				{ "index" : 36, "x" : 6,  "y" : 7 },
+				{ "index" : 35, "x" : 6,  "y" : 7 },
+				{ "index" : 34, "x" : 6,  "y" : 7 },
+				{ "index" : 33, "x" : 6,  "y" : 7 },
+				{ "index" : 32, "x" : 6,  "y" : 7 },
+				{ "index" : 31, "x" : 6,  "y" : 7 },
+				{ "index" : 30, "x" : 6,  "y" : 7 },
+				{ "index" : 29, "x" : 6,  "y" : 7 },
+				{ "index" : 28, "x" : 6,  "y" : 7 },
+				{ "index" : 27, "x" : 6,  "y" : 7 },
+				{ "index" : 26, "x" : 6,  "y" : 7 },
+				{ "index" : 25, "x" : 6,  "y" : 7 },
+				{ "index" : 24, "x" : 6,  "y" : 7 },
+				{ "index" : 23, "x" : 6,  "y" : 7 },
+				{ "index" : 22, "x" : 6,  "y" : 7 },
+				{ "index" : 21, "x" : 6,  "y" : 7 },
+				{ "index" : 20, "x" : 6,  "y" : 7 },
+				{ "index" : 19, "x" : 6,  "y" : 7 },
+				{ "index" : 18, "x" : 6,  "y" : 7 },
+				{ "index" : 17, "x" : 6,  "y" : 7 },
+				{ "index" : 16, "x" : 6,  "y" : 7 },
+				{ "index" : 15, "x" : 6,  "y" : 7 },
+				{ "index" : 14, "x" : 6,  "y" : 7 },
+				{ "index" : 13, "x" : 6,  "y" : 7 },
+				{ "index" : 12, "x" : 6,  "y" : 7 },
+				{ "index" : 11, "x" : 6,  "y" : 7 },
+				{ "index" : 10, "x" : 6,  "y" : 7 },
+				{ "index" : 9, "x" : 6,  "y" : 7 },
+				{ "index" : 8, "x" : 6,  "y" : 7 },
+				{ "index" : 7, "x" : 6,  "y" : 7 },
+				{ "index" : 6, "x" : 6,  "y" : 7 },
+				{ "index" : 5, "x" : 6,  "y" : 7 },
+				{ "index" : 4, "x" : 6,  "y" : 7 },
+				{ "index" : 3, "x" : 6,  "y" : 7 },
+				{ "index" : 2, "x" : 6,  "y" : 7 },
+				{ "index" : 1, "x" : 6,  "y" : 7 }
 			]
-		},
-		"town" : {
-			"defaultTavern" : 5,
-			"buildings" : {
-				"mageGuild1" : {
+    },
+    "town": {
+      "defaultTavern": 5,
+      "buildings": {
+				"mageGuild1" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" : {
+				"mageGuild2" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -276,12 +90,15 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild1"
 				},
-				"mageGuild3" : {
+				"mageGuild3" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -289,716 +106,736 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : {
+				"mageGuild4" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" : {
-						"wood" : 5,
-						"mercury" : 8,
-						"ore" : 5,
-						"sulfur" : 8,
-						"crystal" : 8,
-						"gems" : 8,
-						"gold" : 1000
-					}
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 8,
+                        "ore": 5,
+                        "sulfur": 8,
+                        "crystal": 8,
+                        "gems": 8,
+                        "gold": 1000
+					},
+					"upgrades" : "mageGuild3"
 				},
-				"mageGuild5" : {
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5",
-					"cost" : {
-						"wood" : 5,
-						"mercury" : 10,
-						"ore" : 5,
-						"sulfur" : 10,
-						"crystal" : 10,
-						"gems" : 10,
-						"gold" : 1000
-					}
-				},
-				"tavern" : {
+				"tavern" :
+				{
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 500
-					}
+					},
 				},
-				"fort" : {
+				"fort" :
+				{
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
+					},
+					"fortifications" : {
+						"wallsHealth" : 3
 					}
 				},
-				"citadel" : {
+				"citadel" :
+				{
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" : {
+					"cost" :
+					{
 						"ore" : 5,
 						"gold" : 2500
-					}
+					},
+					"fortifications" : {
+						"citadelHealth" : 3
+					},
+					"upgrades" : "fort"
 				},
-				"castle" : {
+				"castle" :
+				{
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					}
+					},
+					"fortifications" : {
+						"upperTowerHealth" : 3,
+						"lowerTowerHealth" : 3
+					},
+					"upgrades" : "citadel"
 				},
-				"villageHall" : {
+				"villageHall" :
+				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto"
 				},
-				"townHall" : {
+				"townHall" :
+				{
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 2500
-					}
+					},
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
 				},
-				"cityHall" : {
+				"cityHall" :
+				{
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 5000
-					}
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"upgrades" : "townHall"
 				},
-				"capitol" : {
+				"capitol" :
+				{
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 10000
-					}
+					},
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
 				},
-				"marketplace" : {
+				"marketplace" :
+				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" : {
+				"resourceSilo" :
+				{
 					"description" : "The Resource Silo provides you with an additional +1 wood and ore each day.",
 					"name" : "Resource Silo",
-					"cost" : {
+					"cost" :
+					{
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce" : {
-						"wood" : 1,
-						"ore" : 1
-					}
+					"requires" : [ "marketplace" ],
+					"produce": { "wood": 1, "ore": 1 }
 				},
-				"blacksmith" : {
+				"blacksmith" :
+				{
 					"description" : "The Blacksmith provides your armies with Armored Cannon.",
 					"name" : "Blacksmith",
-					"warMachine" : "dwarftank",
-					"cost" : {
+					"warMachine": "dwarftank",
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 1000
 					}
 				},
-				"horde1" : {
-					"description" : "The Miner Hut increases Defender production by 6 per week.",
-					"name" : "Miner Hut",
-					"cost" : {
-						"gold" : 1000
-					},
-
-					"upgrades" : "dwellingLvl1",
-					"requires" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"dwellingLvl1"
-						]
-					]
-				},
-				"horde1Upgr" : {
-					"description" : "The Miner Hut increases Mountain Guard production by 6 per week.",
-					"name" : "Miner Hut",
-					"cost" : {
-						"gold" : 1000
-					},
-					"requires" : [
-						"allOf",
-						[
-							"horde1"
-						],
-						[
-							"dwellingUpLvl1"
-						]
-					],
-					"upgrades" : "dwellingUpLvl1"
-				},
-				"special1" : {
-					"description" : "Refinery provides you with an additional +1 gem each day, and produces some random resources each week.",
-					"name" : "Refinery",
-					"produce" : {
-						"gems" : 1
-					},
-					"requires" : [
-						"allOf",
-						[
-							"horde1"
-						],
-						[
-							"marketplace"
-						]
-					],
-					"type" : "mysticPond",
-					"cost" : {
-						"gold" : 5000,
-						"ore" : 5,
-						"sulfur" : 2,
-						"mercury" : 2
-					}
-				},
-				"special2" : {
-					"description" : "The Observation Deck can increase the scouting radius by 2 for each visiting hero once a week.",
-					"name" : "Observation Deck",
-					"configuration" : {
-						"visitMode" : "bonus",
+        "special1": {
+          "description" : "Refinery provides you with an additional +1 gem each day, and produces some random resources each week.",
+		  "name" : "Refinery",
+		  "produce": { "gems": 1 },
+		  "requires" : [ "allOf", ["dwellingLvl1"], ["marketplace"] ],
+		  "type" : "mysticPond",
+          "cost": {
+            "gold": 5000,
+			"ore": 5,
+			"sulfur": 2,
+			"mercury": 2
+          }
+        },
+        "special2": {
+          "description": "Runestone Shop sells eight categories of Runestones, but you can only buy once per day.",
+		  "name": "Runestone Shop",
+		 "manualHeroVisit" : true,
+					"configuration" :
+					{
 						"rewards" : [
 							{
-								"message" : "You take in the expansive view. This vantage point allows your heroes to extend their scouting skills for the week, revealing hidden paths and threats ahead.",
-								"bonuses" : [
-									{
-										"type" : "SIGHT_RADIUS",
-										"val" : 2,
-										"valueType" : "ADDITIVE_VALUE",
-										"duration" : "ONE_WEEK"
-									}
-								]
-							}
-						]
-					},
-					"cost" : {
-						"crystal" : 5,
-						"gold" : 1005
-					},
-					"requires" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"mageGuild1"
-						]
-					]
-				},
-				"special3" : {
-					"description" : "The War Memorial can give +1 defense for visiting heroes.",
-					"name" : "War Memorial",
-					"requires" : [
-						"fort"
-					],
-					"cost" : {
-						"gold" : 1000
-					},
-					"configuration" : {
-						"visitMode" : "bonus",
-						"rewards" : [
+								"limiter" : { "resources" : { "wood" : 3 } },
+								"resources" : { "wood" : -3 },
+								"artifacts" : [ "runeArtifact01" ],
+							},
 							{
-								"message" : "Spending time in the War Memorial, the experienced warriors therein teach you additional defensive skills (+1 Defense)",
-								"bonuses" : [
-									{
-										"type" : "PRIMARY_SKILL",
-										"val" : 2,
-										"subtype" : "defence"
-									}
-								]
+								"limiter" : { "resources" : { "wood" : 3 } },
+								"resources" : { "wood" : -3 },
+								"artifacts" : [ "runeArtifact02" ],
+							},
+							{
+								"limiter" : { "resources" : { "wood" : 3 } },
+								"resources" : { "wood" : -3 },
+								"artifacts" : [ "runeArtifact03" ],
+							},
+							{
+								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
+								"resources" : { "wood" : -3, "ore": -3 },
+								"artifacts" : [ "runeArtifact04" ],
+							},
+							{
+								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
+								"resources" : { "wood" : -3, "ore": -3 },
+								"artifacts" : [ "runeArtifact05" ],
+							},
+							{
+								"limiter" : { "resources" : { "wood" : 3, "ore": 3 } },
+								"resources" : { "wood" : -3, "ore": -3 },
+								"artifacts" : [ "runeArtifact06" ],
+							},
+							{
+								"limiter" : { "resources" : { "crystal" : 3, "gems": 3 } },
+								"resources" : { "crystal" : -3, "gems": -3 },
+								"artifacts" : [ "runeArtifact07" ],
+							},
+							{
+								"limiter" : { "resources" : { "crystal" : 3, "gems": 3 } },
+								"resources" : { "crystal" : -3, "gems": -3 },
+								"artifacts" : [ "runeArtifact08" ],
 							}
-						]
-					}
-				},
-				"horde2" : {
-					"description" : "The Warlord's Statue increases Brute production by 3 per week.",
-					"name" : "Warlord's Statue",
-					"cost" : {
-						"gold" : 1500
-					},
-
-					"upgrades" : "dwellingLvl3",
-					"requires" : [
-						"allOf",
-						[
-							"fort"
 						],
-						[
-							"dwellingLvl3"
-						]
-					]
-				},
-				"horde2Upgr" : {
-					"description" : "The Warlord's Statue increases Berserker production by 3 per week.",
-					"name" : "Warlord's Statue",
-					"cost" : {
-						"gold" : 1500
+						"onSelectMessage" : "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}： Price is 3 wood and 3 ores\n{Expert Runes}： Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
+						"onVisitedMessage": "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}： Price is 3 wood and 3 ores\n{Expert Runes}： Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
+						"onEmptyMessage": "{Runestone Shop}\r\n\r\nYour visit pleased the runemasters, but they refused to make runestones for you when they heard that you hadn't brought enough resources.",
+						"visitMode" : "once",
+						"resetParameters" : {
+								"period" : 1,
+								"visitors" : true,
+								"rewards" : true
+							},  
+							"canRefuse": true,
+							"selectMode" : "selectPlayer",
 					},
-					"requires" : [
-						"allOf",
-						[
-							"horde2"
-						],
-						[
-							"dwellingUpLvl3"
-						]
-					],
-					"upgrades" : "dwellingUpLvl3"
-				},
-				"grail" : {
-					"description" : "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 8000 gold, It also increases defence skills by 15% for all heroes.",
-					"name" : "World Tree Branch",
-					"produce" : {
-						"gold" : 8000
-					},
-					"bonuses" : [
+          "cost": {
+            "crystal": 5,
+            "gold": 1000
+          },
+          "requires": [
+            "allOf",
+            [ "special4" ],
+            [ "mageGuild1" ]
+          ]
+        },
+        "special3": {
+          "description": "Runic Shrine Level 1 allows heroes who have mastered runes to gain the effects of an additional Level 1 rune in combat.",
+          "name": "Runic Shrine Level 1",
+		  "requires": [ "fort" ],
+          "cost": {"gold": 1000},
+		  "bonuses" : [
+				{
+					"subtype" : "spell.runeWunjo",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"hidden":true,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type" : "GENERAL_DAMAGE_REDUCTION",
-							"subtype" : "damageTypeAll",
-							"val" : 15,
-							"valueType" : "ADDITIVE_VALUE",
-							"propagator" : "PLAYER"
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
+						}
+					]
+				}
+			]
+        },
+		"special4": {
+		  "description": "Runic Shrine Level 2 allows heroes who have mastered runes to gain the effects of an additional Level 2 rune in combat.",
+          "name": "Runic Shrine Level 2",
+		  "requires": [
+            "allOf",
+            [ "fort" ],
+            [ "mageGuild1" ]
+          ],
+          "cost": {
+            "gold": 1000,
+			"ore": 5
+          },
+		  "bonuses" : [
+				{
+					"subtype" : "spell.runeWunjo",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"hidden":true,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
 						}
 					]
 				},
-				"dwellingLvl1" : {
-					"description" : "The Dwarven Mines allow you to recruit Defenders.",
-					"name" : "Dwarven Mines",
-					"cost" : {
-						"gold" : 500,
-						"ore" : 10
-					},
-					"requires" : [
-						"fort"
+				{
+					"subtype" : "spell.runeBerkana",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"hidden":true,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
+						}
+					]
+				}
+			],
+		  "upgrades" : "special3",
+        },
+		"special5": {
+			"id": 27,
+          "description": "Runic Shrine Level 3 allows heroes who have mastered runes to gain the effects of an additional Level 3 rune in combat. It provides one defence for each visiting hero as well.",
+          "name": "Runic Shrine Level 3",
+		  "requires": [
+            "allOf",
+            [ "fort" ],
+            [ "mageGuild1" ]
+          ],
+          "cost": {
+            "gold": 1000,
+			"crystal" : 2,
+			"gems" : 2
+          },
+		  "bonuses" : [
+				{
+					"subtype" : "spell.runeWunjo",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"hidden":true,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
+						}
 					]
 				},
-				"dwellingLvl2" : {
-					"description" : "The Hunter Camp allows you to recruit Javeliners.",
-					"name" : "Hunter Camp",
-					"cost" : {
-						"gold" : 1000,
-						"ore" : 5
-					},
-					"requires" : [
-						"fort"
+				{
+					"subtype" : "spell.runeBerkana",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"hidden":true,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
+						}
 					]
 				},
-				"dwellingLvl3" : {
-					"description" : "The Longhouse allows you to recruit Brutes.",
-					"name" : "Longhouse",
-					"cost" : {
-						"gold" : 1500,
-						"wood" : 5,
-						"ore" : 10
-					},
-					"requires" : [
-						"allOf",
-						[
-							"blacksmith"
-						],
-						[
-							"dwellingLvl1"
+				{
+					"subtype" : "spell.runePerth",
+					"type" : "ENCHANTED",
+					"propagator": "PLAYER",
+					"val" : 0,
+					"icon" : "highlands/icons/bonusIcons/rune03.png",
+					"description" : "{Extra Runes}\nGain an additional 2 Attack, 2 Defense, and 1 Speed.",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.runes"
+						}
+					]
+				}
+			],
+		  "upgrades" : "special4",
+          "configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "You visited the Runic Shrine, and under the influence of the ancestors' spirit, you felt your own strength increase, which increased your defense by 1.",
+								"primary" : { "defence" : 1 }
+							}
 						]
-					]
-				},
-				"dwellingLvl4" : {
-					"description" : "The Iceberg Nest allows you to recruit Snow Falcons.",
-					"name" : "Iceberg Nest",
-					"cost" : {
-						"gold" : 2000,
-						"crystal" : 5,
-						"wood" : 10
-					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"dwellingLvl2"
-						]
-					]
-				},
-				"dwellingLvl5" : {
-					"description" : "The Battle Fortress allows you to recruit Gladiators.",
-					"name" : "Battle Fortress",
-					"cost" : {
-						"gold" : 3000,
-						"ore" : 15
-					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"dwellingLvl3"
-						]
-					]
-				},
-				"dwellingLvl6" : {
-					"description" : "The Hall of Clan allows you to recruit Thanes.",
-					"name" : "Hall of Clan",
-					"cost" : {
-						"gold" : 4000,
-						"ore" : 10,
-						"gems" : 5,
-						"crystal" : 10,
-						"mercury" : 10
-					},
-					"requires" : [
-						"dwellingLvl4"
-					]
-				},
-				"dwellingLvl7" : {
-					"description" : "The Volcanic Vent allows you to recruit Fire Dragons.",
-					"name" : "Volcanic Vent",
-					"cost" : {
-						"gold" : 8000,
-						"wood" : 15,
-						"ore" : 15
-					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"dwellingLvl5"
-						]
-					]
-				},
-				"dwellingLvl8" : {
-					"name" : "Hall of Valhalla",
-					"description" : "Hall of Valhalla allows you to recruit Amazons.",
-					"cost" : {
+					}
+        },
+        "horde2": {
+          "description": "Home of Warriors increases Brute production by 3 per week.",
+          "name": "Home of Warriors",
+          "cost": {
+            "gold": 1500
+          },
+          "upgrades": "dwellingLvl3",
+          "requires": [
+            "allOf",
+            [ "fort" ],
+            [ "dwellingLvl3" ]
+          ]
+        },
+        "horde2Upgr": {
+          "description": "Home of Warriors increases Berserkers production by 3 per week.",
+          "name": "Home of Warriors",
+          "cost": {
+            "gold": 1500
+          },
+          "requires" : [ "allOf", ["horde2"], ["dwellingUpLvl3"] ],
+          "upgrades": "dwellingUpLvl3",
+          "mode": "auto"
+        },
+        "grail": {
+          "description": "The presence of the World Tree Mirage increases weekly creature generation by 50%, provides your empire with an additional 8000 gold, It also increases defence skills by 15% for all heroes.",
+          "name": "The World Tree Mirage",
+		  "produce": { "gold": 8000},
+		  "bonuses": [ 
+		  { "type": "GENERAL_DAMAGE_REDUCTION", "subtype": "damageTypeAll", "val": 15, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" },
+		  ],
+          "mode": "grail"
+        },
+        "dwellingLvl1": {
+          "description" : "The Dwarven Mines allow you to recruit Defenders.",
+		  "name" : "Dwarven Mines",
+          "cost": {
+            "gold": 500,
+            "ore": 10
+          },
+          "requires": [ "fort" ]
+        },
+        "dwellingLvl2": {
+          "description": "The Hunter Camp allows you to recruit Javeliners.",
+          "name": "Hunter Camp",
+          "cost": {
+            "gold": 1000,
+            "ore": 5
+          },
+          "requires": [ "fort" ]
+        },
+        "dwellingLvl3": {
+          "description": "The Longhouse allows you to recruit Brutes.",
+          "name": "Longhouse",
+          "cost": {
+            "gold": 1500,
+            "wood": 5,
+            "ore": 10
+          },
+          "requires": [
+            "allOf",
+            [ "blacksmith" ],
+            [ "dwellingLvl1" ]
+          ]
+        },
+        "dwellingLvl4": {
+          "description": "The Iceberg Nest allows you to recruit Snow Falcons.",
+          "name": "Iceberg Nest",
+          "cost": {
+            "gold": 2000,
+			"crystal":5,
+            "wood": 10
+          },
+          "requires": [
+            "allOf",
+            [ "mageGuild1" ],
+            [ "dwellingLvl2" ]
+          ]
+        },
+        "dwellingLvl5": {
+          "description": "The Battle Fortress allows you to recruit Gladiators.",
+          "name": "Battle Fortress",
+          "cost": {
+            "gold": 3000,
+            "ore": 15
+          },
+          "requires": [
+            "allOf",
+            [ "mageGuild1" ],
+            [ "dwellingLvl3" ]
+          ]
+        },
+        "dwellingLvl6": {
+          "description": "The Hall of Clan allows you to recruit Thanes.",
+          "name": "Hall of Clan",
+          "cost": {
+            "gold": 4000,
+            "ore": 15,
+            "gems": 5,
+            "crystal": 5,
+            "mercury": 5
+          },
+          "requires": [ "dwellingLvl4" ]
+        },
+        "dwellingLvl7": {
+          "description": "The Volcanic Vent allows you to recruit Fire Dragons.",
+          "name": "Volcanic Vent",
+          "cost": {
+            "gold": 8000,
+            "wood": 15,
+            "ore": 15
+          },
+          "requires": ["allOf",[ "mageGuild1" ],[ "dwellingLvl5" ]]
+        },
+		"dwellingLvl8" :
+		{
+			"name" : "Hall of Valhalla",
+			"description" : "Hall of Valhalla allows you to recruit Amazons.",
+			"cost" : {
 						"gems" : 15,
 						"ore" : 10,
 						"gold" : 15000
 					},
-
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl6"
-						],
-						[
-							"blacksmith"
-						]
-					]
-				},
-				"dwellingUpLvl1" : {
-					"description" : "The Dwarven Mines allow you to recruit Mountain Guards.",
-					"name" : "Upg. Dwarven Mines",
-					"cost" : {
-						"gold" : 1000
-					},
-
-					"requires" : [
-						"tavern"
-					],
-					"upgrades" : "dwellingLvl1"
-				},
-				"dwellingUpLvl2" : {
-					"description" : "The Hunter Camp allows you to recruit Harpooners.",
-					"name" : "Upg. Hunter Camp",
-					"cost" : {
-						"gold" : 1500,
-						"wood" : 5,
-						"ore" : 5,
-						"mercury" : 2
-					},
-
-					"upgrades" : "dwellingLvl2"
-				},
-				"dwellingUpLvl3" : {
-					"description" : "The Longhouse allows you to recruit Berserkers.",
-					"name" : "Upg. Longhouse",
-					"cost" : {
-						"gold" : 1500,
-						"wood" : 10,
-						"sulfur" : 5
-					},
-					"requires" : [
-						"dwellingUpLvl1"
-					],
-
-					"upgrades" : "dwellingLvl3"
-				},
-				"dwellingUpLvl4" : {
-					"description" : "The Iceberg Nest allows you to recruit Blizzard Falcons.",
-					"name" : "Upg. Iceberg Nest",
-					"cost" : {
-						"gold" : 2000,
-						"wood" : 5,
-						"crystal" : 5
-					},
-
-					"upgrades" : "dwellingLvl4"
-				},
-				"dwellingUpLvl5" : {
-					"description" : "The Battle Fortress allows you to recruit Flame Gladiators.",
-					"name" : "Upg. Battle Fortress",
-					"cost" : {
-						"gold" : 3000,
-						"ore" : 5,
-						"sulfur" : 5
-					},
-					"requires" : [
-						"special1"
-					],
-
-					"upgrades" : "dwellingLvl5"
-				},
-				"dwellingUpLvl6" : {
-					"description" : "The Hall of Clan allows you to recruit Patriarches",
-					"name" : "Upg. Hall of Clan",
-					"cost" : {
-						"gold" : 4000,
-						"ore" : 10,
-						"sulfur" : 5,
-						"crystal" : 3,
-						"mercury" : 3
-					},
-
-					"upgrades" : "dwellingLvl6"
-				},
-				"dwellingUpLvl7" : {
-					"description" : "The Volcanic Vent allows you to recruit Magma Dragons.",
-					"name" : "Upg. Volcanic Vent",
-					"cost" : {
-						"gold" : 15000,
-						"wood" : 20,
-						"ore" : 20,
-						"mercury" : 5,
-						"sulfur" : 5
-					},
-
-					"upgrades" : "dwellingLvl7"
-				},
-				"dwellingUpLvl8" : {
+			"requires" : [ "allOf", [ "dwellingLvl6" ], [ "blacksmith" ]]
+		},
+        "dwellingUpLvl1": {
+          "description": "The Upg. Dwarven Mines allow you to recruit Mountain Guards.",
+          "name": "Upg. Dwarven Mines",
+          "cost": {
+            "gold": 1000
+          },
+          "requires": [ "tavern" ],
+          "upgrades": "dwellingLvl1"
+        },
+        "dwellingUpLvl2": {
+          "description": "The Upg. Hunter Camp allows you to recruit Harpooners.",
+          "name": "Upg. Hunter Camp",
+          "cost": {
+            "gold": 1500,
+            "wood": 5,
+            "ore": 5,
+            "mercury": 2
+          },
+          "upgrades": "dwellingLvl2"
+        },
+        "dwellingUpLvl3": {
+          "description": "The Upg. Longhouse allows you to recruit Berserkers.",
+          "name": "Upg. Longhouse",
+          "cost": {
+            "gold": 1500,
+            "wood": 10,
+            "sulfur": 5
+          },
+          "requires": [ "dwellingUpLvl1" ],
+          "upgrades": "dwellingLvl3"
+        },
+        "dwellingUpLvl4": {
+          "description": "The Upg. Iceberg Nest allows you to recruit Blizzard Falcons.",
+          "name": "Upg. Iceberg Nest",
+          "cost": {
+            "gold": 2000,
+            "wood": 5,
+            "crystal": 5
+          },
+          "upgrades": "dwellingLvl4"
+        },
+        "dwellingUpLvl5": {
+          "description": "The Upg. Battle Fortress allows you to recruit Flame Gladiators.",
+          "name": "Upg. Battle Fortress",
+          "cost": {
+            "gold": 3000,
+            "ore": 5,
+            "sulfur": 5
+          },
+		  "requires": [ "special3" ],
+          "upgrades": "dwellingLvl5"
+        },
+        "dwellingUpLvl6": {
+          "description": "The Upg. Hall of Clan allows you to recruit Patriarches",
+          "name": "Upg. Hall of Clan",
+          "cost": {
+            "gold": 4000,
+            "ore": 10,
+            "sulfur": 5,
+            "crystal": 3,
+            "mercury": 3
+          },
+          "upgrades": "dwellingLvl6"
+        },
+        "dwellingUpLvl7": {
+          "description": "The Upg. Volcanic Vent allows you to recruit Magma Dragons.",
+          "name": "Upg. Volcanic Vent",
+          "cost": {
+            "gold": 15000,
+            "wood": 20,
+            "ore": 20,
+            "mercury": 5,
+			"sulfur": 5
+          },
+          "upgrades": "dwellingLvl7"
+        },
+		"dwellingUpLvl8" :
+				{
 					"name" : "Upg. Hall of Valhalla",
-					"description" : "Hall of Valhalla allows you to recruit Valkyries.",
+					"description" : "Upg. Hall of Valhalla allows you to recruit Valkyries.",
 					"cost" : {
 						"wood" : 10,
 						"gems" : 15,
 						"ore" : 10,
 						"gold" : 15000
-					},
-
+					}, 
 					"upgrades" : "dwellingLvl8"
 				}
-			},
-			"buildingsIcons" : "highlands/town-hall.def",
-			"creatures" : [
-				[
-					"bdefender",
-					"bmountainguard"
-				],
-				[
-					"bjaveliner",
-					"bharpooner"
-				],
-				[
-					"bbrute",
-					"bberserker"
-				],
-				[
-					"bsnowbird",
-					"bblizzardbird"
-				],
-				[
-					"bgladiator",
-					"bflameglad"
-				],
-				[
-					"bmammoth",
-					"bmammothlord"
-				],
-				[
-					"bsfafnir",
-					"demonicfafnir"
-				],
-				[
-					"amazonHigh",
-					"valkyrieHigh"
-				]
-			],
-			"guildBackground" : "TPMAGE",
-			"guildSpells" : {
-				"bless" : 10,
-				"bloodlust" : 10,
-				"cure" : 4,
-				"curse" : 10,
-				"dispel" : 2,
-				"haste" : 5,
-				"magicArrow" : 20,
-				"protectAir" : 5,
-				"protectFire" : 3,
-				"shield" : 10,
-				"slow" : 5,
-				"stoneSkin" : 5,
-				"summonBoat" : 5,
-				"viewAir" : 3,
-				"viewEarth" : 3,
+      },
+      "buildingsIcons": "highlands/town-hall.json",
+      "creatures": [
+        [ "bdefender", "bmountainguard" ],
+        [ "bjaveliner", "bharpooner" ],
+        [ "bbrute", "bberserker" ],
+        [ "bsnowbird", "bblizzardbird" ],
+        [ "bgladiator", "bflameglad" ],
+        [ "bmammoth", "bmammothlord" ],
+        [ "bsfafnir", "demonicfafnir"],
+		["amazonHigh", "valkyrieHigh" ]
+      ],
+      "guildBackground": "TPMAGE.bmp",
+      "guildSpells": {
+        "bless": 10,
+        "bloodlust": 10,
+        "cure": 4,
+        "curse": 10,
+        "dispel": 2,
+        "haste": 5,
+        "magicArrow": 20,
+        "protectAir": 5,
+        "protectFire": 3,
+        "shield": 10,
+        "slow": 5,
+        "stoneSkin": 5,
+        "summonBoat": 5,
+        "viewAir": 3,
+        "viewEarth": 3,
 
-				"disguise" : 0,
-				"disruptingRay" : 5,
-				"fireWall" : 10,
-				"fortune" : 0,
-				"iceBolt" : 20,
-				"lightningBolt" : 25,
-				"precision" : 10,
-				"quicksand" : 10,
-				"removeObstacle" : 6,
-				"scuttleBoat" : 4,
-				"visions" : 0,
-				"weakness" : 10,
-				"airShield" : 2,
-				"antiMagic" : 20,
-				"earthquake" : 2,
-				"fireball" : 21,
-				"forceField" : 5,
-				"forgetfulness" : 10,
-				"frostRing" : 10,
-				"hypnotize" : 10,
-				"landMine" : 4,
-				"mirth" : 0,
-				"misfortune" : 10,
-				"protectEarth" : 2,
-				"protectWater" : 2,
-				"teleport" : 2,
+        "disguise": 0,
+        "disruptingRay": 5,
+        "fireWall": 10,
+        "fortune": 0,
+        "iceBolt": 20,
+        "lightningBolt": 25,
+        "precision": 10,
+        "quicksand": 10,
+        "removeObstacle": 6,
+        "scuttleBoat": 4,
+        "visions": 0,
+        "weakness": 10,
+        "airShield": 2,
+        "antiMagic": 20,
+        "earthquake": 2,
+        "fireball": 21,
+        "forceField": 5,
+        "forgetfulness": 10,
+        "frostRing": 10,
+        "hypnotize": 10,
+        "landMine": 4,
+        "mirth": 0,
+        "misfortune": 10,
+        "protectEarth": 2,
+        "protectWater": 2,
+        "teleport": 2,
 
-				"berserk" : 10,
-				"chainLightning" : 10,
-				"clone" : 5,
-				"counterstrike" : 5,
-				"fireShield" : 5,
-				"frenzy" : 5,
-				"inferno" : 5,
-				"meteorShower" : 5,
-				"prayer" : 5,
-				"resurrection" : 5,
-				"slayer" : 5,
-				"sorrow" : 0,
-				"armageddon" : 10,
-				"townPortal" : 15,
-				"waterWalk" : 5,
+        "berserk": 10,
+        "chainLightning": 10,
+        "clone": 5,
+        "counterstrike": 5,
+        "fireShield": 5,
+        "frenzy": 5,
+        "inferno": 5,
+        "meteorShower": 5,
+        "prayer": 5,
+        "resurrection": 5,
+        "slayer": 10,
+        "sorrow": 5,
+		"armageddon": 0,
+        "townPortal": 15,
+        "waterWalk": 5,
 
-				"airElemental" : 4,
-				"dimensionDoor" : 15,
-				"earthElemental" : 10,
-				"fireElemental" : 10,
-				"fly" : 15,
-				"implosion" : 15,
-				"magicMirror" : 15,
-				"sacrifice" : 11,
-				"waterElemental" : 5
-			},
-			"guildWindow" : "highlands/town-screen/TPFGMAGE",
-			"hallBackground" : "highlands/town-screen/TPTHBKFG.png",
-			"horde" : [
-				0,
-				2
-			],
-			"moatAbility" : "highlandsMoat",
-			"icons" : {
-				"village" : {
-					"normal" : {
-						"small" : "highlands/icons/hall-small",
-						"large" : "highlands/icons/hall-big"
-					},
-					"built" : {
-						"small" : "highlands/icons/hall-builded-small",
-						"large" : "highlands/icons/hall-builded-big"
-					}
-				},
-				"fort" : {
-					"normal" : {
-						"small" : "highlands/icons/fort-small",
-						"large" : "highlands/icons/fort-big"
-					},
-					"built" : {
-						"small" : "highlands/icons/fort-builded-small",
-						"large" : "highlands/icons/fort-builded-big"
-					}
-				}
-			},
-			"mapObject" : {
-				"filters" : {
-					"castle" : [
-						"allOf",
-						[
-							"castle"
-						],
-						[
-							"noneOf",
-							[
-								"capitol"
-							]
-						]
-					],
-					"citadel" : [
-						"allOf",
-						[
-							"citadel"
-						],
-						[
-							"noneOf",
-							[
-								"castle"
-							]
-						]
-					],
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					]
-				},
-				"templates" : {
-					"capitol" : {
-						"animation" : "highlands/map/capitol.def"
-					},
-					"castle" : {
-						"animation" : "highlands/map/castle.def"
-					},
-					"citadel" : {
-						"animation" : "highlands/map/citadel.def"
-					},
-					"fort" : {
-						"animation" : "highlands/map/fort.def"
-					},
-					"village" : {
-						"animation" : "highlands/map/village.def"
-					}
-				}
-			},
-			"mageGuild" : 5,
+        "airElemental": 4,
+        "dimensionDoor": 15,
+        "earthElemental": 10,
+        "fireElemental": 10,
+        "fly": 15,
+        "implosion": 15,
+        "magicMirror": 15,
+        "sacrifice": 11,
+        "waterElemental": 5
+      },
+      "guildWindow": "highlands/town-screen/TPFGMAGE.bmp",
+      "hallBackground": "highlands/town-screen/TPTHBKFG.png",
+      "horde": [ -1, 2 ],
+      "icons": {
+        "village": {
+          "normal": {
+            "small": "highlands/icons/hall-small.bmp",
+            "large": "highlands/icons/hall-big.bmp"
+          },
+          "built": {
+            "small": "highlands/icons/hall-builded-small.bmp",
+            "large": "highlands/icons/hall-builded-big.bmp"
+          }
+        },
+        "fort": {
+          "normal": {
+            "small": "highlands/icons/fort-small.bmp",
+            "large": "highlands/icons/fort-big.bmp"
+          },
+          "built": {
+            "small": "highlands/icons/fort-builded-small.bmp",
+            "large": "highlands/icons/fort-builded-big.bmp"
+          }
+        }
+      },
+      "mapObject": {
+        "filters": {
+          "castle": [
+            "allOf",
+            [ "castle" ],
+            [
+              "noneOf",
+              [ "capitol" ]
+            ]
+          ],
+          "citadel": [
+            "allOf",
+            [ "citadel" ],
+            [
+              "noneOf",
+              [ "castle" ]
+            ]
+          ],
+          "fort": [
+            "allOf",
+            [ "fort" ],
+            [
+              "noneOf",
+              [ "citadel" ]
+            ]
+          ]
+        },
+        "templates": {
+          "capitol": { "animation": "highlands/map/capitol.def" },
+          "castle": { "animation": "highlands/map/castle.def" },
+          "citadel": { "animation": "highlands/map/citadel.def" },
+          "fort": { "animation": "highlands/map/fort.def" },
+          "village": { "animation": "highlands/map/village.def" }
+        }
+      },
+      "mageGuild": 4,
 
-			"musicTheme" : [
-				"music/factions/Arctic_Quest"
-			],
-			"names" : [
-				"Hammondale",
+      "musicTheme": ["music/factions/Arctic_Quest"],
+      "names" : [
+				"Ravendale",
 				"Hoskins",
 				"Greyside",
 				"Nessborough",
@@ -1015,510 +852,448 @@
 				"Manerford",
 				"Esperance"
 			],
-			"siege" : {
-				"shooter" : "bjaveliner",
-				"imagePrefix" : "highlands/siege/SGFG",
-				"towerIconSmall" : "highlands/icons/arrowtowersmall",
-				"towerIconLarge" : "highlands/icons/arrowtowerslarge",
-				"gate" : {
+      "siege": {
+        "shooter": "bjaveliner",
+        "imagePrefix": "highlands/siege/SGFG",
+		"towerIconSmall" : "highlands/icons/towerSmall",
+		"towerIconLarge" : "highlands/icons/towerLarge",
+        "gate" : {
 					"arch" : {
-						"x" : 471,
-						"y" : 187
+						"x" : 453,
+						"y" : 249
 					},
 					"gate" : {
-						"x" : 400,
-						"y" : 253
+						"x" : 406,
+						"y" : 268
 					}
 				},
 				"moat" : {
 					"bank" : {
-						"x" : 410,
-						"y" : 90
+						"x" : 414,
+						"y" : 79
 					},
 					"moat" : {
-						"x" : 410,
-						"y" : 90
+						"x" : 415,
+						"y" : 80
 					}
 				},
 				"static" : {
 					"background" : {
-						"x" : 615,
-						"y" : 57
+						"x" : 629,
+						"y" : 58
 					},
 					"bottom" : {
-						"x" : 517,
-						"y" : 365
+						"x" : 501,
+						"y" : 359
 					},
 					"top" : {
-						"x" : 514,
-						"y" : 79
+						"x" : 493,
+						"y" : 90
 					}
 				},
 				"towers" : {
 					"bottom" : {
 						"battlement" : {
-							"x" : 592,
-							"y" : 516
+							"x" : 608,
+							"y" : 510
 						},
 						"creature" : {
-							"x" : 355,
-							"y" : 304
+							"x" : 388,
+							"y" : 303
 						},
 						"tower" : {
-							"x" : 592,
-							"y" : 516
+							"x" : 608,
+							"y" : 510
 						}
 					},
 					"keep" : {
 						"battlement" : {
-							"x" : 726,
-							"y" : 148
+							"x" : 703,
+							"y" : 164
 						},
 						"creature" : {
-							"x" : 499,
-							"y" : -27
+							"x" : 522,
+							"y" : 13
 						},
 						"tower" : {
-							"x" : 726,
-							"y" : 148
+							"x" : 703,
+							"y" : 164
 						}
 					},
 					"top" : {
 						"battlement" : {
-							"x" : 580,
-							"y" : 36
+							"x" : 576,
+							"y" : 31
 						},
 						"creature" : {
-							"x" : 346,
-							"y" : -186
+							"x" : 354,
+							"y" : -183
 						},
 						"tower" : {
-							"x" : 580,
-							"y" : 36
+							"x" : 576,
+							"y" : 31
 						}
 					}
 				},
 				"walls" : {
 					"bottom" : {
-						"x" : 547,
-						"y" : 452
+						"x" : 571,
+						"y" : 473
 					},
 					"bottomMid" : {
-						"x" : 475,
-						"y" : 298
+						"x" : 470,
+						"y" : 316
 					},
 					"upper" : {
-						"x" : 547,
-						"y" : 66
+						"x" : 550,
+						"y" : 73
 					},
 					"upperMid" : {
-						"x" : 488,
-						"y" : 190
+						"x" : 485,
+						"y" : 191
 					}
 				}
-			},
+      },
 
-			"structures" : {
-				"mageGuild1" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmage",
-					"area" : "highlands/town-screen/buildings-area/TZFGmage",
-					"border" : "highlands/town-screen/buildings-border/TOFGmage",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"mageGuild2" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmag2",
-					"area" : "highlands/town-screen/buildings-area/TZFGmag2",
-					"border" : "highlands/town-screen/buildings-border/TOFGmag2",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"mageGuild3" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmag3",
-					"area" : "highlands/town-screen/buildings-area/TZFGmag3",
-					"border" : "highlands/town-screen/buildings-border/TOFGmag3",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"mageGuild4" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmag4",
-					"area" : "highlands/town-screen/buildings-area/TZFGmag4",
-					"border" : "highlands/town-screen/buildings-border/TOFGmag4",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"mageGuild5" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmag5",
-					"area" : "highlands/town-screen/buildings-area/TZFGmag5",
-					"border" : "highlands/town-screen/buildings-border/TOFGmag5",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"tavern" : {
-					"animation" : "highlands/town-screen/buildings/TBFGTVRN",
-					"area" : "highlands/town-screen/buildings-area/TZFGTVRN",
-					"border" : "highlands/town-screen/buildings-border/TOFGTVRN",
-					"x" : 0,
-					"y" : 0
-				},
-				"fort" : {
-					"animation" : "highlands/town-screen/buildings/TBFGCSTL",
-					"area" : "highlands/town-screen/buildings-area/TZFGCSTL",
-					"border" : "highlands/town-screen/buildings-border/TOFGCSTL",
-					"x" : 0,
-					"y" : 0
-				},
-				"citadel" : {
-					"animation" : "highlands/town-screen/buildings/TBFGCAS2",
-					"area" : "highlands/town-screen/buildings-area/TZFGCAS2",
-					"border" : "highlands/town-screen/buildings-border/TOFGCAS2",
-					"x" : 0,
-					"y" : 0
-				},
-				"castle" : {
-					"animation" : "highlands/town-screen/buildings/TBFGCAS3",
-					"area" : "highlands/town-screen/buildings-area/TZFGCAS3",
-					"border" : "highlands/town-screen/buildings-border/TOFGCAS3",
-					"x" : 0,
-					"y" : 0
-				},
-				"villageHall" : {
-					"animation" : "highlands/town-screen/buildings/TBFGhall",
-					"area" : "highlands/town-screen/buildings-area/TZFGhall",
-					"border" : "highlands/town-screen/buildings-border/TOFGhall",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"townHall" : {
-					"animation" : "highlands/town-screen/buildings/TBFGhal2",
-					"area" : "highlands/town-screen/buildings-area/TZFGhal2",
-					"border" : "highlands/town-screen/buildings-border/TOFGhal2",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"cityHall" : {
-					"animation" : "highlands/town-screen/buildings/TBFGhal3",
-					"area" : "highlands/town-screen/buildings-area/TZFGhal3",
-					"border" : "highlands/town-screen/buildings-border/TOFGhal3",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"capitol" : {
-					"animation" : "highlands/town-screen/buildings/TBFGhal4",
-					"area" : "highlands/town-screen/buildings-area/TZFGhal4",
-					"border" : "highlands/town-screen/buildings-border/TOFGhal4",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"marketplace" : {
-					"animation" : "highlands/town-screen/buildings/TBFGmark",
-					"area" : "highlands/town-screen/buildings-area/TZFGmark",
-					"border" : "highlands/town-screen/buildings-border/TOFGmark",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"resourceSilo" : {
-					"animation" : "highlands/town-screen/buildings/TBFGsilo",
-					"area" : "highlands/town-screen/buildings-area/TZFGsilo",
-					"border" : "highlands/town-screen/buildings-border/TOFGsilo",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"blacksmith" : {
-					"animation" : "highlands/town-screen/buildings/TBFGBLAK",
-					"area" : "highlands/town-screen/buildings-area/TZFGBLAK",
-					"border" : "highlands/town-screen/buildings-border/TOFGBLAK",
-					"x" : 0,
-					"y" : 0
-				},
-				"horde1" : {
-					"animation" : "highlands/town-screen/buildings/TBFGHRD0",
-					"area" : "highlands/town-screen/buildings-area/TZFGHRD0",
-					"border" : "highlands/town-screen/buildings-border/TOFGHRD0",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2,
-					"hidden" : true
-				},
-				"horde1Upgr" : {
-					"animation" : "highlands/town-screen/buildings/TBFGHRD1",
-					"area" : "highlands/town-screen/buildings-area/TZFGHRD1",
-					"border" : "highlands/town-screen/buildings-border/TOFGHRD1",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2,
-					"hidden" : true
-				},
-				"special1" : {
-					"animation" : "highlands/town-screen/buildings/TBFGSPEC",
-					"area" : "highlands/town-screen/buildings-area/TZFGSPEC",
-					"border" : "highlands/town-screen/buildings-border/TOFGSPEC",
-					"x" : 0,
-					"y" : 0,
-					"z" : -1
-				},
-				"special2" : {
-					"animation" : "highlands/town-screen/buildings/TBFGSpe2",
-					"area" : "highlands/town-screen/buildings-area/TZFGSpe2",
-					"border" : "highlands/town-screen/buildings-border/TOFGSpe2",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"special3" : {
-					"animation" : "highlands/town-screen/buildings/TBFGSpe3",
-					"area" : "highlands/town-screen/buildings-area/TZFGSpe3",
-					"border" : "highlands/town-screen/buildings-border/TOFGSpe3",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
-				},
-				"horde2" : {
-					"animation" : "highlands/town-screen/buildings/TBFGHRD2",
-					"area" : "highlands/town-screen/buildings-area/TZFGHRD2",
-					"border" : "highlands/town-screen/buildings-border/TOFGHRD2",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3,
-					"hidden" : true
-				},
-				"horde2Upgr" : {
-					"animation" : "highlands/town-screen/buildings/TBFGHRD3",
-					"area" : "highlands/town-screen/buildings-area/TZFGHRD3",
-					"border" : "highlands/town-screen/buildings-border/TOFGHRD3",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3,
-					"hidden" : true
-				},
-				"grail" : {
-					"animation" : "highlands/town-screen/buildings/TBFGHoly",
-					"area" : "highlands/town-screen/buildings-area/TZFGHoly",
-					"border" : "highlands/town-screen/buildings-border/TOFGHoly",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingLvl1" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_0",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_0",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_0",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingLvl2" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_1",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_1",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_1",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingLvl3" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_2",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_2",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_2",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"dwellingLvl4" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_3",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_3",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_3",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingLvl5" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_4",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_4",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_4",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingLvl6" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_5",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_5",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_5",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"dwellingLvl7" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_6",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_6",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_6",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"dwellingLvl8" : {
-					"animation" : "highlands/town-screen/buildings/TBFGdw_6E",
-					"area" : "highlands/town-screen/buildings-area/TZFGdw_6E",
-					"border" : "highlands/town-screen/buildings-border/TOFGdw_6E",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingUpLvl1" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_0",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_0",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_0",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingUpLvl2" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_1",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_1",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_1",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingUpLvl3" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_2",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_2",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_2",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"dwellingUpLvl4" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_3",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_3",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_3",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingUpLvl5" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_4",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_4",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_4",
-					"x" : 0,
-					"y" : 0
-				},
-				"dwellingUpLvl6" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_5",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_5",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_5",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},
-				"dwellingUpLvl7" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_6",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_6",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_6",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
-				"dwellingUpLvl8" : {
-					"animation" : "highlands/town-screen/buildings/TBFGup_6E",
-					"area" : "highlands/town-screen/buildings-area/TZFGup_6E",
-					"border" : "highlands/town-screen/buildings-border/TOFGup_6E",
-					"x" : 0,
-					"y" : 0
-				}
-			},
-			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "highlands/town-screen/TPFGBACK",
-			"hallSlots" : [
-				[
-					[
-						"villageHall",
-						"townHall",
-						"cityHall",
-						"capitol"
-					],
-					[
-						"fort",
-						"citadel",
-						"castle"
-					],
-					[
-						"tavern"
-					],
-					[
-						"blacksmith"
-					]
-				],
-				[
-					[
-						"marketplace",
-						"resourceSilo"
-					],
-					[
-						"mageGuild1",
-						"mageGuild2",
-						"mageGuild3",
-						"mageGuild4",
-						"mageGuild5"
-					],
-					[
-						"special1"
-					],
-					[
-						"special2"
-					]
-				],
-				[
-					[
-						"special3"
-					],
-					[
-						"horde2",
-						"horde2Upgr"
-					],
-					[
-						"horde1",
-						"horde1Upgr"
-					]
-				],
-				[
-					[
-						"dwellingLvl1",
-						"dwellingUpLvl1"
-					],
-					[
-						"dwellingLvl2",
-						"dwellingUpLvl2"
-					],
-					[
-						"dwellingLvl3",
-						"dwellingUpLvl3"
-					],
-					[
-						"dwellingLvl4",
-						"dwellingUpLvl4"
-					]
-				],
-				[
-					[
-						"dwellingLvl5",
-						"dwellingUpLvl5"
-					],
-					[
-						"dwellingLvl6",
-						"dwellingUpLvl6"
-					],
-					[
-						"dwellingLvl7",
-						"dwellingUpLvl7"
-					],
-					[
-						"dwellingLvl8",
-						"dwellingUpLvl8"
-					]
-				]
-			]
-		}
-	}
+      "structures": {
+	  //"animatedWater" : {
+		//			"animation" : "highlands/town-screen/buildings/snow/snow-gif", 
+		//			"x" : 2,
+		//			"y" : 0,
+		//			"z" : 5
+		//		},
+        "mageGuild1": {
+          "animation": "highlands/town-screen/buildings/TBFGmage",
+          "area": "highlands/town-screen/buildings-area/TZFGmage",
+          "border": "highlands/town-screen/buildings-border/TOFGmage",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "mageGuild2": {
+          "animation": "highlands/town-screen/buildings/TBFGmag2",
+          "area": "highlands/town-screen/buildings-area/TZFGmag2",
+          "border": "highlands/town-screen/buildings-border/TOFGmag2",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "mageGuild3": {
+          "animation": "highlands/town-screen/buildings/TBFGmag3",
+          "area": "highlands/town-screen/buildings-area/TZFGmag3",
+          "border": "highlands/town-screen/buildings-border/TOFGmag3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "mageGuild4": {
+          "animation": "highlands/town-screen/buildings/TBFGmag4",
+          "area": "highlands/town-screen/buildings-area/TZFGmag4",
+          "border": "highlands/town-screen/buildings-border/TOFGmag4",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "tavern": {
+          "animation": "highlands/town-screen/buildings/TBFGTVRN",
+          "area": "highlands/town-screen/buildings-area/TZFGTVRN",
+          "border": "highlands/town-screen/buildings-border/TOFGTVRN",
+          "x": 0,
+          "y": 0
+        },
+        "fort": {
+          "animation": "highlands/town-screen/buildings/TBFGCSTL",
+          "area": "highlands/town-screen/buildings-area/TZFGCSTL",
+          "border": "highlands/town-screen/buildings-border/TOFGCSTL",
+          "x": 0,
+          "y": 0
+        },
+        "citadel": {
+          "animation": "highlands/town-screen/buildings/TBFGCAS2",
+          "area": "highlands/town-screen/buildings-area/TZFGCAS2",
+          "border": "highlands/town-screen/buildings-border/TOFGCAS2",
+          "x": 0,
+          "y": 0
+        },
+        "castle": {
+          "animation": "highlands/town-screen/buildings/TBFGCAS3",
+          "area": "highlands/town-screen/buildings-area/TZFGCAS3",
+          "border": "highlands/town-screen/buildings-border/TOFGCAS3",
+          "x": 0,
+          "y": 0
+        },
+        "villageHall": {
+          "animation": "highlands/town-screen/buildings/TBFGhall",
+          "area": "highlands/town-screen/buildings-area/TZFGhall",
+          "border": "highlands/town-screen/buildings-border/TOFGhall",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+        "townHall": {
+          "animation": "highlands/town-screen/buildings/TBFGhal2",
+          "area": "highlands/town-screen/buildings-area/TZFGhal2",
+          "border": "highlands/town-screen/buildings-border/TOFGhal2",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+        "cityHall": {
+          "animation": "highlands/town-screen/buildings/TBFGhal3",
+          "area": "highlands/town-screen/buildings-area/TZFGhal3",
+          "border": "highlands/town-screen/buildings-border/TOFGhal3",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+        "capitol": {
+          "animation": "highlands/town-screen/buildings/TBFGhal4",
+          "area": "highlands/town-screen/buildings-area/TZFGhal4",
+          "border": "highlands/town-screen/buildings-border/TOFGhal4",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+        "marketplace": {
+          "animation": "highlands/town-screen/buildings/TBFGmark",
+          "area": "highlands/town-screen/buildings-area/TZFGmark",
+          "border": "highlands/town-screen/buildings-border/TOFGmark",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+        "resourceSilo": {
+          "animation": "highlands/town-screen/buildings/TBFGsilo",
+          "area": "highlands/town-screen/buildings-area/TZFGsilo",
+          "border": "highlands/town-screen/buildings-border/TOFGsilo",
+          "x": 0,
+          "y": 0,
+		  "z": 2
+        },
+        "blacksmith": {
+          "animation": "highlands/town-screen/buildings/TBFGBLAK",
+          "area": "highlands/town-screen/buildings-area/TZFGBLAK",
+          "border": "highlands/town-screen/buildings-border/TOFGBLAK",
+          "x": 0,
+          "y": 0
+        },
+        "special1": {
+          "animation": "highlands/town-screen/buildings/TBFGSPEC",
+          "area": "highlands/town-screen/buildings-area/TZFGSPEC",
+          "border": "highlands/town-screen/buildings-border/TOFGSPEC",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "special2": {
+          "animation": "highlands/town-screen/buildings/TBFGSpe2",
+          "area": "highlands/town-screen/buildings-area/TZFGSpe2",
+          "border": "highlands/town-screen/buildings-border/TOFGSpe2",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        "special3": {
+          "animation": "highlands/town-screen/buildings/TBFGSpe3",
+          "area": "highlands/town-screen/buildings-area/TZFGSpe3",
+          "border": "highlands/town-screen/buildings-border/TOFGSpe3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+		"special4": {
+          "animation": "highlands/town-screen/buildings/TBFGSpe4",
+          "area": "highlands/town-screen/buildings-area/TZFGSpe4",
+          "border": "highlands/town-screen/buildings-border/TOFGSpe4",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+		"special5": {
+          "animation": "highlands/town-screen/buildings/TBFGSpe5",
+          "area": "highlands/town-screen/buildings-area/TZFGSpe5",
+          "border": "highlands/town-screen/buildings-border/TOFGSpe5",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        "horde2": {
+          "animation": "highlands/town-screen/buildings/TBFGHRD1",
+          "area": "highlands/town-screen/buildings-area/TZFGHRD1",
+          "border": "highlands/town-screen/buildings-border/TOFGHRD1",
+          "x": 0,
+          "y": 0,
+          "z": 3,
+          "hidden": true
+        },
+        "horde2Upgr": {
+          "animation": "highlands/town-screen/buildings/TBFGHRD2",
+          "area": "highlands/town-screen/buildings-area/TZFGHRD2",
+          "border": "highlands/town-screen/buildings-border/TOFGHRD2",
+          "x": 0,
+          "y": 0,
+          "z": 3,
+          "hidden": true
+        },
+        "grail": {
+          "animation": "highlands/town-screen/buildings/TBFGHoly",
+          "area": "highlands/town-screen/buildings-area/TZFGHoly",
+          "border": "highlands/town-screen/buildings-border/TOFGHoly",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingLvl1": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_0",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_0",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_0",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingLvl2": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_1",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_1",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_1",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingLvl3": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_2",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_2",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_2",
+          "x": 0,
+          "y": 0,
+		  "z": 2
+        },
+        "dwellingLvl4": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_3",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_3",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_3",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingLvl5": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_4",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_4",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_4",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingLvl6": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_5",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_5",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_5",
+          "x": 0,
+          "y": 0,
+		  "z": 2
+        },
+        "dwellingLvl7": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_6",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_6",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_6",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+		"dwellingLvl8": {
+          "animation": "highlands/town-screen/buildings/TBFGdw_6E",
+          "area": "highlands/town-screen/buildings-area/TZFGdw_6E",
+          "border": "highlands/town-screen/buildings-border/TOFGdw_6E",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingUpLvl1": {
+          "animation": "highlands/town-screen/buildings/TBFGup_0",
+          "area": "highlands/town-screen/buildings-area/TZFGup_0",
+          "border": "highlands/town-screen/buildings-border/TOFGup_0",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingUpLvl2": {
+          "animation": "highlands/town-screen/buildings/TBFGup_1",
+          "area": "highlands/town-screen/buildings-area/TZFGup_1",
+          "border": "highlands/town-screen/buildings-border/TOFGup_1",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingUpLvl3": {
+          "animation": "highlands/town-screen/buildings/TBFGup_2",
+          "area": "highlands/town-screen/buildings-area/TZFGup_2",
+          "border": "highlands/town-screen/buildings-border/TOFGup_2",
+          "x": 0,
+          "y": 0,
+		  "z": 2
+        },
+        "dwellingUpLvl4": {
+          "animation": "highlands/town-screen/buildings/TBFGup_3",
+          "area": "highlands/town-screen/buildings-area/TZFGup_3",
+          "border": "highlands/town-screen/buildings-border/TOFGup_3",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingUpLvl5": {
+          "animation": "highlands/town-screen/buildings/TBFGup_4",
+          "area": "highlands/town-screen/buildings-area/TZFGup_4",
+          "border": "highlands/town-screen/buildings-border/TOFGup_4",
+          "x": 0,
+          "y": 0
+        },
+        "dwellingUpLvl6": {
+          "animation": "highlands/town-screen/buildings/TBFGup_5",
+          "area": "highlands/town-screen/buildings-area/TZFGup_5",
+          "border": "highlands/town-screen/buildings-border/TOFGup_5",
+          "x": 0,
+          "y": 0,
+		  "z": 2
+        },
+        "dwellingUpLvl7": {
+          "animation": "highlands/town-screen/buildings/TBFGup_6",
+          "area": "highlands/town-screen/buildings-area/TZFGup_6",
+          "border": "highlands/town-screen/buildings-border/TOFGup_6",
+          "x": 0,
+          "y": 0,
+		  "z": 1
+        },
+		"dwellingUpLvl8": {
+          "animation": "highlands/town-screen/buildings/TBFGup_6E",
+          "area": "highlands/town-screen/buildings-area/TZFGup_6E",
+          "border": "highlands/town-screen/buildings-border/TOFGup_6E",
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tavernVideo": "hightvrn.BIK",
+      "townBackground": "highlands/town-screen/TPFGBACK.bmp",
+      "moatAbility" : "infernoMoat",
+      "hallSlots": [
+        [
+          [ "villageHall", "townHall", "cityHall", "capitol" ],
+          [ "fort", "citadel", "castle" ],
+          [ "tavern" ],
+          [ "blacksmith" ]
+        ],
+        [
+          [ "marketplace", "resourceSilo" ],
+          [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ],
+          [ "special1" ] 
+        ],
+        [
+          [ "special3", "special4", "special5" ],
+		  [ "special2" ],
+          [ "horde2", "horde2Upgr" ]
+        ],
+        [
+          [ "dwellingLvl1", "dwellingUpLvl1" ],
+          [ "dwellingLvl2", "dwellingUpLvl2" ],
+          [ "dwellingLvl3", "dwellingUpLvl3" ],
+          [ "dwellingLvl4", "dwellingUpLvl4" ]
+        ],
+        [
+          [ "dwellingLvl5", "dwellingUpLvl5" ],
+          [ "dwellingLvl6", "dwellingUpLvl6" ],
+          [ "dwellingLvl7", "dwellingUpLvl7" ],
+		  [ "dwellingLvl8", "dwellingUpLvl8" ]
+        ]
+      ]
+    }
+  }
 }

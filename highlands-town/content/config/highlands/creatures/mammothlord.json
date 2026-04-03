@@ -9,17 +9,17 @@
 			"min" : 5
 		},
 		"faction" : "highlands",
-		"aiValue" : 2033,
-		"attack" : 16,
+		"aiValue" : 2693,
+		"attack" : 15,
 		"cost" : {
 			"gold" : 1200
 		},
 		"damage" : {
-			"max" : 24,
-			"min" : 18
+			"max" : 22,
+			"min" : 16
 		},
-		"defense" : 18,
-		"fightValue" : 1756,
+		"defense" : 16,
+		"fightValue" : 2460,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CFG6U.def",
 			"map" : "highlands/map/creatures/AVWC161.def",
@@ -89,7 +89,8 @@
 			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "fireVulnerability",
-				"val" : 0
+				"val" : 0,
+				"icon" : "highlands/icons/bonusIcons/fireatt.png"
 			},
 			"castsAmount" : {
 				"type" : "CASTS",

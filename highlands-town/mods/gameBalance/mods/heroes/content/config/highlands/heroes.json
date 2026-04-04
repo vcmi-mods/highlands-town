@@ -1,5 +1,5 @@
 {
-	"highlands:a_daive" : {
+	"highlands-town:a_daive" : {
 		"specialty" : {
 			"stepSize" : 10
 		},
@@ -9,35 +9,35 @@
 			}
 		}
 	},
-	"highlands:b_richmond" : {
+	"highlands-town:b_richmond" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases Speed of any Snow Falcons and Blizzard Falcons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
 			}
 		}
 	},
-	"highlands:c_harrigan" : {
+	"highlands-town:c_harrigan" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Javeliners and Harpooners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		}
 	},
-	"highlands:f_gestalt" : {
+	"highlands-town:f_gestalt" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Brutes and Berserks by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		}
 	},
-	"highlands:h_craighill" : {
+	"highlands-town:h_craighill" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Gladiators and Flame Gladiators by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		}
 	},
-	"highlands:d_austin" : {
+	"highlands-town:d_austin" : {
 		"specialty" : {
 			"stepSize" : 30
 		},
@@ -47,7 +47,7 @@
 			}
 		}
 	},
-	"highlands:k_cynthia" : {
+	"highlands-town:k_cynthia" : {
 		"specialty" : {
 			"bonuses" : {
 				"iceBolt" : {
@@ -61,7 +61,7 @@
 			}
 		}
 	},
-	"highlands:l_astride" : {
+	"highlands-town:l_astride" : {
 		"specialty" : {
 			"bonuses" : {
 				"fireball" : {
@@ -75,7 +75,7 @@
 			}
 		}
 	},
-	"highlands:o_melisa" : {
+	"highlands-town:o_melisa" : {
 		"specialty" : {
 			"bonuses" : {
 				"fireShield" : {
@@ -89,7 +89,7 @@
 			}
 		}
 	},
-	"highlands:11bulwarkSylphine" : {
+	"highlands-town:11bulwarkSylphine" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied now Witches and Ice Sorceresses by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."

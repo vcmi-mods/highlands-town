@@ -19,38 +19,23 @@
 	],
 	"chinese" : {
 		"name" : "英雄",
-		"description" : "和HotA类似的英雄特长加成。",
-		"translations" : [
-			"translation/chinese.json"
-		]
+		"description" : "和HotA类似的英雄特长加成。"
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Změňte vyváženost HotA pro frakci Highlands.",
-		"translations" : [
-			"translation/czech.json"
-		]
+		"description" : "Změňte vyváženost HotA pro frakci Highlands."
 	},
 	"german" : {
 		"name" : "Helden",
-		"description" : "Ändert die Balance in HotA für die Hochland-Fraktion.",
-		"translations" : [
-			"translation/german.json"
-		]
+		"description" : "Ändert die Balance in HotA für die Hochland-Fraktion."
 	},
 	"french" : {
 		"name" : "Héros",
-		"description" : "Modifier l'équilibrage de HotA pour la faction des Hautes Terres.",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : "Modifier l'équilibrage de HotA pour la faction des Hautes Terres."
 	},
 	"russian" : {
 		"name" : "Герои",
-		"description" : "Измените баланс HotA для фракции Хайлендс.",
-		"translations" : [
-			"translation/russian.json"
-		]
+		"description" : "Измените баланс HotA для фракции Хайлендс."
 	},
 	"polish" : {
 		"name" : "Balans bohaterów (HotA)",

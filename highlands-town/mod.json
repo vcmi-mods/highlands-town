@@ -3,7 +3,7 @@
 	"description" : "New town made by Ben Yan. New townscreen.",
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "3.00",
+	"version" : "3.01",
 	"modType" : "Town",
 	"depends" : [
 		"hota.bulwark"
@@ -15,6 +15,9 @@
 		"min" : "1.7.3"
 	},
 	"changelog" : {
+		"3.01" : [
+			"Fix for game balance heroes"
+		],
 		"3.00" : [
 			"Update the two screen and relate to HotA Bulwark"
 		],

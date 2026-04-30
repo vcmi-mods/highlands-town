@@ -3,7 +3,7 @@
 	"description" : "New town made by Ben Yan. New townscreen.",
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "3.01",
+	"version" : "3.03",
 	"modType" : "Town",
 	"depends" : [
 		"hota.bulwark"
@@ -15,6 +15,8 @@
 		"min" : "1.7.3"
 	},
 	"changelog" : {
+		"3.03" : [ "Update Amazon and Valkyrie" ],
+		"3.02" : [ "Update new appearance of mage guild" ],
 		"3.01" : [
 			"Fix for game balance heroes"
 		],

@@ -1,48 +1,45 @@
 {
-	"amazonHigh" : {
-		"name" : {
+	"amazonHigh":
+	{
+		"name" :
+		{
 			"plural" : "Amazons",
 			"singular" : "Amazon"
 		},
-		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
 		},
-		"faction" : "highlands",
-		"aiValue" : 6216,
+		"faction" : "bastille",
+		"aiValue" : 3942,
 		"attack" : 19,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 2400,
-			"gems" : 1
+			"gems": 1
 		},
-		"damage" : {
-			"max" : 40,
-			"min" : 30
+		"damage" :
+		{
+			 "max" : 40,
+			 "min" : 30
 		},
 		"defense" : 20,
-		"fightValue" : 4952,
-		"graphics" : {
-			"animation" : "highlands/battle/creatures/CFG8.def",
-			"map" : "highlands/map/creatures/AVWCFG8.def",
-			"iconSmall" : "highlands/iconsSmall/creatures/CPRSex01",
-			"iconLarge" : "highlands/iconsBig/creatures/CPRLex01",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.25,
-				"attack" : 1,
-				"idle" : 10
-			},
-			"missile" : {
-				"projectile" : "PPLIZAX.DEF",
-				"attackClimaxFrame" : 9,
-				"offset" : {
-					"upperX" : 38,
-					"upperY" : -65,
-					"middleX" : 36,
-					"middleY" : -59,
-					"lowerX" : 21,
-					"lowerY" : -50
-				},
+		"fightValue" : 3859,
+    "graphics": {
+      "animation": "bastille/battle/creatures/CFG8.def",
+      "map": "bastille/map/creatures/AVWCFG8.def",
+      "iconSmall": "bastille/iconsSmall/creatures/CPRSex01.bmp",
+      "iconLarge": "bastille/iconsBig/creatures/CPRLex01.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile" : {
+				"projectile" : "hota/bulwark/creatures/battle/projectile/PPSPEAR.def",
+				"attackClimaxFrame" : 5,
 				"frameAngles" : [
 					90,
 					72,
@@ -52,179 +49,111 @@
 					-27,
 					-45,
 					-72,
-					-90,
-					0,
-					0,
-					0
-				]
+					-90
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
 			}
-		},
+    },
 		"growth" : 1,
 		"hitPoints" : 160,
-		"level" : 7,
-		"shots" : 3,
-		"sound" : {
-			"attack" : "highlands/CFG8ATTK.wav",
-			"defend" : "highlands/CFG8DFND.wav",
-			"killed" : "BLESS",
-			"shoot" : "highlands/CFG8SHOT.wav",
-			"move" : "highlands/CFG8MOVE.wav",
-			"wince" : "highlands/CFG8WNCE.wav"
+    "level": 7,
+    "shots": 3,
+		"sound" :
+		{
+			"attack": "bastille/CFG8ATTK.wav",
+			"defend": "SWRDDFND",
+			"killed": "bastille/CFG8KILL.wav",
+			"shoot": "CNTRSHOT",
+			"move": "bastille/CFG8MOVE.wav",
+			"wince": "bastille/CFG8WNCE.wav"
 		},
 		"speed" : 7,
-		"upgrades" : [
+		"upgrades":
+		[
 			"valkyrieHigh"
 		],
-		"abilities" : {
-			"canShoot" : {
+    "abilities" :
+		{
+			"canShoot" :
+			{
 				"type" : "SHOOTER"
 			},
-			"casts" : {
+			"casts" :
+			{
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castsBless" : {
+			"castsBless" :
+			{
 				"type" : "ENCHANTER",
-				"subtype" : "bless",
+				"subtype" : "spell.bless",
 				"val" : 3,
 				"addInfo" : 3,
-				"description" : "{Enchanter}\nCan cast Bless every three turns",
-				"icon" : "highlands/icons/bonusIcons/bless3.png"
+				"icon" : "bastille/icons/bonusIcons/bless3.png"
 			},
-			"advancedSlayer" : {
-				"type" : "KING",
-				"val" : 2,
-				"valueType" : "ADDITIVE_VALUE"
-			},
-			"noMeleePenalty" : {
+			"basicSlayer" : { "type" : "KING", "val": 2 },
+			"noMeleePenalty" :
+			{
 				"type" : "NO_MELEE_PENALTY"
 			}
 		},
-		"stackExperience" : [
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
-					"subtype" : "attack",
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3,
-					3,
-					4
-				]
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
-				"bonus" : {
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [
-					1,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					3,
-					4,
-					4
-				]
-			},
-			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3,
-					4
-				]
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
-				"bonus" : {
-					"subtype" : "creatureDamageMin",
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					0,
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					3
-				]
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
 			},
 			{
-				"bonus" : {
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
-			},
-			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [
-					2,
-					4,
-					6,
-					8,
-					10,
-					12,
-					14,
-					16,
-					18,
-					20
-				]
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 			}
 		]
+		}	
 	}
-}

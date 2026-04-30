@@ -1,43 +1,38 @@
 {
-	"valkyrieHigh":
-	{
-		"name" :
-		{
+	"valkyrieHigh" : {
+		"name" : {
 			"plural" : "Valkyries",
 			"singular" : "Valkyrie"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "highlands",
 		"aiValue" : 6672,
 		"attack" : 24,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 4000,
-			"gems": 2
+			"gems" : 2
 		},
-		"damage" :
-		{
-			 "max" : 60,
-			 "min" : 40
+		"damage" : {
+			"max" : 60,
+			"min" : 40
 		},
 		"defense" : 24,
 		"fightValue" : 6438,
-    "graphics": {
-      "animation": "highlands/battle/creatures/CFG8U.def",
-      "map": "highlands/map/creatures/AVWCFG8U.def",
-      "iconSmall": "highlands/iconsSmall/creatures/CPRSex02.bmp",
-      "iconLarge": "highlands/iconsBig/creatures/CPRLex02.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      },
-      "missile" : {
+		"graphics" : {
+			"animation" : "highlands/battle/creatures/CFG8U.def",
+			"map" : "highlands/map/creatures/AVWCFG8U.def",
+			"iconSmall" : "highlands/iconsSmall/creatures/CPRSex02.bmp",
+			"iconLarge" : "highlands/iconsBig/creatures/CPRLex02.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "highlands/battle/creatures/projectile/PPAMA.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [
@@ -60,103 +55,158 @@
 					"upperY" : -98
 				}
 			}
-    },
+		},
 		"growth" : 1,
 		"hitPoints" : 200,
-    "level": 7,
-    "shots": 6,
-		"sound" :
-		{
-			"attack": "highlands/CFG8ATTK.wav",
-			"defend": "SWRDDFND",
-			"killed": "highlands/CFG8KILL.wav",
-			"shoot": "STORSHOT",
-			"move": "highlands/CFG8MOVE.wav",
-			"wince": "highlands/CFG8WNCE.wav"
+		"level" : 7,
+		"shots" : 6,
+		"sound" : {
+			"attack" : "highlands/CFG8ATTK.wav",
+			"defend" : "SWRDDFND",
+			"killed" : "highlands/CFG8KILL.wav",
+			"shoot" : "STORSHOT",
+			"move" : "highlands/CFG8MOVE.wav",
+			"wince" : "highlands/CFG8WNCE.wav"
 		},
 		"speed" : 11,
-    "abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"lightningStrike" :
-			{
-				"hidden": true,
+			"lightningStrike" : {
+				"hidden" : true,
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireBolt",
 				"val" : 1
 			},
-			"basicSlayer" : { "type" : "KING", "val": 2 },
-			"castsBless" :
-			{
+			"basicSlayer" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"castsBless" : {
 				"type" : "ENCHANTER",
 				"subtype" : "spell.bless",
 				"val" : 3,
 				"addInfo" : 3,
 				"icon" : "highlands/icons/bonusIcons/bless3.png"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
-		}	
 	}
+}

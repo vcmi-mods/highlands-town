@@ -1,38 +1,43 @@
 {
-	"amazonHigh" : {
-		"name" : {
+	"amazonHigh":
+	{
+		"name" :
+		{
 			"plural" : "Amazons",
 			"singular" : "Amazon"
 		},
-		"advMapAmount" : {
-			"max" : 10,
-			"min" : 4
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
 		},
-		"faction" : "bastille",
+		"faction" : "highlands",
 		"aiValue" : 3942,
 		"attack" : 19,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 2400,
-			"gems" : 1
+			"gems": 1
 		},
-		"damage" : {
-			"max" : 40,
-			"min" : 30
+		"damage" :
+		{
+			 "max" : 40,
+			 "min" : 30
 		},
 		"defense" : 20,
 		"fightValue" : 3859,
-		"graphics" : {
-			"animation" : "bastille/battle/creatures/CFG8.def",
-			"map" : "bastille/map/creatures/AVWCFG8.def",
-			"iconSmall" : "bastille/iconsSmall/creatures/CPRSex01.bmp",
-			"iconLarge" : "bastille/iconsBig/creatures/CPRLex01.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.25,
-				"attack" : 1,
-				"idle" : 10
-			},
-			"missile" : {
+    "graphics": {
+      "animation": "highlands/battle/creatures/CFG8.def",
+      "map": "highlands/map/creatures/AVWCFG8.def",
+      "iconSmall": "highlands/iconsSmall/creatures/CPRSex01.bmp",
+      "iconLarge": "highlands/iconsBig/creatures/CPRLex01.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile" : {
 				"projectile" : "hota/bulwark/creatures/battle/projectile/PPSPEAR.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [
@@ -55,155 +60,100 @@
 					"upperY" : -98
 				}
 			}
-		},
+    },
 		"growth" : 1,
 		"hitPoints" : 160,
-		"level" : 7,
-		"shots" : 3,
-		"sound" : {
-			"attack" : "bastille/CFG8ATTK.wav",
-			"defend" : "SWRDDFND",
-			"killed" : "bastille/CFG8KILL.wav",
-			"shoot" : "CNTRSHOT",
-			"move" : "bastille/CFG8MOVE.wav",
-			"wince" : "bastille/CFG8WNCE.wav"
+    "level": 7,
+    "shots": 3,
+		"sound" :
+		{
+			"attack": "highlands/CFG8ATTK.wav",
+			"defend": "SWRDDFND",
+			"killed": "highlands/CFG8KILL.wav",
+			"shoot": "CNTRSHOT",
+			"move": "highlands/CFG8MOVE.wav",
+			"wince": "highlands/CFG8WNCE.wav"
 		},
 		"speed" : 7,
-		"upgrades" : [
+		"upgrades":
+		[
 			"valkyrieHigh"
 		],
-		"abilities" : {
-			"canShoot" : {
+    "abilities" :
+		{
+			"canShoot" :
+			{
 				"type" : "SHOOTER"
 			},
-			"casts" : {
+			"casts" :
+			{
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castsBless" : {
+			"castsBless" :
+			{
 				"type" : "ENCHANTER",
 				"subtype" : "spell.bless",
 				"val" : 3,
 				"addInfo" : 3,
-				"icon" : "bastille/icons/bonusIcons/bless3.png"
+				"icon" : "highlands/icons/bonusIcons/bless3.png"
 			},
-			"basicSlayer" : {
-				"type" : "KING",
-				"val" : 2
-			},
-			"noMeleePenalty" : {
+			"basicSlayer" : { "type" : "KING", "val": 2 },
+			"noMeleePenalty" :
+			{
 				"type" : "NO_MELEE_PENALTY"
 			}
 		},
-		"stackExperience" : [
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-					//					"valueType" : "BASE_NUMBER"
+//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3,
-					3,
-					4
-				]
-			},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-					//					"valueType" : "BASE_NUMBER"
+//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					1,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					3,
-					4,
-					4
-				]
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3,
-					4
-				]
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					0,
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					3
-				]
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					2
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [
-					2,
-					4,
-					6,
-					8,
-					10,
-					12,
-					14,
-					16,
-					18,
-					20
-				]
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 			}
 		]
+		}	
 	}
-}

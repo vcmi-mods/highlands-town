@@ -3,7 +3,7 @@
 	"description" : "New town made by Ben Yan. New townscreen.",
 	"author" : "FF Team, mod : Ben Yan",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "3.03",
+	"version" : "3.04",
 	"modType" : "Town",
 	"depends" : [
 		"hota.bulwark"
@@ -15,6 +15,9 @@
 		"min" : "1.7.3"
 	},
 	"changelog" : {
+		"3.04" : [
+			"Fixes for console errors"
+		],
 		"3.03" : [
 			"Update Amazon and Valkyrie"
 		],
@@ -213,6 +216,7 @@
 	],
 	"spells" : [
 		"config/highlands/NewOldSpells/liquidFlame.json",
+		"config/highlands/NewOldSpells/fireBolt.json",
 		"config/highlands/NewOldSpells/Barbarity.json",
 		"config/highlands/NewOldSpells/fireVulnerability.json",
 		"config/highlands/NewOldSpells/runeSpell.json",

@@ -1,0 +1,12 @@
+{
+	"hero.highlands-town.11bulwarkSylphine.specialty.description" : "Increases the Speed of allied now Witches and Ice Sorceresses by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+	"hero.highlands-town.a_daive.specialty.description" : "Increases the Speed of allied Defenders and Mountain Guards by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+	"hero.highlands-town.b_richmond.specialty.description" : "Increases Speed of any Snow Falcons and Blizzard Falcons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+	"hero.highlands-town.c_harrigan.specialty.description" : "Increases the Speed of allied Javeliners and Harpooners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+	"hero.highlands-town.d_austin.specialty.description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+	"hero.highlands-town.f_gestalt.specialty.description" : "Increases the Speed of allied Brutes and Berserks by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+	"hero.highlands-town.h_craighill.specialty.description" : "Increases the Speed of allied Gladiators and Flame Gladiators by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+	"hero.highlands-town.k_cynthia.specialty.description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature.",
+	"hero.highlands-town.l_astride.specialty.description" : "Casts Fireball with Damage increased by 10% for every N hero levels, where N is the level of the target creature.",
+	"hero.highlands-town.o_melisa.specialty.description" : "Casts FireShield with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+}

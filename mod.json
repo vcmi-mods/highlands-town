@@ -122,42 +122,42 @@
 		"name" : "Hochland",
 		"description" : "Hochland Stadt",
 		"translations" : [
-			"translation/highlands/german.json"
+			"translation/german.json"
 		]
 	},
 	"chinese" : {
 		"name" : "堡垒",
 		"description" : "堡垒取材自北欧神话，是一个矮人的种族，位于矮人故乡的北方大陆沃里。矮人战士擅长防御，法师则擅长火系魔法。和壁垒关系较为密切，但并不是对立或从中独立的种族。",
 		"translations" : [
-			"translation/highlands/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Vrchovina",
 		"description" : "Vrchovina je město ukryté v nehostinných horách a ledových pláních, kde trpasličí klany a válečníci přežívají díky nezdolné síle a magii run. Jejich společnost ctí čest, odvahu a neochvějnou vůli vzdorovat každé hrozbě.<br/><br/>Jeho armádu tvoří <b>obránci</b>, <b>oštěpaři</b>, <b>hrubiáni</b>, <b>sokoli</b>, <b>gladiátoři</b> a mocní <b>thanové</b>, posílení ohnivými a magmatickými <b>draky</b>, odvážnými <b>amazonkami</b> a <b>valkýrami</b>.<br/><br/>Vrchovina se specializuje na houževnatou obranu, runová kouzla a moc ohně i ledu. Díky tomu dokáže její armáda využít sílu hor a živlů proti nepřátelům.<br/><br/>Je to frakce pro hráče, kteří preferují nezdolnou sílu, odolnost a mocnou runovou magii.",
 		"translations" : [
-			"translation/highlands/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"french" : {
 		"name" : "Plateau",
 		"description" : "La ville des hauts plateaux",
 		"translations" : [
-			"translation/highlands/french.json"
+			"translation/french.json"
 		]
 	},
 	"russian" : {
 		"name" : "Высокогорье",
 		"description" : "Новый город гномов в скадинавском стиле - Высокогорье, находящийся в заснеженных горах.",
 		"translations" : [
-			"translation/highlands/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Warownia",
 		"description" : "Nowe miasto krasnoludów w stylu skadynawskim, Warownia, położone w ośnieżonych górach.",
 		"translations" : [
-			"translation/highlands/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"factions" : [

@@ -1,10 +1,16 @@
-name: JSON CI
+name: VCMI Mod CI
 on:
   push:
     branches:
       - 'vcmi-*'
   pull_request:
   workflow_dispatch:
+
+# Serialize with every other workflow in the repo: a shared group means CI, the
+# translation PR job and the star update never run concurrently and clobber commits.
+concurrency:
+  group: vcmi-mod-pipeline
+  cancel-in-progress: false
 
 jobs:
   validate-json:
@@ -13,50 +19,276 @@ jobs:
     defaults:
       run:
         shell: bash
-    outputs:
-      valid: ${{ steps.validate.outcome == 'success' }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
+
+      - name: Update repository
+        run: sudo apt-get update
 
       - name: Install jstyleson
-        run: sudo apt install python3-jstyleson
+        run: sudo apt-get install -y python3-jstyleson
 
       - name: Validate JSON syntax
         id: validate
         run: python3 .github/validate_json.py
 
-  format-json:
-    name: Format JSON
-    needs: validate-json
-    if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
+  validate-startup:
+    name: Build & validate mod
+    needs: [validate-json]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         shell: bash
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v7
 
-      - name: Install dependencies
+      - name: Detect VCMI Version
         run: |
-          npm install -g prettier
+          BRANCH="${GITHUB_BASE_REF:-$GITHUB_REF_NAME}"
+          if [[ "$BRANCH" =~ ^vcmi-[0-9]+\.[0-9]+(-.*)?$ ]]; then
+            echo "VCMI_VERSION=$BRANCH" >> $GITHUB_ENV
+          fi
+
+      - name: Add VCMI PPA Repository
+        if: env.VCMI_VERSION != ''
+        run: sudo add-apt-repository ppa:vcmi/vcmi-latest
+
+      - name: Update Repository
+        if: env.VCMI_VERSION != ''
+        run: sudo apt update
+
+      - name: Install VCMI
+        if: env.VCMI_VERSION != ''
+        run: sudo apt install ${{ env.VCMI_VERSION }}
+
+      - name: Install H3 Data Placeholder
+        if: env.VCMI_VERSION != ''
+        run: |
+          data_url="https://github.com/vcmi-mods/vcmi-test-data/releases/download/v2.0/heroes3.7z"
+          wget "$data_url" -O heroes3.7z
+          mkdir -p ~/.local/share/vcmi/Mods
+          mkdir -p ~/.config/vcmi
+          7za x -o"$HOME/.local/share/vcmi/" heroes3.7z
+
+      - name: Extract Mod Name
+        if: env.VCMI_VERSION != ''
+        run: |
+          MOD_NAME=$(basename ${{ github.repository }})
+          # Hota mod name differs from repository name. Compensate
+          if [[ "${{ github.repository }}" == *"horn-of-the-abyss"* ]]; then
+            MOD_NAME="hota"
+          fi
+          # VCMI mod IDs are lower-case; a mixed-case repo name (e.g. HD-remastered)
+          # would not match the mod VCMI loaded from the (lower-cased) folder.
+          echo "MOD_NAME=${MOD_NAME,,}" >> $GITHUB_ENV
+
+      - name: Install Mod
+        if: env.VCMI_VERSION != ''
+        run: |
+          ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
+
+      - name: Install jstyleson
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-jstyleson
+
+      - name: Install Mod Dependencies
+        if: env.VCMI_VERSION != ''
+        run: python3 .github/install_mod_dependencies.py "${VCMI_VERSION}"
+
+      - name: Export translations
+        if: env.VCMI_VERSION != ''
+        run: |
+          # jstyleson (not jq) - mod.json is JSON-with-comments, which jq cannot parse.
+          # Resolve mod.json case-insensitively (it may not be lower-case on disk).
+          if ! python3 -c "import jstyleson, sys, os; f=next((n for n in os.listdir('.') if n.lower()=='mod.json'), None); sys.exit(0 if f and jstyleson.load(open(f)).get('modType')=='Translation' else 1)"; then
+            printf '{ "activePreset": "default", "presets": { "default": { "mods": [ "vcmi", "core", "%s" ]}}}' "$MOD_NAME" >~/.config/vcmi/modSettings.json
+            vcmiserver --translate-mod=${MOD_NAME}
+          fi
+
+      - name: Check translations folder
+        id: check
+        if: env.VCMI_VERSION != ''
+        run: |
+          DIR="$HOME/.cache/vcmi/extracted/translationFull/${{ env.MOD_NAME }}/"
+          if [ -d "$DIR" ] && [ "$(ls -A "$DIR")" ]; then
+            echo "translations_present=true" >> $GITHUB_OUTPUT
+          else
+            echo "translations_present=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Refresh translation files
+        if: steps.check.outputs.translations_present == 'true' && github.event_name != 'pull_request'
+        run: |
+          find . -iname english.json -delete
+          python3 .github/merge_dirs.py "$HOME/.cache/vcmi/extracted/translationFull/${MOD_NAME}" .
+
+      # Generation must finish before the commit and before the dummy-run, so the
+      # commit captures every generated file and the dummy-run validates the final state.
+
+      # TEMPORARY: split legacy description.md into per-language description/<lang>.md.
+      # Remove this step (and migrate_description.py) once all mods have migrated.
+      - name: Migrate legacy mod descriptions
+        run: python3 .github/migrate_description.py
+
+      # TEMPORARY: seed translation/<lang>.json from per-language name/description
+      # blocks already in mod.json. Remove this step (and migrate_translations.py)
+      # once all mods have migrated. Runs before wire so new <lang>.json get wired.
+      - name: Migrate legacy mod name/description translations
+        run: python3 .github/migrate_translations.py
+
+      - name: Export mod metadata to Weblate source
+        run: python3 .github/mod_metadata.py export
+
+      - name: Wire up translation files in mod.json
+        run: python3 .github/mod_metadata.py wire
+
+      # Format after generation so the committed mod.json is already normalized and
+      # does not churn on the next run. Push-only: PRs are validated, not committed.
+      - name: Install Prettier
+        if: github.event_name != 'pull_request'
+        run: npm install -g prettier
 
       - name: Format JSON files with Prettier
+        if: github.event_name != 'pull_request'
         run: |
-          prettier --write "**/*.json" \
-                   --parser jsonc \
-                   --use-tabs \
-                   --tab-width 4 \
-                   --trailing-comma none \
-                   --print-width 1
+          # find -ipath so the translation/ and .git/ exclusions are case-insensitive
+          # (prettier's own globs are not).
+          mapfile -d '' FILES < <(find . -iname '*.json' \
+                                       -not -ipath '*/translation/*' \
+                                       -not -ipath '*/.git/*' -print0)
+          if [ ${#FILES[@]} -gt 0 ]; then
+            prettier --write "${FILES[@]}" \
+                     --parser jsonc \
+                     --use-tabs \
+                     --tab-width 4 \
+                     --trailing-comma none \
+                     --print-width 1
+          fi
 
       - name: Postprocess colon spacing
+        if: github.event_name != 'pull_request'
         run: python3 .github/postprocess_colons.py
 
-      - name: Commit changes if needed
-        uses: EndBug/add-and-commit@v9
+      - name: Run VCMI
+        if: env.VCMI_VERSION != ''
+        run: |
+          printf '{ "activePreset": "default", "presets": { "default": { "mods": [ "vcmi", "core", "%s" ]}}}' "$MOD_NAME" >~/.config/vcmi/modSettings.json
+          vcmiserver --dummy-run 2> >(tee error.log)
+          if [ ! -s error.log ]; then
+              echo "Validation OK!"
+              exit 0
+          else
+              echo "Validation failed!"
+              exit 1
+          fi
+
+      # Single commit so generated translations, exported metadata and migrated
+      # descriptions all persist. always() so they are committed even if the
+      # dummy-run above fails. add-and-commit is a no-op when nothing changed.
+      - name: Commit generated changes if needed
+        if: ${{ always() && github.event_name != 'pull_request' }}
+        uses: EndBug/add-and-commit@v10
         with:
           default_author: github_actions
-          message: "Auto-format JSON files"
-          add: '*.json'
+          message: "Update generated translations and metadata"
+          # JSON array (not a multiline string) so add-and-commit runs a separate
+          # git add per glob. A single atomic `git add *.json *.md` aborts entirely
+          # when a repo has no .md files, silently dropping the generated *.json too.
+          add: '["*.json", "*.md"]'
+
+  package-artifact:
+    name: Create release
+    needs: [validate-startup]
+    # Release even when validate-startup failed: the dummy-run is pedantic and its
+    # failures are not release-blocking. Only a skipped/cancelled run (e.g. invalid
+    # JSON upstream) suppresses the release.
+    if: >-
+      ${{
+        !cancelled() &&
+        needs.validate-startup.result != 'skipped' &&
+        github.event_name != 'pull_request' &&
+        startsWith(github.ref_name, 'vcmi-')
+      }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      # Check out branch HEAD, not github.sha: the validate-startup job committed the
+      # generated translations/metadata on top of the pushed commit, and the release
+      # must reflect that committed state.
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Resolve release commit
+        run: echo "RELEASE_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+      - name: Install jstyleson
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-jstyleson
+
+      # Fold translated name/description into the published mod.json. Must run before
+      # content/ is zipped away, since it reads content/translation/<lang>.json.
+      - name: Inject mod metadata into published mod.json
+        run: python3 .github/mod_metadata.py inject-names
+
+      - name: Prepare content ZIPs
+        run: bash .github/create_content_zip.sh
+
+      - name: Package release archive
+        run: bash .github/create_release_package.sh
+
+      # Must run after the ZIP exists (needs its size) and before mod.json is uploaded.
+      - name: Inject release metadata into published mod.json
+        env:
+          GITHUB_STARS: ${{ github.event.repository.stargazers_count }}
+          GITHUB_SHA: ${{ env.RELEASE_SHA }}
+        run: python3 .github/mod_metadata.py inject-release
+
+      - name: Strip vcmi- prefix for TAG
+        run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
+
+      - name: Move tag to current commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git tag -f "${RELEASE_TAG}" "${RELEASE_SHA}"
+          git push origin "${RELEASE_TAG}" --force
+
+      - name: Upload Mod Release Package
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.RELEASE_TAG }}     # 1.7, 1.8 etc.
+          name: ${{ github.ref_name }}
+          body: |
+            Automated build for branch `${{ github.ref_name }}`.
+            Commit: `${{ env.RELEASE_SHA }}`
+          artifacts: dist/${{ github.event.repository.name }}-${{ github.ref_name }}.zip
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: false
+          commit: ${{ env.RELEASE_SHA }}
+
+      # Upload mod.json after Release Package is uploaded to correctly notify end users
+      - name: Upload mod.json
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.RELEASE_TAG }}     # 1.7, 1.8 etc.
+          name: ${{ github.ref_name }}
+          artifacts: mod.json
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: false
+          commit: ${{ env.RELEASE_SHA }}
